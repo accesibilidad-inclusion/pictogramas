@@ -1,0 +1,20 @@
+#PICTOS
+
+**PICTOS** es el proyecto de titulación de Antonella Pastén y Mª Ignacia Von Unger, e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
+
+## Profundidad por capas
+Cada ilustración pictográfica tiene una densidad comprendida en tres capas. Esta construcción entrega mayor precisión en la comunicación, al abarcar contexto, hitos y acción. Lynch (1960[23]) define los hitos en el wayfinding como objetos singulares, únicos o memorables en un contexto determinado. En este caso, los hitos corresponden a objetos reales presentes en el paso representado por la ilustración pictográfica y que puede ser reconocido por el usuario del servicio al realizar la acción.
+La construcción de las ilustraciones pictográficas en capas simplifica la determinación de los elementos que componen cada una de ellas. De esta manera, se crea una estructura sistematizable para la construcción de nuevas ilustraciones, permitiendo la expansión de la fuente de elementos pictográficos de las ilustraciones y la posibilidad de ser replicada en otros servicios.
+
+1. **Acciones del protagonista:** En esta capa se ubica el núcleo que articula la transacción que se lleva a cabo en cada paso. La gestualidad del protagonista deberá ser clara, para que al verla en relación a la capa de artefactos y personajes, se entienda la acción a realizar en su contexto. El elemento humano deberá estar presente en todo momento, puesto que sin él, no habrá acción.
+Esta capa puede contener dos tipos de elementos: persona protagonista y elementos gráficos que no forman parte del espacio físico, pero que cumplen la función de acentuar la acción del protagonista, tales como tarjetas, dinero, documentos, entre otros.
+2. **Artefactos y personas del servicio:** En esta capa se ubican las referencias espaciales y humanas que participarán de la acción en cada paso, es decir, el hito o landmark. El hito es primordial para llevar cada paso de la secuencia al plano físico, ya que es el elemento que hace representativo su contenido. Es la capa encargada de garantizar que la acción del protagonista se entienda.
+Esta capa puede contener dos tipos de elementos: objeto físico propio que participa activamente en la transacción y personajes (blancos) involucrados en la acción que son parte del servicio y personas extras que anticipan al usuario al momento de enfrentarse a una de las tareas, presentando la escena lo más cercana a la realidad posible.
+3. **Espacio y referentes:** En esta “meta-capa” se ubican las referencias espaciales cuyo objetivo es contextualizar el plano físico. Es una capa que no tiene incidencia directa en la transacción de la ilustración individual, pero le brinda contexto a la secuencia total, ya que muestra “lo que hay” en el espacio. Es la encargada de generar continuidad y coherencia visual.
+Esta capa puede contener dos tipos de elementos: objeto físico contextuales y señaléticas propias del espacio.
+
+### Composición del apoyo
+
+El apoyo debe agotar todas las opciones para comunicar de manera accesible la información que se quiere entregar. Para lograr esto tiene que abarcar al menos tres canales de comunicación: audio, texto y pictogramas (Fundación ONCE, 2009). Basado en esto se decide ocupar tres elementos para la composición del apoyo: la ilustración, el ícono y la instrucción.
+
+La ilustración está compuesta por las 3 capas mencionadas anteriormente, entrega al usuario una vista general de lo que está sucediendo. Por ejemplo, se muestra el paso “presiona el botón verde para bajar”. Se muestra el ícono que acentúa la acción del protagonista, en este caso esa acción sería “presionar”. Este ícono varía según el tipo de acción que realice el protagonista: caminar, detenerse, subir, bajar, entregar, recibir, entre otras. Su objetivo siempre será hacer evidente la acción. Para que el último elemento de la composición sea accesible para personas con discapacidad intelectual, debe estar escrito en lectura fácil, esto quiere decir que debe ser una frase breve, legible y concreta.
