@@ -1,4 +1,4 @@
-#PICTOS
+# PICTOS
 
 **PICTOS** es el proyecto de titulación de Antonella Pastén y Mª Ignacia Von Unger, e[ad] Escuela de Arquitectura y Diseño, Pontificia Universidad Católica de Valparaíso
 
