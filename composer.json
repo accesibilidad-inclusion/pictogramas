@@ -1,0 +1,7 @@
+{
+    "name": "eadpucv/pictos",
+    "description": "Pictogramas para la accesibilidad cognitiva de los servicios",
+    "type": "library",
+    "license": "MIT",
+    "require": {}
+}
