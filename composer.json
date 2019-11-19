@@ -3,5 +3,31 @@
     "description": "Pictogramas para la accesibilidad cognitiva de los servicios",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "accesibility",
+        "icons",
+        "cognitive-accesibility",
+        "pictograms"
+    ],
+    "authors": [
+        {
+            "name": "Antonella Pastén",
+            "homepage": "https://github.com/antopasten"
+        },
+        {
+            "name": "Felipe Lavín Z.",
+            "homepage": "https://github.com/felipelavinz",
+            "email": "felipe@bloom-ux.com"
+        },
+        {
+            "name": "Herbert Spencer",
+            "homepage": "https://github.com/hspencer"
+        },
+        {
+            "name": "Mana Von Unger",
+            "homepage": "https://github.com/mvonunger"
+        }
+    ],
+    "homepage": "https://github.com/eadpucv/pictos#readme",
     "require": {}
 }
