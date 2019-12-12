@@ -1,6 +1,6 @@
 {
   "name": "pictos",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Pictogramas para la accesibilidad cognitiva de los servicios",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eadpucv/pictos.git"
+    "url": "git+https://github.com/accesibilidad-inclusion/pictos.git"
   },
   "keywords": [
     "accesibility",
@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eadpucv/pictos/issues"
+    "url": "https://github.com/accesibilidad-inclusion/pictos/issues"
   },
-  "homepage": "https://github.com/eadpucv/pictos#readme"
+  "homepage": "https://github.com/accesibilidad-inclusion/pictos#readme"
 }
