@@ -1,5 +1,5 @@
 {
-    "name": "accesibilidad-inclusion/pictograms",
+    "name": "accesibilidad-inclusion/pictogramas",
     "description": "Pictogramas para la accesibilidad cognitiva de los servicios",
     "type": "library",
     "license": "MIT",
@@ -28,6 +28,6 @@
             "homepage": "https://github.com/mvonunger"
         }
     ],
-    "homepage": "https://github.com/accesibilidad-inclusion/pictograms#readme",
+    "homepage": "https://github.com/accesibilidad-inclusion/pictogramas#readme",
     "require": {}
 }
