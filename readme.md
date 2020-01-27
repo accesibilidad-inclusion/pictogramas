@@ -31,7 +31,5 @@ Pictogramas (inicialmente "PICTOS") fue el proyecto de Titulación de Diseño Gr
  - **Servicio Nacional de la Discapacidad, SENADIS**
   - Apoyos Visuales para la Plena Inclusión de las Personas con Discapacidad Intelectual en los Servicios Públicos en Chile (2019-2020)
 
- ![Pontificia Universidad Caólica de Valparaíso](logos/logo-pucv.gif)
- ![SENADIS](logos/logo-senadis.gif)
- ![Cultura Libre](logos/logo-cultura-libre.gif)
- ![Código Abierto](logos/logo-opensource.gif)
+| ![Pontificia Universidad Caólica de Valparaíso](logos/logo-pucv.gif) | ![SENADIS](logos/logo-senadis.gif) | ![Cultura Libre](logos/logo-cultura-libre.gif) | ![Código Abierto](logos/logo-opensource.gif) |
+|----------------------------------------------------------------------|------------------------------------|------------------------------------------------|----------------------------------------------|
