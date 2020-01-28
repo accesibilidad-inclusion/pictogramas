@@ -21,14 +21,14 @@ Este sistema contiene una colección de posibilidades para cada una de las capas
 Este proyecto es fruto del trabajo de muchas personas y el apoyo de diversas iniciativas:
 
 ##### Autores
-Pictogramas (inicialmente "PICTOS") fue el proyecto de Titulación de Diseño Gráfico de Antonella Pastén y María Ignacia Von Unger. Profesores Herbert Spencer, Katherine Exss y Vanessa Vega. e[ad] Escuela de Arquitectura y Diseño PUCV.
+Pictogramas (inicialmente "PICTOS") fue el proyecto de Titulación de Diseño Gráfico de Antonella Pastén y María Ignacia von Unger. Profesores Herbert Spencer, Katherine Exss y Vanessa Vega. e[ad] Escuela de Arquitectura y Diseño PUCV.
 
 ##### Instituciones
 
- - **Pontificia Universidad Católica de Valparaíso** mediante los proyectos:
+1. **Pontificia Universidad Católica de Valparaíso** mediante los proyectos:
   - I2: Investigación Inclusiva: Oportunidades para fortalecer la autodeterminación en la era digital (2017)
   -  I3: Investigación, Innovación e Inclusión en la PUCV (2018)
- - **Servicio Nacional de la Discapacidad, SENADIS**
+2. **Servicio Nacional de la Discapacidad, SENADIS**
   - Apoyos Visuales para la Plena Inclusión de las Personas con Discapacidad Intelectual en los Servicios Públicos en Chile (2019-2020)
 
 | ![Pontificia Universidad Caólica de Valparaíso](logos/logo-pucv.gif) | ![SENADIS](logos/logo-senadis.gif) | ![Cultura Libre](logos/logo-cultura-libre.gif) | ![Código Abierto](logos/logo-opensource.gif) |
