@@ -1,10 +1,10 @@
 # Pictogramas
 
-**Pictogramas** es una librería de software y un sistema gráfico diseñado para componer pictogramas que apoyen la accesibilidad cognitiva en servicios públicos. **Pictogramas** es utilizado **[Pictos](http://www.pictos.cl)** y se disponibiliza al público como ayuda para la elaboración de señalética en espacios de uso público bajo el esquema de código abierto y conocimiento libre.
+**Pictogramas** es una librería de software y un sistema gráfico diseñado para componer pictogramas que apoyan la accesibilidad cognitiva en servicios públicos. **Pictogramas** permite explicar de forma visual el paso-a-paso de las transacciones en los servicios. Esta librería es utilizada por **[Pictos](http://www.pictos.cl)** y se disponibiliza al público de forma gratuita y abierta para la elaboración de ayopoyos visuales y señalética accesible en espacios y servicios públicos.
 
 
 ### Sistema gráfico
-**Pictogramas** permite crear imágenes gráficas a partir de la articulación de 3 elementos o *capas*. 
+Este sistema permite crear **Pictogramas** a partir de la articulación de 3 elementos o *capas* gráficas. 
 
 Estas capas son:
 
@@ -12,7 +12,7 @@ Estas capas son:
 2. **Capa 2:** Artefactos y elementos
 3. **Capa 3:** Espacio y referentes
 
-Para que un servicio pueda ser accesible primero necesitamos saber qué cosas podemos hacer en él (las tareas o transacciones disponibles) y cuáles son los pasos para cada una de ellas. **Pictogramas** está diseñado para constuir los apoyos visuales para estos pasos y pueden ser utilizados como señalética *in-situ*.
+Para que un servicio pueda ser accesible primero necesitamos saber qué cosas podemos hacer en él (las tareas o transacciones disponibles) y cuáles son los pasos para cada una de ellas. **Pictogramas** está diseñado para constuir los apoyos visuales para estos pasos y pueden ser utilizados como señalética *in-situ* o por medio de la aplicación **[Pictos](http://www.pictos.cl)**.
 
 Este sistema contiene una colección de posibilidades para cada una de las capas, lo que permite una combinatoria muy amplia de pictogramas que buscamos aumentar gracias al apoyo de la comunidad.
 
