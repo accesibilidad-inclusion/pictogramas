@@ -2,8 +2,7 @@
 
 **Pictogramas** es una librería de software y un sistema gráfico diseñado para componer pictogramas que apoyan la accesibilidad cognitiva en servicios públicos. **Pictogramas** permite explicar de forma visual el paso-a-paso de las transacciones en los servicios. Esta librería es utilizada por **[Pictos](http://www.pictos.cl)** y se disponibiliza al público de forma gratuita y abierta para la elaboración de ayopoyos visuales y señalética accesible en espacios y servicios públicos.
 
-<script src="https://liberapay.com/accesibilidad-inclusion/widgets/button.js"></script>
-<noscript><a href="https://liberapay.com/accesibilidad-inclusion/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+<a href="https://liberapay.com/accesibilidad-inclusion/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 
 
 ### Sistema gráfico
