@@ -1,0 +1,353 @@
+{
+    "title": "Pictograms",
+    "description": "Pictographic system as visual support for cognitive accessibility of services",
+    "properties": {
+        "pictos": [
+            {
+                "layer": 1,
+                "path": "1-subject/ease--first-quadrant.svg",
+                "label": "ease first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/ease--fourth-quadrant.svg",
+                "label": "ease fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/ease--second-quadrant.svg",
+                "label": "ease second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/ease--third-quadrant.svg",
+                "label": "ease third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-down--first-quadrant.svg",
+                "label": "go-down first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-down--fourth-quadrant.svg",
+                "label": "go-down fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-down--second-quadrant.svg",
+                "label": "go-down second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-down--third-quadrant.svg",
+                "label": "go-down third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-up--first-quadrant.svg",
+                "label": "go-up first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-up--fourth-quadrant.svg",
+                "label": "go-up fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-up--second-quadrant.svg",
+                "label": "go-up second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/go-up--third-quadrant.svg",
+                "label": "go-up third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle--first-quadrant.svg",
+                "label": "handle first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle--fourth-quadrant.svg",
+                "label": "handle fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle--second-quadrant.svg",
+                "label": "handle second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle--third-quadrant.svg",
+                "label": "handle third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle-card--third-quadrant.svg",
+                "label": "handle-card third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle-document--third-quadrant.svg",
+                "label": "handle-document third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle-money--third-quadrant.svg",
+                "label": "handle-money third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/hold-card--third-quadrant.svg",
+                "label": "hold-card third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/push--first-quadrant.svg",
+                "label": "push first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/push--fourth-quadrant.svg",
+                "label": "push fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/push--second-quadrant.svg",
+                "label": "push second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/push--third-quadrant.svg",
+                "label": "push third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/put-bottle--third-quadrant.svg",
+                "label": "put-bottle third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/show--first-quadrant.svg",
+                "label": "show first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/show--fourth-quadrant.svg",
+                "label": "show fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/show--second-quadrant.svg",
+                "label": "show second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/show--third-quadrant.svg",
+                "label": "show third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/stand--first-quadrant.svg",
+                "label": "stand first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/stand--fourth-quadrant.svg",
+                "label": "stand fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/stand--second-quadrant.svg",
+                "label": "stand second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/stand--third-quadrant.svg",
+                "label": "stand third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait--first-quadrant.svg",
+                "label": "wait first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait--fourth-quadrant.svg",
+                "label": "wait fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait--second-quadrant.svg",
+                "label": "wait second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait--third-quadrant.svg",
+                "label": "wait third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait-side--first-quadrant.svg",
+                "label": "wait-side first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait-side--fourth-quadrant.svg",
+                "label": "wait-side fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait-side--second-quadrant.svg",
+                "label": "wait-side second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/wait-side--third-quadrant.svg",
+                "label": "wait-side third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/walk--first-quadrant.svg",
+                "label": "walk first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/walk--fourth-quadrant.svg",
+                "label": "walk fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/walk--second-quadrant.svg",
+                "label": "walk second-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/walk--third-quadrant.svg",
+                "label": "walk third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/walk-bottle--first-quadrant.svg",
+                "label": "walk-bottle first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/bus--front.svg",
+                "label": "bus front"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/bus--side.svg",
+                "label": "bus side"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/door--metro.svg",
+                "label": "door metro"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/exit.svg",
+                "label": "exit"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/metro--front.svg",
+                "label": "metro front"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/metro--side.svg",
+                "label": "metro side"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/platform.svg",
+                "label": "platform"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--handle-card.svg",
+                "label": "service-module handle-card"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--receive.svg",
+                "label": "service-module receive"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--take-photo.svg",
+                "label": "service-module take-photo"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--wait.svg",
+                "label": "service-module wait"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/spending-machine.svg",
+                "label": "spending-machine"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/ticket-office--handle-card.svg",
+                "label": "ticket-office handle-card"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/ticket-office--receive.svg",
+                "label": "ticket-office receive"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/ticket-office--wait.svg",
+                "label": "ticket-office wait"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/turnstile.svg",
+                "label": "turnstile"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/seat.svg",
+                "label": "seat"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sign-center--seat.svg",
+                "label": "sign-center seat"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sign-center.svg",
+                "label": "sign-center"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sign-left--platform.svg",
+                "label": "sign-left platform"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sign-left.svg",
+                "label": "sign-left"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/subway-window.svg",
+                "label": "subway-window"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/turn.svg",
+                "label": "turn"
+            }
+        ]
+    }
+}
