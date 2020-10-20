@@ -1,6 +1,8 @@
 # Pictogramas
 
-**Pictogramas** es una librería de software y un sistema gráfico diseñado para componer pictogramas que apoyan la accesibilidad cognitiva en servicios públicos. **Pictogramas** permite explicar de forma visual el paso-a-paso de las transacciones en los servicios. Esta librería es utilizada por **[Pictos](http://www.pictos.cl)** y se disponibiliza al público de forma gratuita y abierta para la elaboración de ayopoyos visuales y señalética accesible en espacios y servicios públicos.
+**Pictogramas** es una librería de software y un sistema gráfico diseñado para componer pictogramas que apoyan la accesibilidad cognitiva en servicios públicos. 
+
+**Pictogramas** permite explicar de forma visual el paso-a-paso de las transacciones en los servicios. Esta librería es utilizada por **[Pictos](http://www.pictos.cl)** y se disponibiliza al público de forma gratuita y abierta para la elaboración de apoyos visuales y señalética accesible en espacios y servicios públicos.
 
 <a href="https://liberapay.com/accesibilidad-inclusion/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 
@@ -23,7 +25,7 @@ Este sistema contiene una colección de posibilidades para cada una de las capas
 Este proyecto es fruto del trabajo de muchas personas y el apoyo de diversas iniciativas:
 
 ##### Autores
-Pictogramas (inicialmente "PICTOS") fue el proyecto de Titulación de Diseño Gráfico de Antonella Pastén y María Ignacia von Unger. Profesores Herbert Spencer, Katherine Exss y Vanessa Vega. e[ad] Escuela de Arquitectura y Diseño PUCV.
+Pictogramas (inicialmente "PICTOS") fue el proyecto de Titulación de Diseño Gráfico de Antonella Pastén y María Ignacia von Unger. Profesores Herbert Spencer, Katherine Exss y Vanessa Vega. e[ad] Escuela de Arquitectura y Diseño PUCV. Este proyecto sigue en crecimiento y es mantenido por el [Núcleo de Investigación en Accesibilidad e Inclusión PUCV](http://www.accesibilidad-inclusion.cl).
 
 ##### Instituciones
 
