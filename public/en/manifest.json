@@ -256,6 +256,9 @@
 
 
 
+
+
+            
             {
                 "layer": 2,
                 "path": "2-landmarks/bus--front.svg",
@@ -456,7 +459,6 @@
                 "path": "2-landmarks/border-wait--third-quadrant.svg",
                 "label": "border wait third-quadrant"
             },
-
             {
                 "layer": 2,
                 "path": "2-landmarks/border-walk--first-quadrant.svg",
@@ -710,6 +712,9 @@
 
 
 
+
+
+
             {
                 "layer": 3,
                 "path": "3-context/metro-door.svg",
@@ -724,57 +729,57 @@
                 "layer": 3,
                 "path": "3-context/railing-double.svg",
                 "label": "railing double"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/seat.svg",
                 "label": "seat"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign-center-left--seat.svg",
                 "label": "sign center left seat"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign-center-right--seat.svg",
                 "label": "sign center right seat"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign-left--center.svg",
                 "label": "sign left center"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign-left--left.svg",
                 "label": "sign left left"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign-right--center.svg",
                 "label": "sign right center"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign-right--left.svg",
                 "label": "sign right left"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign-right--platform.svg",
                 "label": "sign right platform"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/subway-window.svg",
                 "label": "subway window"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/turn.svg",
                 "label": "turn"
-            }
+            },
             {
                 "layer": 3,
                 "path": "3-context/turn-seat.svg",
