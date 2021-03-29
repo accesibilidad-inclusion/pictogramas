@@ -150,6 +150,26 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/sit-side-left--fourth-quadrant.svg",
+                "label": "sit side left fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/sit-side-left-up--third-quadrant.svg",
+                "label": "sit side left up--third-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/sit-side-right--first-quadrant.svg",
+                "label": "sit side right first-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/sit-side-right--second-quadrant.svg",
+                "label": "sit side right second-quadrant"
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/stand--first-quadrant.svg",
                 "label": "stand first-quadrant"
             },
@@ -233,6 +253,9 @@
                 "path": "1-subject/walk-bottle--first-quadrant.svg",
                 "label": "walk-bottle first-quadrant"
             },
+
+
+
             {
                 "layer": 2,
                 "path": "2-landmarks/bus--front.svg",
@@ -245,8 +268,349 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/door--metro.svg",
-                "label": "door metro"
+                "path": "2-landmarks/border-ease--first-quadrant.svg",
+                "label": "border ease first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-ease--fourth-quadrant.svg",
+                "label": "border ease fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-ease--second-quadrant.svg",
+                "label": "border ease second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-ease--third-quadrant.svg",
+                "label": "border ease third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-down--first-quadrant.svg",
+                "label": "border go down first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-down--fourth-quadrant.svg",
+                "label": "border go down fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-down--second-quadrant.svg",
+                "label": "border go down second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-down--third-quadrant.svg",
+                "label": "border go down third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-up--first-quadrant.svg",
+                "label": "border go up first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-up--fourth-quadrant.svg",
+                "label": "border go up fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-up--fourth-quadrant.svg",
+                "label": "border go up fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-up--second-quadrant.svg",
+                "label": "border go up second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-go-up--third-quadrant.svg",
+                "label": "border go up third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-handle--first-quadrant.svg",
+                "label": "border handle first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-handle--fourth-quadrant.svg",
+                "label": "border handle fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-handle--second-quadrant.svg",
+                "label": "border handle second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-handle--third-quadrant.svg",
+                "label": "border handle third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-push--first-quadrant.svg",
+                "label": "border push first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-push--fourth-quadrant.svg",
+                "label": "border push fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-push--second-quadrant.svg",
+                "label": "border push second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-push--third-quadrant.svg",
+                "label": "border push third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-show--first-quadrant.svg",
+                "label": "border show first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-show--fourth-quadrant.svg",
+                "label": "border show fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-show--second-quadrant.svg",
+                "label": "border show second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-show--third-quadrant.svg",
+                "label": "border show third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-stand--first-quadrant.svg",
+                "label": "border stand first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-stand--fourth-quadrant.svg",
+                "label": "border stand fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-stand--third-quadrant.svg",
+                "label": "border stand third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-stand--second-quadrant.svg",
+                "label": "border stand second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait--first-quadrant.svg",
+                "label": "border wait first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait--fourth-quadrant.svg",
+                "label": "border wait fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait--second-quadrant.svg",
+                "label": "border wait second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait--third-quadrant.svg",
+                "label": "border wait third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait-side--first-quadrant.svg",
+                "label": "border wait side first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait-side--fourth-quadrant.svg",
+                "label": "border wait side fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait-side--second-quadrant.svg",
+                "label": "border wait side second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait-side--third-quadrant.svg",
+                "label": "border wait side third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-wait--third-quadrant.svg",
+                "label": "border wait third-quadrant"
+            },
+
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-walk--first-quadrant.svg",
+                "label": "border walk first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-walk--fourth-quadrant.svg",
+                "label": "border walk fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-walk--second-quadrant.svg",
+                "label": "border walk second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/border-walk--third-quadrant.svg",
+                "label": "border walk third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-consult.svg",
+                "label": "doctor consult"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-ease--first-quadrant.svg",
+                "label": "doctor ease first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-ease--fourth-quadrant.svg",
+                "label": "doctor ease fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-ease--second-quadrant.svg",
+                "label": "doctor ease second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-ease--third-quadrant.svg",
+                "label": "doctor ease third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-exam.svg",
+                "label": "doctor exam"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-handle--first-quadrant.svg",
+                "label": "doctor handle first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-handle--fourth-quadrant.svg",
+                "label": "doctor handle fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-handle--second-quadrant.svg",
+                "label": "doctor handle second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-handle--third-quadrant.svg",
+                "label": "doctor handle third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-injection--second-quadrant.svg",
+                "label": "doctor injection second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-push--first-quadrant.svg",
+                "label": "doctor push first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-push--fourth-quadrant.svg",
+                "label": "doctor push fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-push--second-quadrant.svg",
+                "label": "doctor push second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-push--third-quadrant.svg",
+                "label": "doctor push third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-show--first-quadrant.svg",
+                "label": "doctor show first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-show--fourth-quadrant.svg",
+                "label": "doctor show fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-show--second-quadrant.svg",
+                "label": "doctor show second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-show--third-quadrant.svg",
+                "label": "doctor show third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-stand--first-quadrant.svg",
+                "label": "doctor stand first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-stand--fourth-quadrant.svg",
+                "label": "doctor stand fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-stand--second-quadrant.svg",
+                "label": "doctor stand second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-stand--third-quadrant.svg",
+                "label": "doctor stand third-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-wait--first-quadrant.svg",
+                "label": "doctor wait first-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-wait--fourth-quadrant.svg",
+                "label": "doctor wait fourth-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-wait--second-quadrant.svg",
+                "label": "doctor wait second-quadrant"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-wait--third-quadrant.svg",
+                "label": "doctor wait third-quadrant"
             },
             {
                 "layer": 2,
@@ -271,82 +635,150 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--handle-card.svg",
-                "label": "service-module handle-card"
+                "label": "service module handle-card"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--handle-document.svg",
+                "label": "service module handle-document"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--handle-money.svg",
+                "label": "service module handle-money"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--receive.svg",
-                "label": "service-module receive"
+                "label": "service module receive"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--receive.svg",
+                "label": "service module receive"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--take-photo.svg",
-                "label": "service-module take-photo"
+                "label": "service module take-photo"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/service-module--wait-11.svg",
+                "label": "service module wait-11"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--wait.svg",
-                "label": "service-module wait"
+                "label": "service module wait"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/spending-machine.svg",
-                "label": "spending-machine"
+                "label": "spending machine"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--handle-card.svg",
-                "label": "ticket-office handle-card"
+                "label": "ticket office handle-card"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--receive.svg",
-                "label": "ticket-office receive"
+                "label": "ticket office receive"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--wait.svg",
-                "label": "ticket-office wait"
+                "label": "ticket office wait"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/totem.svg",
+                "label": "totem"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/totem-turn.svg",
+                "label": "totem turn"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/turnstile.svg",
                 "label": "turnstile"
             },
+
+
+
+            {
+                "layer": 3,
+                "path": "3-context/metro-door.svg",
+                "label": "metro door"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/railing.svg",
+                "label": "railing"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/railing-double.svg",
+                "label": "railing double"
+            }
             {
                 "layer": 3,
                 "path": "3-context/seat.svg",
                 "label": "seat"
-            },
+            }
             {
                 "layer": 3,
-                "path": "3-context/sign-center--seat.svg",
-                "label": "sign-center seat"
-            },
+                "path": "3-context/sign-center-left--seat.svg",
+                "label": "sign center left seat"
+            }
             {
                 "layer": 3,
-                "path": "3-context/sign-center.svg",
-                "label": "sign-center"
-            },
+                "path": "3-context/sign-center-right--seat.svg",
+                "label": "sign center right seat"
+            }
             {
                 "layer": 3,
-                "path": "3-context/sign-left--platform.svg",
-                "label": "sign-left platform"
-            },
+                "path": "3-context/sign-left--center.svg",
+                "label": "sign left center"
+            }
             {
                 "layer": 3,
-                "path": "3-context/sign-left.svg",
-                "label": "sign-left"
-            },
+                "path": "3-context/sign-left--left.svg",
+                "label": "sign left left"
+            }
+            {
+                "layer": 3,
+                "path": "3-context/sign-right--center.svg",
+                "label": "sign right center"
+            }
+            {
+                "layer": 3,
+                "path": "3-context/sign-right--left.svg",
+                "label": "sign right left"
+            }
+            {
+                "layer": 3,
+                "path": "3-context/sign-right--platform.svg",
+                "label": "sign right platform"
+            }
             {
                 "layer": 3,
                 "path": "3-context/subway-window.svg",
-                "label": "subway-window"
-            },
+                "label": "subway window"
+            }
             {
                 "layer": 3,
                 "path": "3-context/turn.svg",
                 "label": "turn"
+            }
+            {
+                "layer": 3,
+                "path": "3-context/turn-seat.svg",
+                "label": "turn-seat"
             }
         ]
     }
