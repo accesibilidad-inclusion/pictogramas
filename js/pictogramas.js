@@ -76,7 +76,7 @@ function swap3() {
   let current = sel3.value();
   for (let i in layer3) {
     if (current === layer3[i].label) {
-      img1.src = "src/" + layer3[i].path;
+      img3.src = "src/" + layer3[i].path;
     }
   }
 }
