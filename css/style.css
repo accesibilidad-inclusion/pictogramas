@@ -1,0 +1,42 @@
+/*
+
+*/
+
+body{
+    width: 90%;
+    max-width: 740px;
+    margin: 0 auto;
+    background-color: rgb(235, 234, 224);
+}
+
+#preview{
+    
+    
+    position: relative;
+    
+}
+#pictos{
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    height: 570px;
+}
+
+#pictos img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+#controls{
+    position: relative;
+
+}
+
+#controls select{
+    
+    margin: 1ex 1ex 1em 1ex;
+    width: 232px;
+    z-index: 1000;
+}
