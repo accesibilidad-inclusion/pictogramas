@@ -1,26 +1,25 @@
 /*
 
+Pictogramas para PICTOS
+
 */
 
 body{
     width: 90%;
     max-width: 740px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     font-family: 'Ubuntu'
 }
 
 #preview{
-    
-    
     position: relative;
-    
 }
 #pictos{
-    background-color: white;
-    border-radius: 4px;
     position: relative;
     height: 570px;
+    box-shadow: 2px 2px 20px #00000022 inset;
+    border-radius: 4px;
 }
 
 #pictos img{
@@ -39,12 +38,14 @@ body{
     width: 232px;
     z-index: 1000;
 }
+
 .header{
     text-align:center;
     background-color: black;
     color: white;
     padding: 1px;
 }
+
 .texto{
     padding: 5px;
     line-height: 1.5em;
