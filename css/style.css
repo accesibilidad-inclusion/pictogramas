@@ -4,12 +4,17 @@ Pictogramas para PICTOS
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+
 body{
-    width: 90%;
-    max-width: 740px;
     margin: 0 auto;
     background-color: white;
-    font-family: 'Ubuntu'
+    font-family: 'Open Sans';
+    display: grid;
+    grid-template-columns: 400px 750px;
+    grid-gap: 16px;
+        grid-gap: 3rem;
+margin: 3rem;
 }
 
 #preview{
@@ -28,7 +33,6 @@ body{
     left: 0;
 }
 
-
 #controls{
     position: relative;
 }
@@ -39,14 +43,41 @@ body{
     z-index: 1000;
 }
 
-.header{
-    text-align:center;
-    background-color: black;
-    color: white;
-    padding: 1px;
+.header h1{
+    font-weight: 700;
+    font-size: 3em;
+    display: inline;
+}
+
+.tagline{
+    display: inline;
+    font-weight: 300;
+    font-size: 2rem;
+    color: orangered;
 }
 
 .texto{
-    padding: 5px;
-    line-height: 1.5em;
+    line-height: 150%;
+    text-align: justify;
+}
+
+.logo{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.logo img{
+    width: 72px;
+    height: auto;
+}
+
+footer{
+    font-size: 12px;
+text-align: center;
+font-weight: 300;
+line-height: 129%;
 }
