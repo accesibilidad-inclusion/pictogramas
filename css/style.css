@@ -5,79 +5,90 @@ Pictogramas para PICTOS
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
-
-body{
+body {
     margin: 0 auto;
     background-color: white;
     font-family: 'Open Sans';
     display: grid;
-    grid-template-columns: 400px 750px;
-    grid-gap: 16px;
-        grid-gap: 3rem;
-margin: 3rem;
+    grid-template-columns: 15fr 28fr;
+    grid-gap: 2rem;
+    margin: 3rem;
 }
 
-#preview{
+#preview {
     position: relative;
 }
-#pictos{
+
+#pictos {
     position: relative;
-    height: 570px;
     box-shadow: 2px 2px 20px #00000022 inset;
     border-radius: 4px;
 }
 
-#pictos img{
+#pictos img {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-#controls{
+#pictos img#empty {
     position: relative;
 }
 
-#controls select{
+#controls {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#controls select {
     margin: 1ex 1ex 1em 1ex;
-    width: 232px;
     z-index: 1000;
 }
 
-.header h1{
+.header h1 {
     font-weight: 700;
     font-size: 3em;
     display: inline;
 }
 
-.tagline{
+.tagline {
     display: inline;
     font-weight: 300;
     font-size: 2rem;
     color: orangered;
 }
 
-.texto{
+.texto {
     line-height: 150%;
     text-align: justify;
 }
 
-.logo{
+.logo {
     text-align: center;
 }
 
-a{
+a {
     text-decoration: none;
     color: orangered;
 }
 
-.logo img{
+.logo img {
     width: 72px;
     height: auto;
 }
 
-footer{
+footer {
     font-size: 12px;
-text-align: center;
-font-weight: 300;
-line-height: 129%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 129%;
+}
+
+@media only screen and (max-width:46.25em) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
 }
