@@ -25,46 +25,6 @@
             },
             {
                 "layer": 1,
-                "path": "1-subject/go-down--first-quadrant.svg",
-                "label": "go-down first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-down--fourth-quadrant.svg",
-                "label": "go-down fourth-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-down--second-quadrant.svg",
-                "label": "go-down second-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-down--third-quadrant.svg",
-                "label": "go-down third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--first-quadrant.svg",
-                "label": "go-up first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--fourth-quadrant.svg",
-                "label": "go-up fourth-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--second-quadrant.svg",
-                "label": "go-up second-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--third-quadrant.svg",
-                "label": "go-up third-quadrant"
-            },
-            {
-                "layer": 1,
                 "path": "1-subject/handle--first-quadrant.svg",
                 "label": "handle first-quadrant"
             },
@@ -152,6 +112,11 @@
                 "layer": 1,
                 "path": "1-subject/sit-side-left--fourth-quadrant.svg",
                 "label": "sit side left fourth-quadrant"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/sit-side-left--third-quadrant.svg",
+                "label": "sit side left--third-quadrant"
             },
             {
                 "layer": 1,
@@ -253,12 +218,6 @@
                 "path": "1-subject/walk-bottle--first-quadrant.svg",
                 "label": "walk-bottle first-quadrant"
             },
-
-
-
-
-
-            
             {
                 "layer": 2,
                 "path": "2-landmarks/bus--front.svg",
@@ -283,56 +242,6 @@
                 "layer": 2,
                 "path": "2-landmarks/border-ease--second-quadrant.svg",
                 "label": "border ease second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-ease--third-quadrant.svg",
-                "label": "border ease third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--first-quadrant.svg",
-                "label": "border go down first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--fourth-quadrant.svg",
-                "label": "border go down fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--second-quadrant.svg",
-                "label": "border go down second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--third-quadrant.svg",
-                "label": "border go down third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--first-quadrant.svg",
-                "label": "border go up first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--fourth-quadrant.svg",
-                "label": "border go up fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--fourth-quadrant.svg",
-                "label": "border go up fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--second-quadrant.svg",
-                "label": "border go up second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--third-quadrant.svg",
-                "label": "border go up third-quadrant"
             },
             {
                 "layer": 2,
@@ -431,7 +340,7 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/border-wait--third-quadrant.svg",
+                "path": "2-landmarks/border-walk--third-quadrant.svg",
                 "label": "border wait third-quadrant"
             },
             {
@@ -616,6 +525,11 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/elevator.svg",
+                "label": "elevator"
+            },
+            {
+                "layer": 2,
                 "path": "2-landmarks/exit.svg",
                 "label": "exit"
             },
@@ -666,11 +580,6 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/service-module--wait-11.svg",
-                "label": "service module wait-11"
-            },
-            {
-                "layer": 2,
                 "path": "2-landmarks/service-module--wait.svg",
                 "label": "service module wait"
             },
@@ -709,12 +618,11 @@
                 "path": "2-landmarks/turnstile.svg",
                 "label": "turnstile"
             },
-
-
-
-
-
-
+            {
+                "layer": 3,
+                "path": "3-context/empty.svg",
+                "label": "empty"
+            },
             {
                 "layer": 3,
                 "path": "3-context/metro-door.svg",
@@ -772,8 +680,13 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/subway-window.svg",
-                "label": "subway window"
+                "path": "3-context/train-window.svg",
+                "label": "train window"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/train-window2.svg",
+                "label": "train window2"
             },
             {
                 "layer": 3,
@@ -784,6 +697,16 @@
                 "layer": 3,
                 "path": "3-context/turn-seat.svg",
                 "label": "turn-seat"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/train-corridor.svg",
+                "label": "train corridor"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/train-window-door.svg",
+                "label": "train window door"
             }
         ]
     }
