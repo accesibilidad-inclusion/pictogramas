@@ -60,8 +60,7 @@ aside {
 }
 
 .texto {
-    line-height: 150%;
-    text-align: justify;
+    line-height: 168%;
 }
 
 .logo {
@@ -69,8 +68,16 @@ aside {
 }
 
 a {
+    display: inline-block;
     text-decoration: none;
     color: orangered;
+    padding-bottom: .1ex;
+    border-bottom: 1px solid transparent;
+    margin-bottom: -1px;
+}
+
+a:hover {
+    border-bottom: 1px solid orangered;
 }
 
 .logo img {
@@ -83,6 +90,7 @@ footer {
     text-align: center;
     font-weight: 300;
     line-height: 129%;
+    margin-top: 1em;
 }
 
 @media only screen and (max-width: 50em) {
@@ -90,5 +98,23 @@ footer {
         width: 90%;
         margin: 0 auto;
         display: block;
+    }
+}
+
+@media print {
+    body {
+        display: block;
+    }
+    aside,
+    #controls {
+        display: none;
+    }
+    #pictos {
+        border: 2pt solid black;
+        box-shadow: none;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
     }
 }
