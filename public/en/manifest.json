@@ -305,6 +305,11 @@
             },
             {
                 "layer": 3,
+                "path": "3-context/train-station-entrance.svg",
+                "label": "train station entrance"
+            },
+            {
+                "layer": 3,
                 "path": "3-context/train-inside.svg",
                 "label": "train inside"
             },

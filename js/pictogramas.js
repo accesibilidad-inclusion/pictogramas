@@ -17,7 +17,7 @@ function setup() {
     img2 = document.getElementById("2-landmarks");
     img3 = document.getElementById("3-context");
 
-    data = loadJSON("public/en/manifest.json", gotData, "json");
+    data = loadJSON("public/es/manifest.json", gotData, "json");
 
     let h = img1.offsetHeight;
     let p = document.getElementById("pictos");

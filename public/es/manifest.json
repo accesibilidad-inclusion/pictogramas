@@ -5,674 +5,188 @@
         "pictos": [
             {
                 "layer": 1,
-                "path": "1-subject/ease--first-quadrant.svg",
-                "label": "ease first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/ease--fourth-quadrant.svg",
-                "label": "ease fourth-quadrant"
-            },
-            {
-                "layer": 1,
                 "path": "1-subject/ease--second-quadrant.svg",
-                "label": "ease second-quadrant"
+                "label": "Parado (c2)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/ease--third-quadrant.svg",
-                "label": "ease third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-down--first-quadrant.svg",
-                "label": "go-down first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-down--fourth-quadrant.svg",
-                "label": "go-down fourth-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-down--second-quadrant.svg",
-                "label": "go-down second-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-down--third-quadrant.svg",
-                "label": "go-down third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--first-quadrant.svg",
-                "label": "go-up first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--fourth-quadrant.svg",
-                "label": "go-up fourth-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--second-quadrant.svg",
-                "label": "go-up second-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/go-up--third-quadrant.svg",
-                "label": "go-up third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/handle--first-quadrant.svg",
-                "label": "handle first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/handle--fourth-quadrant.svg",
-                "label": "handle fourth-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/handle--second-quadrant.svg",
-                "label": "handle second-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/handle--third-quadrant.svg",
-                "label": "handle third-quadrant"
+                "label": "Parado (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/handle-card--third-quadrant.svg",
-                "label": "handle-card third-quadrant"
+                "label": "Manipular tarjeta (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/handle-document--third-quadrant.svg",
-                "label": "handle-document third-quadrant"
+                "label": "Manipular documento (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/handle-money--third-quadrant.svg",
-                "label": "handle-money third-quadrant"
+                "label": "Manipular dinero (c3)"
             },
             {
                 "layer": 1,
-                "path": "1-subject/hold-card--third-quadrant.svg",
-                "label": "hold-card third-quadrant"
+                "path": "1-subject/handle--second-quadrant.svg",
+                "label": "Manipular (c2)"
             },
             {
                 "layer": 1,
-                "path": "1-subject/push--first-quadrant.svg",
-                "label": "push first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/push--fourth-quadrant.svg",
-                "label": "push fourth-quadrant"
+                "path": "1-subject/handle--third-quadrant.svg",
+                "label": "Manipular (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/push--second-quadrant.svg",
-                "label": "push second-quadrant"
+                "label": "Presionar (c2)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/push--third-quadrant.svg",
-                "label": "push third-quadrant"
+                "label": "Presionar (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/put-bottle--third-quadrant.svg",
-                "label": "put-bottle third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/show--first-quadrant.svg",
-                "label": "show first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/show--fourth-quadrant.svg",
-                "label": "show fourth-quadrant"
+                "label": "Poner botella (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/show--second-quadrant.svg",
-                "label": "show second-quadrant"
+                "label": "Mostrar (c2)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/show--third-quadrant.svg",
-                "label": "show third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/sit-side-left--fourth-quadrant.svg",
-                "label": "sit side left fourth-quadrant"
+                "label": "Mostrar (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/sit-side-left-up--third-quadrant.svg",
-                "label": "sit side left up--third-quadrant"
+                "label": "Sentado arriba (c3)"
             },
             {
                 "layer": 1,
-                "path": "1-subject/sit-side-right--first-quadrant.svg",
-                "label": "sit side right first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/sit-side-right--second-quadrant.svg",
-                "label": "sit side right second-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/stand--first-quadrant.svg",
-                "label": "stand first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/stand--fourth-quadrant.svg",
-                "label": "stand fourth-quadrant"
+                "path": "1-subject/sit-side-left--second-quadrant.svg",
+                "label": "Sentado (c2)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/stand--second-quadrant.svg",
-                "label": "stand second-quadrant"
+                "label": "De pie (c2)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/stand--third-quadrant.svg",
-                "label": "stand third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/wait--first-quadrant.svg",
-                "label": "wait first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/wait--fourth-quadrant.svg",
-                "label": "wait fourth-quadrant"
+                "label": "De pie (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/wait--second-quadrant.svg",
-                "label": "wait second-quadrant"
+                "label": "Esperar (c2)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/wait--third-quadrant.svg",
-                "label": "wait third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/wait-side--first-quadrant.svg",
-                "label": "wait-side first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/wait-side--fourth-quadrant.svg",
-                "label": "wait-side fourth-quadrant"
+                "label": "Esperar (c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/wait-side--second-quadrant.svg",
-                "label": "wait-side second-quadrant"
+                "label": "Esperar de lado(c2)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/wait-side--third-quadrant.svg",
-                "label": "wait-side third-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/walk--first-quadrant.svg",
-                "label": "walk first-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/walk--fourth-quadrant.svg",
-                "label": "walk fourth-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/walk--second-quadrant.svg",
-                "label": "walk second-quadrant"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/walk--third-quadrant.svg",
-                "label": "walk third-quadrant"
+                "label": "Esperar de lado(c3)"
             },
             {
                 "layer": 1,
                 "path": "1-subject/walk-bottle--first-quadrant.svg",
-                "label": "walk-bottle first-quadrant"
+                "label": "Caminar con botella"
             },
-
-
-
-
-
-            
+            {
+                "layer": 1,
+                "path": "1-subject/walk--second-quadrant.svg",
+                "label": "Caminar (c2)"
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/walk--third-quadrant.svg",
+                "label": "Caminar (c3)"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/bus--door-open.svg",
+                "label": "Puerta micro - abierta"
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/bus--front.svg",
-                "label": "bus front"
+                "label": "Micro - frente"
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/bus--side.svg",
-                "label": "bus side"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-ease--first-quadrant.svg",
-                "label": "border ease first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-ease--fourth-quadrant.svg",
-                "label": "border ease fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-ease--second-quadrant.svg",
-                "label": "border ease second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-ease--third-quadrant.svg",
-                "label": "border ease third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--first-quadrant.svg",
-                "label": "border go down first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--fourth-quadrant.svg",
-                "label": "border go down fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--second-quadrant.svg",
-                "label": "border go down second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-down--third-quadrant.svg",
-                "label": "border go down third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--first-quadrant.svg",
-                "label": "border go up first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--fourth-quadrant.svg",
-                "label": "border go up fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--fourth-quadrant.svg",
-                "label": "border go up fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--second-quadrant.svg",
-                "label": "border go up second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-go-up--third-quadrant.svg",
-                "label": "border go up third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-handle--first-quadrant.svg",
-                "label": "border handle first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-handle--fourth-quadrant.svg",
-                "label": "border handle fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-handle--second-quadrant.svg",
-                "label": "border handle second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-handle--third-quadrant.svg",
-                "label": "border handle third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-push--first-quadrant.svg",
-                "label": "border push first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-push--fourth-quadrant.svg",
-                "label": "border push fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-push--second-quadrant.svg",
-                "label": "border push second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-push--third-quadrant.svg",
-                "label": "border push third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-show--first-quadrant.svg",
-                "label": "border show first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-show--fourth-quadrant.svg",
-                "label": "border show fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-show--second-quadrant.svg",
-                "label": "border show second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-show--third-quadrant.svg",
-                "label": "border show third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-stand--first-quadrant.svg",
-                "label": "border stand first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-stand--fourth-quadrant.svg",
-                "label": "border stand fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-stand--third-quadrant.svg",
-                "label": "border stand third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-stand--second-quadrant.svg",
-                "label": "border stand second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait--first-quadrant.svg",
-                "label": "border wait first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait--fourth-quadrant.svg",
-                "label": "border wait fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait--second-quadrant.svg",
-                "label": "border wait second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait--third-quadrant.svg",
-                "label": "border wait third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait-side--first-quadrant.svg",
-                "label": "border wait side first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait-side--fourth-quadrant.svg",
-                "label": "border wait side fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait-side--second-quadrant.svg",
-                "label": "border wait side second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait-side--third-quadrant.svg",
-                "label": "border wait side third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-wait--third-quadrant.svg",
-                "label": "border wait third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-walk--first-quadrant.svg",
-                "label": "border walk first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-walk--fourth-quadrant.svg",
-                "label": "border walk fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-walk--second-quadrant.svg",
-                "label": "border walk second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/border-walk--third-quadrant.svg",
-                "label": "border walk third-quadrant"
+                "path": "2-landmarks/buss-door-drop.svg",
+                "label": "Puerta micro - bajando"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/doctor-consult.svg",
-                "label": "doctor consult"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-ease--first-quadrant.svg",
-                "label": "doctor ease first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-ease--fourth-quadrant.svg",
-                "label": "doctor ease fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-ease--second-quadrant.svg",
-                "label": "doctor ease second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-ease--third-quadrant.svg",
-                "label": "doctor ease third-quadrant"
+                "label": "Consulta doctor"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/doctor-exam.svg",
-                "label": "doctor exam"
+                "label": "Examen doctor"
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/doctor-handle--first-quadrant.svg",
-                "label": "doctor handle first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-handle--fourth-quadrant.svg",
-                "label": "doctor handle fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-handle--second-quadrant.svg",
-                "label": "doctor handle second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-handle--third-quadrant.svg",
-                "label": "doctor handle third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-injection--second-quadrant.svg",
-                "label": "doctor injection second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-push--first-quadrant.svg",
-                "label": "doctor push first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-push--fourth-quadrant.svg",
-                "label": "doctor push fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-push--second-quadrant.svg",
-                "label": "doctor push second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-push--third-quadrant.svg",
-                "label": "doctor push third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-show--first-quadrant.svg",
-                "label": "doctor show first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-show--fourth-quadrant.svg",
-                "label": "doctor show fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-show--second-quadrant.svg",
-                "label": "doctor show second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-show--third-quadrant.svg",
-                "label": "doctor show third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-stand--first-quadrant.svg",
-                "label": "doctor stand first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-stand--fourth-quadrant.svg",
-                "label": "doctor stand fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-stand--second-quadrant.svg",
-                "label": "doctor stand second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-stand--third-quadrant.svg",
-                "label": "doctor stand third-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-wait--first-quadrant.svg",
-                "label": "doctor wait first-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-wait--fourth-quadrant.svg",
-                "label": "doctor wait fourth-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-wait--second-quadrant.svg",
-                "label": "doctor wait second-quadrant"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/doctor-wait--third-quadrant.svg",
-                "label": "doctor wait third-quadrant"
+                "path": "2-landmarks/elevator.svg",
+                "label": "Ascensor"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/exit.svg",
-                "label": "exit"
+                "label": "Salida"
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/metro--front.svg",
-                "label": "metro front"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/metro--side.svg",
-                "label": "metro side"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/platform.svg",
-                "label": "platform"
+                "path": "2-landmarks/line.svg",
+                "label": "Fila"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--handle-card.svg",
-                "label": "service module handle-card"
+                "label": "Modulo de servicio - tarjeta"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--handle-document.svg",
-                "label": "service module handle-document"
+                "label": "Modulo de servicio - documento"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--handle-money.svg",
-                "label": "service module handle-money"
+                "label": "Modulo de servicio - dinero"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--receive.svg",
-                "label": "service module receive"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/service-module--receive.svg",
-                "label": "service module receive"
+                "label": "Modulo de servicio - recivir"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--take-photo.svg",
-                "label": "service module take-photo"
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/service-module--wait-11.svg",
-                "label": "service module wait-11"
+                "label": "Modulo de servicio - foto"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--wait.svg",
-                "label": "service module wait"
+                "label": "Modulo de servicio - espera"
             },
             {
                 "layer": 2,
@@ -682,17 +196,17 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--handle-card.svg",
-                "label": "ticket office handle-card"
+                "label": "Taquilla - tarjeta"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--receive.svg",
-                "label": "ticket office receive"
+                "label": "Taquilla - recibir"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--wait.svg",
-                "label": "ticket office wait"
+                "label": "Taquilla - espera"
             },
             {
                 "layer": 2,
@@ -702,38 +216,77 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/totem-turn.svg",
-                "label": "totem turn"
+                "label": "totem turno"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/train-door.svg",
+                "label": "Puerta metro"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/train-door-drop.svg",
+                "label": "Puerta metro - bajando"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/train-door-open.svg",
+                "label": "Puerta metro - abierta"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/train--front.svg",
+                "label": "Metro - frente"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/train-seat.svg",
+                "label": "Asiento - metreo"
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/turnstile.svg",
-                "label": "turnstile"
-            },
-
-
-
-
-
-
-            {
-                "layer": 3,
-                "path": "3-context/metro-door.svg",
-                "label": "metro door"
+                "label": "Torniquete"
             },
             {
                 "layer": 3,
-                "path": "3-context/railing.svg",
-                "label": "railing"
+                "path": "3-context/bank-line.svg",
+                "label": "Banco - fila"
             },
             {
                 "layer": 3,
-                "path": "3-context/railing-double.svg",
-                "label": "railing double"
+                "path": "3-context/bus.svg",
+                "label": "Micro"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/empty.svg",
+                "label": "empty"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/hospital.svg",
+                "label": "Hospital"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/medic.svg",
+                "label": "Medico"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/registro-civil.svg",
+                "label": "Registro civil"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/registro-civil-2.svg",
+                "label": "Registro civil (2)"
             },
             {
                 "layer": 3,
                 "path": "3-context/seat.svg",
-                "label": "seat"
+                "label": "Asiento"
             },
             {
                 "layer": 3,
@@ -747,43 +300,23 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/sign-left--center.svg",
-                "label": "sign left center"
+                "path": "3-context/train.svg",
+                "label": "Metro"
             },
             {
                 "layer": 3,
-                "path": "3-context/sign-left--left.svg",
-                "label": "sign left left"
+                "path": "3-context/train-station-entrance.svg",
+                "label": "Estacion - entrada"
             },
             {
                 "layer": 3,
-                "path": "3-context/sign-right--center.svg",
-                "label": "sign right center"
-            },
-            {
-                "layer": 3,
-                "path": "3-context/sign-right--left.svg",
-                "label": "sign right left"
-            },
-            {
-                "layer": 3,
-                "path": "3-context/sign-right--platform.svg",
-                "label": "sign right platform"
-            },
-            {
-                "layer": 3,
-                "path": "3-context/subway-window.svg",
-                "label": "subway window"
-            },
-            {
-                "layer": 3,
-                "path": "3-context/turn.svg",
-                "label": "turn"
+                "path": "3-context/train-inside.svg",
+                "label": "Metro - por dentro"
             },
             {
                 "layer": 3,
                 "path": "3-context/turn-seat.svg",
-                "label": "turn-seat"
+                "label": "Asiento metro"
             }
         ]
     }
