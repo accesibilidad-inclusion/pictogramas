@@ -92,6 +92,23 @@ footer {
     line-height: 129%;
     margin-top: 1em;
 }
+input[type="button"], select {
+    padding: 1ex 1em;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: .5ex;
+}
+#controls select {
+    /* margin: 1ex 1ex 1em 1ex; */
+    /* z-index: 1000; */
+    margin: 1ex 0;
+}
+#controls {
+    column-gap: 1ex;
+}
+#controls select li:hover {
+    background-color: orange;
+  }
 
 @media only screen and (max-width: 50em) {
     body {
