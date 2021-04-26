@@ -4,18 +4,20 @@
  */
 
 let data;
-let layer1, layer2, layer3;
-let sel1, sel2, sel3;
-let img1, img2, img3;
+let layer1, layer2, layer3, layer4;
+let sel1, sel2, sel3, sel4;
+let img1, img2, img3, img4;
 
 function setup() {
     layer1 = [];
     layer2 = [];
     layer3 = [];
+    layer4 = [];
 
     img1 = document.getElementById("1-subject");
     img2 = document.getElementById("2-landmarks");
     img3 = document.getElementById("3-context");
+    img4 = document.getElementById("4-actions");
 
     data = loadJSON("public/es/manifest.json", gotData, "json");
 
@@ -30,14 +32,17 @@ function gotData() {
     sel1 = createSelect();
     sel2 = createSelect();
     sel3 = createSelect();
+    sel4 = createSelect();
 
     sel1.parent("#controls");
     sel2.parent("#controls");
     sel3.parent("#controls");
+    sel4.parent("#controls");
 
     sel1.changed(swap1);
     sel2.changed(swap2);
     sel3.changed(swap3);
+    sel4.changed(swap4);
 
     for (let key in data.properties.pictos) {
         let picto = data.properties.pictos[key];
@@ -53,6 +58,10 @@ function gotData() {
             case 3:
                 layer3.push(picto);
                 sel3.option(picto.label);
+                break;
+            case 4:
+                layer4.push(picto);
+                sel4.option(picto.label);
                 break;
         }
     }
@@ -81,6 +90,15 @@ function swap3() {
     for (let i in layer3) {
         if (current === layer3[i].label) {
             img3.src = "src/" + layer3[i].path;
+        }
+    }
+}
+
+function swap4() {
+    let current = sel4.value();
+    for (let i in layer4) {
+        if (current === layer4[i].label) {
+            img4.src = "src/" + layer4[i].path;
         }
     }
 }

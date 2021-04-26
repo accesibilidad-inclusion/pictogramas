@@ -38,7 +38,7 @@ aside {
 #controls {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 #controls select {
@@ -106,9 +106,52 @@ input[type="button"], select {
 #controls {
     column-gap: 1ex;
 }
-#controls select li:hover {
-    background-color: orange;
-  }
+option:checked {
+    background-color: white;
+    color: orangered;
+}
+#actions{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+}
+#actions img{
+    width: 20%;
+}
+#typing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+#type{
+    border: none;
+    appearance: none;
+    font-family: 'Open Sans';
+    padding: .10em;
+    font-weight: 400;
+    font-size: 2rem;
+    background: rgb(231, 231, 231);
+    width: 70%;
+    outline: none;
+    border-radius: .2ex;
+    text-align: center; 
+}
+#type:focus::placeholder{
+    color: transparent;
+}
+#type::placeholder{
+    color:rgb(192, 192, 192);
+    transition: color 0.3s ease;
+}
+#type:valid{
+    background: white;
+    /*border-bottom: solid rgb(192, 192, 192);
+    border-radius: 0; */
+}
 
 @media only screen and (max-width: 50em) {
     body {
@@ -126,10 +169,11 @@ input[type="button"], select {
     #controls {
         display: none;
     }
-    #pictos {
+    /*#pictos {
         border: 2pt solid black;
         box-shadow: none;
-    }
+        border-radius: 0;
+    }*/
     footer {
         position: absolute;
         bottom: 0;

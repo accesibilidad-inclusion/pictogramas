@@ -317,7 +317,18 @@
                 "layer": 3,
                 "path": "3-context/turn-seat.svg",
                 "label": "Asiento metro"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/card.svg",
+                "label": "card"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/handle.svg",
+                "label": "handle"
             }
+            
         ]
     }
 }
