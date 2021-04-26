@@ -320,13 +320,78 @@
             },
             {
                 "layer": 4,
-                "path": "4-actions/card.svg",
-                "label": "card"
+                "path": "4-actions/fingerprint.svg",
+                "label": "Huella digital"
             },
             {
                 "layer": 4,
-                "path": "4-actions/handle.svg",
-                "label": "handle"
+                "path": "4-actions/hand-over-document.svg",
+                "label": "Entregar documento"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/hand-over-money.svg",
+                "label": "Entregar dinero"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/hand-over-ticket.svg",
+                "label": "Entregar ticket"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/look-for.svg",
+                "label": "Mirar"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/pay-with-card.svg",
+                "label": "Pagar con tarjeta"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/push button.svg",
+                "label": "Apretat boton"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/receive.svg",
+                "label": "Recibir"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/talk.svg",
+                "label": "Hablar"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/to-down.svg",
+                "label": "Hacia abajo"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/to-left.svg",
+                "label": "Hacia izquierda"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/to-right.svg",
+                "label": "Hacia derecha"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/to-up.svg",
+                "label": "Hacia arriba"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/type.svg",
+                "label": "Digitar"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/write.svg",
+                "label": "Escribir"
             }
             
         ]
