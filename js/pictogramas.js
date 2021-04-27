@@ -34,10 +34,15 @@ function gotData() {
     sel3 = createSelect();
     sel4 = createSelect();
 
-    sel1.parent("#controls");
-    sel2.parent("#controls");
-    sel3.parent("#controls");
-    sel4.parent("#controls");
+    sel1.id('sel-action');
+    sel2.id('sel-element');
+    sel3.id('sel-context');
+    sel4.id('sel-icon');
+
+    sel1.parent("#control-action");
+    sel2.parent("#control-element");
+    sel3.parent("#control-context");
+    sel4.parent("#control-icon");
 
     sel1.changed(swap1);
     sel2.changed(swap2);

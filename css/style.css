@@ -21,8 +21,9 @@ aside {
 
 #pictos {
     position: relative;
-    box-shadow: 2px 2px 20px #00000022 inset;
+    background-color: rgb(243, 243, 243) !important;
     border-radius: 8px;
+    margin-bottom: 1ex;
 }
 
 #pictos img {
@@ -36,14 +37,19 @@ aside {
 }
 
 #controls {
-    position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1ex;
 }
 
-#controls select {
-    margin: 1ex 1ex 1em 1ex;
-    z-index: 1000;
+#control-bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#control-icon{
+    column-span: 1;
+    grid-column-start: 2;
 }
 
 .header h1 {
@@ -59,6 +65,14 @@ aside {
     color: orangered;
 }
 
+label{
+    font-weight: 800;
+    margin: 0 0 -1ex 0;
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+  
 .texto {
     line-height: 168%;
 }
@@ -98,14 +112,11 @@ input[type="button"], select {
     background-color: rgb(231, 231, 231);
     border-radius: .5ex;
 }
-#controls select {
-    /* margin: 1ex 1ex 1em 1ex; */
-    /* z-index: 1000; */
+select {
+    width: 100%;
     margin: 1ex 0;
 }
-#controls {
-    column-gap: 1ex;
-}
+
 option:checked {
     background-color: white;
     color: orangered;
@@ -166,14 +177,14 @@ option:checked {
         display: block;
     }
     aside,
-    #controls {
+    #controls,
+    #control-bottom {
         display: none;
     }
-    /*#pictos {
-        border: 2pt solid black;
-        box-shadow: none;
-        border-radius: 0;
-    }*/
+
+    #pictos{
+        background-color: fuchsia !important;
+    }    
     footer {
         position: absolute;
         bottom: 0;
