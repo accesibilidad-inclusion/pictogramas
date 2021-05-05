@@ -45,6 +45,7 @@ aside {
 #control-bottom{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 1em;
 }
 
 #control-icon{
@@ -104,7 +105,7 @@ footer {
     text-align: center;
     font-weight: 300;
     line-height: 129%;
-    margin-top: 1em;
+    margin-top: 3em;
 }
 input[type="button"], select {
     padding: 1ex 1em;
@@ -136,7 +137,7 @@ option:checked {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2em;
+    padding-top: 2em;
 }
 #type{
     border: none;
@@ -176,15 +177,21 @@ option:checked {
     body {
         display: block;
     }
+    #pictos{
+        border: 1px solid black;
+        border-radius: 0px;
+    }
     aside,
     #controls,
     #control-bottom {
         display: none;
     }
-
-    #pictos{
-        background-color: fuchsia !important;
-    }    
+    textarea{
+        resize: none;
+    }
+    .logo{
+        display: none;
+    }
     footer {
         position: absolute;
         bottom: 0;

@@ -6,102 +6,73 @@
             {
                 "layer": 1,
                 "path": "1-subject/ease--second-quadrant.svg",
-                "label": "Parado (c2)"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/ease--third-quadrant.svg",
-                "label": "Parado (c3)"
+                "label": "Parado"
             },
             {
                 "layer": 1,
                 "path": "1-subject/handle-card--third-quadrant.svg",
-                "label": "Manipular tarjeta (c3)"
+                "label": "Manipular tarjeta"
             },
             {
                 "layer": 1,
                 "path": "1-subject/handle-document--third-quadrant.svg",
-                "label": "Manipular documento (c3)"
+                "label": "Manipular documento"
             },
             {
                 "layer": 1,
                 "path": "1-subject/handle-money--third-quadrant.svg",
-                "label": "Manipular dinero (c3)"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/handle--second-quadrant.svg",
-                "label": "Manipular (c2)"
+                "label": "Manipular dinero"
             },
             {
                 "layer": 1,
                 "path": "1-subject/handle--third-quadrant.svg",
-                "label": "Manipular (c3)"
+                "label": "Manipular"
             },
             {
                 "layer": 1,
                 "path": "1-subject/push--second-quadrant.svg",
-                "label": "Presionar (c2)"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/push--third-quadrant.svg",
-                "label": "Presionar (c3)"
+                "label": "Presionar"
             },
             {
                 "layer": 1,
                 "path": "1-subject/put-bottle--third-quadrant.svg",
-                "label": "Poner botella (c3)"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/show--second-quadrant.svg",
-                "label": "Mostrar (c2)"
+                "label": "Poner botella"
             },
             {
                 "layer": 1,
                 "path": "1-subject/show--third-quadrant.svg",
-                "label": "Mostrar (c3)"
+                "label": "Mostrar"
             },
             {
                 "layer": 1,
                 "path": "1-subject/sit-side-left-up--third-quadrant.svg",
-                "label": "Sentado arriba (c3)"
+                "label": "Sentado en camilla"
             },
             {
                 "layer": 1,
                 "path": "1-subject/sit-side-left--second-quadrant.svg",
-                "label": "Sentado (c2)"
+                "label": "Sentado"
             },
             {
                 "layer": 1,
                 "path": "1-subject/stand--second-quadrant.svg",
-                "label": "De pie (c2)"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/stand--third-quadrant.svg",
-                "label": "De pie (c3)"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/wait--second-quadrant.svg",
-                "label": "Esperar (c2)"
+                "label": "Sostenido"
             },
             {
                 "layer": 1,
                 "path": "1-subject/wait--third-quadrant.svg",
-                "label": "Esperar (c3)"
+                "label": "Esperar"
             },
             {
                 "layer": 1,
                 "path": "1-subject/wait-side--second-quadrant.svg",
-                "label": "Esperar de lado(c2)"
+                "label": "Esperar-lado"
             },
+            
             {
                 "layer": 1,
-                "path": "1-subject/wait-side--third-quadrant.svg",
-                "label": "Esperar de lado(c3)"
+                "path": "1-subject/wait-trasnport.svg",
+                "label": "Esperar transporte"
             },
             {
                 "layer": 1,
@@ -111,12 +82,7 @@
             {
                 "layer": 1,
                 "path": "1-subject/walk--second-quadrant.svg",
-                "label": "Caminar (c2)"
-            },
-            {
-                "layer": 1,
-                "path": "1-subject/walk--third-quadrant.svg",
-                "label": "Caminar (c3)"
+                "label": "Caminar"
             },
             {
                 "layer": 2,
@@ -137,6 +103,11 @@
                 "layer": 2,
                 "path": "2-landmarks/doctor-consult.svg",
                 "label": "Consulta doctor"
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/doctor-consult-2.svg",
+                "label": "Consulta doctor 2"
             },
             {
                 "layer": 2,
@@ -240,11 +211,6 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/train-seat.svg",
-                "label": "Asiento - metreo"
-            },
-            {
-                "layer": 2,
                 "path": "2-landmarks/turnstile.svg",
                 "label": "Torniquete"
             },
@@ -257,6 +223,11 @@
                 "layer": 3,
                 "path": "3-context/bus.svg",
                 "label": "Micro"
+            },
+            {
+                "layer": 3,
+                "path": "3-context/bus-stop.svg",
+                "label": "Paradero"
             },
             {
                 "layer": 3,
@@ -310,6 +281,11 @@
             },
             {
                 "layer": 3,
+                "path": "3-context/train-plataform.svg",
+                "label": "Anden"
+            },
+            {
+                "layer": 3,
                 "path": "3-context/train-inside.svg",
                 "label": "Metro - por dentro"
             },
@@ -322,6 +298,11 @@
                 "layer": 4,
                 "path": "4-actions/fingerprint.svg",
                 "label": "Huella digital"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/hand-over-card.svg",
+                "label": "Entregar tarjeta"
             },
             {
                 "layer": 4,
@@ -340,6 +321,11 @@
             },
             {
                 "layer": 4,
+                "path": "4-actions/hold.svg",
+                "label": "Sostener"
+            },
+            {
+                "layer": 4,
                 "path": "4-actions/look-for.svg",
                 "label": "Mirar"
             },
@@ -347,6 +333,11 @@
                 "layer": 4,
                 "path": "4-actions/pay-with-card.svg",
                 "label": "Pagar con tarjeta"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/point.svg",
+                "label": "Parar micro"
             },
             {
                 "layer": 4,
@@ -362,6 +353,11 @@
                 "layer": 4,
                 "path": "4-actions/talk.svg",
                 "label": "Hablar"
+            },
+            {
+                "layer": 4,
+                "path": "4-actions/ticket-totem.svg",
+                "label": "Usar ticket"
             },
             {
                 "layer": 4,
