@@ -9,14 +9,13 @@ body {
     margin: 0 auto;
     background-color: white;
     font-family: 'Open Sans';
-    display: grid;
-    grid-template-columns: 15fr 28fr;
-    grid-gap: 2rem;
-    margin: 3rem;
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 600px;
 }
 
-aside {
-    max-width: 450px;
+#preview{
+    margin: 2em 0 0 0;
 }
 
 #pictos {
@@ -130,7 +129,7 @@ option:checked {
     padding-top: 2em;
 }
 #actions img{
-    width: 20%;
+    width: 6em;
 }
 #typing{
     display: flex;
@@ -163,6 +162,11 @@ option:checked {
     background: white;
     /*border-bottom: solid rgb(192, 192, 192);
     border-radius: 0; */
+}
+
+#print {
+    text-align: center;
+    margin: 3em 0 0 0;
 }
 
 @media only screen and (max-width: 50em) {
