@@ -8,17 +8,35 @@
 
 
 ### Sistema gráfico
-Este sistema permite crear **Pictogramas** a partir de la articulación de 3 elementos o *capas* gráficas. 
+Este sistema permite crear **Pictogramas** a partir de la articulación de 3 elementos o *capas* gráficas. Este pictograma ilustra el paso, de una serie de pasos que constituyen una tarea. PICTOS ayuda a volver más accesibles las tareas de los servicios públicos, sus transacciones. 
 
-Estas capas son:
+Las capas de cada paso o pictograma:
 
-1. **Capa 1:** Acciones del protagonista
-2. **Capa 2:** Artefactos y elementos
-3. **Capa 3:** Espacio y referentes
+1. **Capa superior:** Acciones del protagonista: *verbo*
+2. **Capa media:** Artefactos y elementos: *objeto sustantivo* con el cual se interactúa
+3. **Capa contextual:** Espacio y referentes: razgo icónico en su sentido tipológico-situacional
 
 Para que un servicio pueda ser accesible primero necesitamos saber qué cosas podemos hacer en él (las tareas o transacciones disponibles) y cuáles son los pasos para cada una de ellas. **Pictogramas** está diseñado para constuir los apoyos visuales para estos pasos y pueden ser utilizados como señalética *in-situ* o por medio de la aplicación **[Pictos](http://www.pictos.cl)**.
 
 Este sistema contiene una colección de posibilidades para cada una de las capas, lo que permite una combinatoria muy amplia de pictogramas que buscamos aumentar gracias al apoyo de la comunidad.
+
+##### Estructura
+
+``` JSON
+{
+  "layer": 1,
+  "path": "foobar.svg",
+  "label": "lorem ipsum dolor sit amet",
+  "category": ["Procedure","Health","Transportation","Leisure"],
+  "tags": [ "foo", "bar", "quick brwn fox"]
+}
+```
+1. **Layer**: Indica el orden en el que se apilan las capas, 1 siendo la que va por encima de todas las demas.
+2. **Path**: Direccion del archivo svg.
+3. **Label**: Nombre con el que se encuntra cada pictograma en la lista.
+4. **Category**: Indica el servicio en el que cada pictograma se puede usar, para filtrar por servicio especifico y recibir solo los pictogras que tienen utilidad en este.
+5. **Tags**: Otras formas de llamar a un pictogramas, para facilitar la busqueda de estos.
+
 
 #### Créditos
 
