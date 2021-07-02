@@ -5,5 +5,7 @@ runs:
   steps: 
     - run: yarn upgrade pictos --latest
       working-directory: /var/www/pictos-admin-client/
+      shell: bash
     - run: yarn upgrade pictos --latest
       working-directory: /var/www/pictos-web-app/
+      shell: bash
