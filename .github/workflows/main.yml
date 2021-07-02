@@ -8,10 +8,12 @@ jobs:
     runs-on: self-hosted
     name: Ci update repository on clients
     steps:
+    - uses: actions/checkout@v1
     - uses: ./.github/actions/action-clients
   ci_update_db_job:
     runs-on: self-hosted
     name: Ci update database
     needs: ci_update_repo_job
     steps:
+    - uses: actions/checkout@v1
     - uses: ./.github/actions/actions/action-db
