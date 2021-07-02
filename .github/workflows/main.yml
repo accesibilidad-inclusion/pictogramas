@@ -10,6 +10,8 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: ./.github/actions/action-clients
+      with:
+        node-version: '14'
   ci_update_db_job:
     runs-on: self-hosted
     name: Ci update database
@@ -17,4 +19,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: ./.github/actions/actions/action-db
-    
+      with:
+        node-version: '14'
