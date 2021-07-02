@@ -8,10 +8,10 @@ jobs:
     runs-on: self-hosted
     name: Ci update repository on clients
     steps:
-    - uses: actions/action_clients
+    - uses: accesibilidad-inclusion/pictogramas/actions/action_clients
   ci_update_db_job:
     runs-on: self-hosted
     name: Ci update database
     needs: ci_update_repo_job
     steps:
-    - uses: actions/action_db
+    - uses: accesibilidad-inclusion/pictogramas/actions/actions/action_db
