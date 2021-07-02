@@ -1,0 +1,7 @@
+name: 'Update pictos on clients'
+description: 'update yarn pictos dependence'
+runs:
+  using: "composite"
+  steps: 
+    - run: node script.js
+      working-directory: /var/www/pictos_backend/

@@ -1,0 +1,9 @@
+name: 'Update pictos on clients'
+description: 'update yarn pictos dependence'
+runs:
+  using: "composite"
+  steps: 
+    - run: yarn upgrade pictos --latest
+      working-directory: /var/www/pictos-admin-client/
+    - run: yarn upgrade pictos --latest
+      working-directory: /var/www/pictos-web-app/

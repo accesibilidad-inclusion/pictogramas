@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - ci_testing
+
+jobs:
+  ci_update_repo_job:
+    runs-on: self-hosted
+    name: Ci update repository on clients
+    steps:
+    - uses: actions/action_clients
+  ci_update_db_job:
+    runs-on: self-hosted
+    name: Ci update database
+    needs: ci_update_repo_job
+    steps:
+    - uses: actions/action_db
