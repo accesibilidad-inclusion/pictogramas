@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - ci_testing
+      - master
 
 jobs:
   ci_update_repo_job:
