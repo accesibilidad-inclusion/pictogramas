@@ -3,6 +3,9 @@ description: 'update yarn pictos dependence'
 runs:
   using: "composite"
   steps: 
+    - run: whoami
+      working-directory: /var/www/pictos/pictos-admin-client/
+      shell: bash
     - run: sudo yarn upgrade pictos --latest && sudo yarn build
       working-directory: /var/www/pictos/pictos-admin-client/
       shell: bash
