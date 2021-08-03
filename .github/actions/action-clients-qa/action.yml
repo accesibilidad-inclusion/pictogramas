@@ -1,11 +1,11 @@
-name: 'Update pictos on clients'
+name: 'Update pictos QA on clients'
 description: 'update yarn pictos dependence'
 runs:
   using: "composite"
   steps: 
     - run: yarn upgrade pictos --latest && yarn build
-      working-directory: /var/www/pictos/pictos-admin-client/
+      working-directory: /var/www/pictos/qa/pictos-admin-client/
       shell: bash
     - run: yarn upgrade pictos --latest && yarn build
-      working-directory: /var/www/pictos/pictos-web-app/
+      working-directory: /var/www/pictos/qa/pictos-web-app/
       shell: bash
