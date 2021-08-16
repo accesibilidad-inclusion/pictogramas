@@ -3,9 +3,9 @@ description: 'update yarn pictos dependence'
 runs:
   using: "composite"
   steps: 
-    - run: yarn add git@github.com:accesibilidad-inclusion/pictogramas.git#qa && yarn build
+    - run: yarn add https://github.com/accesibilidad-inclusion/pictogramas.git#qa && yarn build
       working-directory: /var/www/pictos/qa/pictos-admin-client/
       shell: bash
-    - run: yarn add git@github.com:accesibilidad-inclusion/pictogramas.git#qa && yarn build
+    - run: yarn add https://github.com/accesibilidad-inclusion/pictogramas.git#qa && yarn build
       working-directory: /var/www/pictos/qa/pictos-web-app/
       shell: bash
