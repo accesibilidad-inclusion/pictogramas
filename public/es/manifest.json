@@ -300,6 +300,12 @@
             },
             {
                 "layer": 3,
+                "path": "0-floor/floor.svg",
+                "label": "Suelo",
+                "category": ["Ocio", "Salud", "Transporte", "Trámites"]
+            },
+            {
+                "layer": 3,
                 "path": "3-context/bank-line.svg",
                 "label": "Banco - fila",
                 "category": ["Trámites"]
