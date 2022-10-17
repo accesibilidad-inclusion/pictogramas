@@ -120,7 +120,7 @@
                 "path": "2-landmarks/service-module--wait.svg",
                 "label": "Módulo de servicio -espera",
                 "category": ["Trámites","Salud","Ocio"],
-                "tags": [ "Módulo de atención","]
+                "tags": [ "Módulo de atención" ]
             },
             {
                 "layer": 2,
@@ -169,7 +169,7 @@
                 "path": "2-landmarks/ticket-office--receive.svg",
                 "label": "Boletería -recibir",
                 "category": ["Transporte","Ocio"],
-                "tags": [ "Boletería recibe", "Boletería entrega", "Taquilla]
+                "tags": [ "Boletería recibe", "Boletería entrega", "Taquilla"]
             },
             {
                 "layer": 2,
@@ -177,7 +177,7 @@
                 "label": "Boletería -tarjeta",
                 "category": ["Transporte","Ocio"],
                 "tags": [ "Boletería recibe tarjera", "Boletería entrega tarjeta", "Taquilla"]
-            },            
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/subway-interior--door-closed.svg",
@@ -266,56 +266,56 @@
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
                 "label": "Paradero -metro",
-                "category": ["Transporte"]
+                "category": ["Transporte"],
                 "tags": [ "Paradero tren", "Parada tren", "Estación tren", "Estación metro"]
-            }, 
+            },
             {
                 "layer": 3,
                 "path": "3-context/stop--bus.svg",
                 "label": "Paradero -bus",
-                "category": ["Transporte"]
+                "category": ["Transporte"],
                 "tags": [ "Paradero micro", "Parada micro", "Estación de buses", "Parada de bus"]
-            },    
+            },
             {
                 "layer": 3,
                 "path": "3-context/sign--keep-walking.svg",
                 "label": "Letrero -sigue caminando",
-                "category": ["Trámites","Salud","Transporte","Ocio"]
+                "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Letrero", "Continua"]
             },
             {
                 "layer": 3,
                 "path": "3-context/sign--turn.svg",
                 "label": "Letrero -turno",
-                "category": ["Trámites","Salud","Transporte","Ocio"]
+                "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Letrero", "Turno", "Número de atención"]
             },
             {
                 "layer": 3,
                 "path": "3-context/medic.svg",
                 "label": "Medico",
-                "category": ["Salud"]
+                "category": ["Salud"],
                 "tags": [ "Consulta médica", "Consulta doctor", "Hospital", "Consultorio"]
             },
             {
                 "layer": 3,
                 "path": "3-context/security-line.svg",
                 "label": "Seguridad - fila",
-                "category": ["Trámites", "Transporte", "Ocio]
+                "category": ["Trámites", "Transporte", "Ocio"],
                 "tags": [ "Fila de trámites", "Fila en banco", "Banco"]
             },
             {
                 "layer": 3,
                 "path": "3-context/announcement.svg",
                 "label": "Tabla de anuncios",
-                "category": ["Trámites", "Ocio"]
+                "category": ["Trámites", "Ocio"],
                 "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
             },
             {
                 "layer": 3,
                 "path": "3-context/security-guard.svg",
                 "label": "Guardia de seguridad",
-                "category": ["Trámites", "Ocio", "Transporte", "Salud"]
+                "category": ["Trámites", "Ocio", "Transporte", "Salud"],
                 "tags": [ "Guardia", "Seguridad"]
             },
 
@@ -452,7 +452,7 @@
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Firmar", "Escribir"]
             }
-            
+
         ]
     }
 }
