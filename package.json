@@ -1,10 +1,11 @@
 {
   "name": "pictos",
-  "version": "1.0.0-rc.0",
+  "version": "2.0.0-alpha",
   "description": "Pictogramas para la accesibilidad cognitiva de los servicios",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepack": "prepack.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/accesibilidad-inclusion/pictogramas/issues"
   },
-  "homepage": "https://github.com/accesibilidad-inclusion/pictogramas#readme"
+  "homepage": "https://github.com/accesibilidad-inclusion/pictogramas#readme",
+  "devDependencies": {
+    "svgo": "^2.8.0"
+  },
+  "dependencies": {}
 }
