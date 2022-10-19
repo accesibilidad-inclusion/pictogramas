@@ -152,7 +152,7 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/service-module--site-side.svg",
+                "path": "2-landmarks/service-module--sit-side.svg",
                 "label": "Módulo de servicio -sentado de lado",
                 "category": ["Trámites","Salud","Ocio"],
                 "tags": [ "Espera sentado","Recibe atención sentado"]
@@ -250,7 +250,7 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/desktop--default.svg",
+                "path": "2-landmarks/desktop--listen.svg",
                 "label": "Escritorio",
                 "category": ["Trámites","Salud"],
                 "tags": [ "Trámite en escritorio", "Atención sentado", "Atención en mesa", "Mesa de atención"]
@@ -411,7 +411,7 @@
             }			
             {
                 "layer": 4,
-                "path": "4-icons/push button.svg",
+                "path": "4-icons/push-button.svg",
                 "label": "Apretar boton",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Apretar botón", "Pulsar botón", "Presionar botón", "Botón"]
