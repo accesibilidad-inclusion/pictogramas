@@ -408,7 +408,7 @@
                 "label": "Escribir",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Firmar", "Escribir"]
-            }			
+            },
             {
                 "layer": 4,
                 "path": "4-icons/push-button.svg",
@@ -653,7 +653,7 @@
                 "label": "Ventana-web",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Ventana", "Página", "Pestaña"]
-            },
+            }
         ]
     }
 }
