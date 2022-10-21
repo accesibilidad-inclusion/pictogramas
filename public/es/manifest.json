@@ -1,6 +1,6 @@
 {
-    "title": "Pictograms",
-    "description": "Pictographic system as visual support for cognitive accessibility of services",
+    "title": "Pictogramas",
+    "description": "Librería gráfica modular para la composición de pictogramas enfocados en la accesibilidad cognitiva",
     "properties": {
         "pictos": [
             {
@@ -15,7 +15,7 @@
                 "path": "1-subject/push.svg",
                 "label": "Presiona",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Apretar botón", "Deslizar ticket", "Tomar ticket","Presionar"]
+                "tags": [ "Apretar botón", "Deslizar ticket", "Tomar ticket", "Presionar"]
             },
             {
                 "layer": 1,

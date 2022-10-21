@@ -1,6 +1,6 @@
 /**
- * Pictogramas
- *
+ * Pictogramas PICTOS
+ * Núcleo de Investigación en Accesibilidad e Inclusión PUCV
  */
 
 let data;
@@ -29,26 +29,27 @@ function setup() {
 function draw() {}
 
 function gotData() {
+    // crea selectores
     sel1 = createSelect();
     sel2 = createSelect();
     sel3 = createSelect();
     sel4 = createSelect();
-
+    // define los IDs de los selectores
     sel1.id('sel-action');
     sel2.id('sel-element');
     sel3.id('sel-context');
     sel4.id('sel-icon');
-
+    // ubica los selectores en el HTML
     sel1.parent("#control-action");
     sel2.parent("#control-element");
     sel3.parent("#control-context");
     sel4.parent("#control-icon");
-
+    // define la función a ejecutar para cada actualización de selector 
     sel1.changed(swap1);
     sel2.changed(swap2);
     sel3.changed(swap3);
     sel4.changed(swap4);
-
+    // agrega todas las opciones respectivas a los selectores
     for (let key in data.properties.pictos) {
         let picto = data.properties.pictos[key];
         switch (picto.layer) {
@@ -70,6 +71,34 @@ function gotData() {
                 break;
         }
     }
+
+    // define valores iniciales
+    let s1, s2, s3, s4;
+    for (let key in data.properties.pictos) {
+        let picto = data.properties.pictos[key];
+        switch (picto.layer) {
+            case 1:
+                s1 = picto.label;
+                break;
+            case 2:
+                s2 = picto.label;
+                break;
+            case 3:
+                s3 = picto.label;
+                break;
+            case 4:
+                s4 = picto.label;
+                break;
+        }
+    }
+    sel1.value(s1);
+    sel2.value(s2);
+    sel3.value(s3);
+    sel4.value(s4);
+    swap1();
+    swap2();
+    swap3();
+    swap4();
 }
 
 function swap1() {
