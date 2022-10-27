@@ -67,6 +67,20 @@
                 "tags": ["Tomar asiento","Sentarse", "Ser atendido" ]
             },
             {
+                "layer": 1,
+                "path": "1-subject/sit-side-handle.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/floor.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
                 "layer": 2,
                 "path": "2-landmarks/vending-machine--default.svg",
                 "label": "Máquina dispensadora",
@@ -142,13 +156,6 @@
                 "label": "Módulo de servicio -documento",
                 "category": ["Trámites","Salud","Ocio"],
                 "tags": [ "Recibir documento", "Entregar documento","Recibir", "Entregar","Documento"]
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/service-module--take-photo.svg",
-                "label": "Módulo de servicio -foto",
-                "category": ["Trámites","Salud","Ocio"],
-                "tags": [ "Tomar foto", "Foto"]
             },
             {
                 "layer": 2,
@@ -250,10 +257,31 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/desktop--listen.svg",
+                "path": "2-landmarks/desktop--wait.svg",
                 "label": "Escritorio",
                 "category": ["Trámites","Salud"],
                 "tags": [ "Trámite en escritorio", "Atención sentado", "Atención en mesa", "Mesa de atención"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/desktop--take-photo.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/desktop--handle-money.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/desktop--handle-document.svg",
+                "label": "",
+                "category": [],
+                "tags": []
             },
             {
                 "layer": 2,
@@ -299,10 +327,10 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/security-line.svg",
-                "label": "Seguridad - fila",
-                "category": ["Trámites", "Transporte", "Ocio"],
-                "tags": [ "Fila de trámites", "Fila en banco", "Banco"]
+                "path": "3-context/security-guard.svg",
+                "label": "Guardia de seguridad -fila",
+                "category": ["Trámites", "Ocio", "Transporte", "Salud"],
+                "tags": [ "Guardia", "Seguridad" , "Fila de trámites", "Fila en banco", "Banco"]
             },
             {
                 "layer": 3,
@@ -312,15 +340,8 @@
                 "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
             },
             {
-                "layer": 3,
-                "path": "3-context/security-guard.svg",
-                "label": "Guardia de seguridad",
-                "category": ["Trámites", "Ocio", "Transporte", "Salud"],
-                "tags": [ "Guardia", "Seguridad"]
-            },
-            {
                 "layer": 4,
-                "path": "4-icons/ticket-totem.svg",
+                "path": "4-icons/ticket.svg",
                 "label": "Ticket",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Recibir ticket", "Tomar ticket", "Sacar ticket", "Boleto", "Entrada", "Usar ticket"]
@@ -362,52 +383,31 @@
             },
             {
                 "layer": 4,
-                "path": "4-icons/pay-with-card.svg",
-                "label": "Pagar con tarjeta",
+                "path": "4-icons/card.svg",
+                "label": "",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Pagar","Pagar con tarjeta", "Pasar tarjeta"]
-            },
-			{
-                "layer": 4,
-                "path": "4-icons/point.svg",
-                "label": "Indicar",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Parar micro","Señalar", "Apretar", "Tocar pantalla"]
+                "tags": [ "Entregar tarjeta","Recibir tarjeta", "Carnet", "Cédula de identidad", "Entregar Cédula" , "Pagar","Pagar con tarjeta", "Pasar tarjeta"]
             },
             {
                 "layer": 4,
-                "path": "4-icons/hand-over-card.svg",
-                "label": "Entregar tarjeta",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Entregar tarjeta","Recibir tarjeta", "Carnet", "Cédula de identidad", "Entregar Cédula"]
-            },
-            {
-                "layer": 4,
-                "path": "4-icons/hand-over-document.svg",
+                "path": "4-icons/document.svg",
                 "label": "Entregar documento",
                 "category": ["Trámites","Salud","Transporte"],
                 "tags": [ "Documento","Recibir documento"]
             },
             {
                 "layer": 4,
-                "path": "4-icons/hand-over-money.svg",
+                "path": "4-icons/money.svg",
                 "label": "Entregar dinero",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Entregar dinero","Recibir dinero","Pagar", "Billete", "Efectivo"]
             },
             {
                 "layer": 4,
-                "path": "4-icons/hand-over-ticket.svg",
-                "label": "Entregar ticket",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Usar ticket", "Pasar ticket", "Tomar boleto", "Entregar boleto"]
-            },
-            {
-                "layer": 4,
-                "path": "4-icons/write.svg",
+                "path": "4-icons/edit.svg",
                 "label": "Escribir",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Firmar", "Escribir"]
+                "tags": [ "Firmar", "Escribir" , "Editar", "Lápiz", "Corregir", "Revisar"]
             }			
             {
                 "layer": 4,
@@ -418,24 +418,10 @@
             },
             {
                 "layer": 4,
-                "path": "4-icons/receive.svg",
-                "label": "Recibir",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Tomar","Recibir"]
-            },
-            {
-                "layer": 4,
                 "path": "4-icons/type.svg",
                 "label": "Digitar",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Teclear", "Digitar"]
-            },
-            {
-                "layer": 4,
-                "path": "4-icons/talk.svg",
-                "label": "Hablar",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Hablar","Explicar", "Comentar", "Comunicar"]
             },            
 			{
                 "layer": 4,
@@ -470,7 +456,7 @@
                 "path": "4-icons/comment.svg",
                 "label": "Comentar",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Decir", "Hablar", "Mensaje"]
+                "tags": [ "Decir", "Hablar", "Mensaje","Explicar", "Comentar", "Comunicar"]
             },
             {
                 "layer": 4,
@@ -481,24 +467,10 @@
             },
             {
                 "layer": 4,
-                "path": "4-icons/edit.svg",
-                "label": "Editar",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Escribir", "Lápiz", "Corregir", "Revisar"]
-            },
-            {
-                "layer": 4,
-                "path": "4-icons/hand-open.svg",
-                "label": "Mano abierta",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Detener", "Parar", "Esperar", "Mano"]
-            },
-            {
-                "layer": 4,
-                "path": "4-icons/hand-select.svg",
+                "path": "4-icons/point.svg",
                 "label": "Seleccionar",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Escoger", "Elegir", "Apuntar"]
+                "tags": [ "Escoger", "Elegir", "Apuntar", "Cliquear", "Seleccionar"]
             },
             {
                 "layer": 4,
@@ -530,28 +502,14 @@
             },
             {
                 "layer": 4,
-                "path": "4-icons/camera.svg",
-                "label": "Cámara",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Foto", "Fotografía", "Tomar foto"]
-            },
-            {
-                "layer": 4,
-                "path": "4-icons/input.svg",
+                "path": "4-icons/input-text.svg",
                 "label": "Input",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Digitar", "Entrada web", "Redactar", "Escribir en digital"]
             },
             {
                 "layer": 4,
-                "path": "4-icons/map.svg",
-                "label": "Mapa",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Ubicación", "Lugar", "Ciudad", "Locación"]
-            },
-            {
-                "layer": 4,
-                "path": "4-icons/notebook.svg",
+                "path": "4-icons/monitor.svg",
                 "label": "Computador-portatil",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Notebook", "Pantalla", "Computador", "Ordenador", "Ordenador portatil"]
@@ -621,13 +579,6 @@
             },
             {
                 "layer": 4,
-                "path": "4-icons/click.svg",
-                "label": "Click",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Cliquear", "Seleccionar"]
-            },
-            {
-                "layer": 4,
                 "path": "4-icons/image.svg",
                 "label": "Imagen",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -653,6 +604,34 @@
                 "label": "Ventana-web",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Ventana", "Página", "Pestaña"]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/leisure.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/transport.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/procedures.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/health.svg",
+                "label": "",
+                "category": [],
+                "tags": []
             },
         ]
     }
