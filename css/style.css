@@ -6,16 +6,13 @@ Pictogramas para PICTOS
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 body {
-    max-width: 50%;
-    margin: 0 auto;
+    max-width: 960px;
+    margin: 1em auto;
     background-color: white;
     font-family: 'Open Sans';
-    /*
     display: grid;
     grid-template-columns: 15fr 28fr;
     grid-gap: 2rem;
-    margin: 3rem;
-    */
 }
 
 aside {
@@ -34,6 +31,8 @@ aside {
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
+    height: auto;
 }
 
 #pictos img#empty {
@@ -45,17 +44,58 @@ aside {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 1ex;
 }
-
+ 
 #control-bottom{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 1em;
+    grid-template-columns: 2fr 5fr;
 }
 
-#control-icon{
-    column-span: 1;
-    grid-column-start: 2;
+#icon img{
+    margin: 2em;
 }
+#actions{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 20px;
+    align-items: middle;
+}
+
+#actions img{
+    max-width: 100%;
+}
+#typing{
+margin-top: 4em;
+}
+textarea#type{
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans';
+    padding: .10em;
+    font-weight: 400;
+    font-size: 2rem;
+    background: rgb(231, 231, 231);
+    outline: none;
+    border-radius: .2ex;
+}
+#type:focus::placeholder{
+    color: transparent;
+}
+#type::placeholder{
+    color:rgb(192, 192, 192);
+    transition: color 0.3s ease;
+}
+#type:valid{
+    background: white;
+    /*border-bottom: solid rgb(192, 192, 192);
+    border-radius: 0; */
+}
+
+#save{
+    margin: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
 
 .header h1 {
     font-weight: 700;
@@ -126,70 +166,27 @@ option:checked {
     background-color: white;
     color: orangered;
 }
-#actions{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2em;
-}
-#actions img{
-    width: 20%;
-}
-#typing{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2em;
-}
-#type{
-    border: none;
-    appearance: none;
-    font-family: 'Open Sans';
-    padding: .10em;
-    font-weight: 400;
-    font-size: 2rem;
-    background: rgb(231, 231, 231);
-    width: 70%;
-    outline: none;
-    border-radius: .2ex;
-    text-align: center; 
-}
-#type:focus::placeholder{
-    color: transparent;
-}
-#type::placeholder{
-    color:rgb(192, 192, 192);
-    transition: color 0.3s ease;
-}
-#type:valid{
-    background: white;
-    /*border-bottom: solid rgb(192, 192, 192);
-    border-radius: 0; */
-}
 
-#save{
-    margin: 2rem 0 2rem 0;
-    display: flex;
-    justify-content: center;
-}
 
 @media only screen and (max-width: 50em) {
     body {
-        /*width: 90%;*/
-        max-width: 90%;
-        margin: 0 auto;
+        margin: 0 10px;
         display: block;
     }
 }
 
 @media print {
 
+    @page{
+        size: letter;
+        orientation: landscape;
+        marks: none;
+    }
+
     body {
         padding-top: 2rem;
         display: block;
-        max-width: 80%; /* */
+        max-width: 20cm; 
     }
     #pictos{
         border: 1px solid black;
@@ -197,18 +194,20 @@ option:checked {
     }
     aside,
     #controls,
-    #control-bottom {
+    #control-icon {
         display: none;
+    }
+    #actions{
+        margin-top: 3em;
     }
     #save{
         display: none;
     }
+
     textarea{
         resize: none;
     }
     footer {
-        position: absolute;
-        bottom: 0;
-        max-width: 80%;
+        display: none;
     }
 }
