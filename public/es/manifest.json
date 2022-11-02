@@ -408,7 +408,7 @@
                 "label": "Escribir",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Firmar", "Escribir" , "Editar", "Lápiz", "Corregir", "Revisar"]
-            }			
+            },			
             {
                 "layer": 4,
                 "path": "4-icons/push-button.svg",
@@ -633,6 +633,27 @@
                 "category": [],
                 "tags": []
             },
+            {
+                "layer": 4,
+                "path": "4-icons/receive.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/shop.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/alert.svg",
+                "label": "",
+                "category": [],
+                "tags": []
+            }
         ]
     }
 }
