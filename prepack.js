@@ -55,7 +55,17 @@ fs.readdir( pictogramsSrcPath ).then(
 								const optimized = optimize(
 									fileContent,
 									{
-										multipass: true
+										multipass: true,
+										plugins: [
+											{
+												name: 'preset-default',
+												params: {
+													overrides: {
+														removeViewBox: false
+													}
+												}
+											}
+										]
 									}
 								);
 								sourceSize = sourceSize + fileContent.length;
