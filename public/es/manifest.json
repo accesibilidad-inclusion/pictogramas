@@ -112,7 +112,7 @@
                 "layer": 2,
                 "path": "2-landmarks/totem--turn.svg",
                 "label": "totem turno",
-                "category": ["Trámites","Salud","Ocio","Transporte"]
+                "category": ["Trámites","Salud","Ocio","Transporte"],
                 "tags": [ "Ticket de turno","Ticket", "Totem ticket", "Turno", "Número"]
             },
             {
@@ -294,28 +294,28 @@
                 "layer": 2,
                 "path": "2-landmarks/assistant--wait.svg",
                 "label": "Asistente -espera",
-                "category": ["Ocio","Trámites","Salud","Transporte],
+                "category": ["Ocio","Trámites","Salud","Transporte"],
                 "tags": [ "Solicitar ayuda", "Pedir ayuda", "Pregunta a persona"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--recieve.svg",
                 "label": "Asistente -recibe",
-                "category": ["Ocio","Trámites","Salud","Transporte],
+                "category": ["Ocio","Trámites","Salud","Transporte"],
                 "tags": [ "Solicitar ayuda", "Pedir ayuda", "Pregunta a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--handle-money.svg",
                 "label": "Asistente -manipula dinero",
-                "category": ["Ocio","Trámites","Salud","Transporte],
+                "category": ["Ocio","Trámites","Salud","Transporte"],
                 "tags": [ "Solicitar ayuda", "Paga a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente", "Entregar a persona"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--handle-document.svg",
                 "label": "Asistente -manipula documento",
-                "category": ["Ocio","Trámites","Salud","Transporte],
+                "category": ["Ocio","Trámites","Salud","Transporte"],
                 "tags": [ "Solicitar ayuda", "Entrega a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
             },
             {
