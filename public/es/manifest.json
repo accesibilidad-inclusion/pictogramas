@@ -64,21 +64,21 @@
                 "path": "1-subject/sit-side.svg",
                 "label": "Sentado de lado",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": ["Tomar asiento","Sentarse", "Ser atendido" ]
+                "tags": ["Tomar asiento","Sentarse", "Ser atendido"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/sit-side-handle.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Sentado de lado manipula",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento","Sentarse", "Ser atendido", "Entregar documento", "Recibir documento"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Suelo",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Piso", "Vacío"]
             },
             {
                 "layer": 2,
@@ -97,30 +97,30 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/stop.svg",
-                "label": "parada",
-                "category": ["Trámites"],
-                "tags": [ "Parada de bus", "Parada de metro", "Parada de tren"]
+                "label": "Parada",
+                "category": ["Transporte"],
+                "tags": [ "Parada de bus", "Parada de metro", "Parada de tren", "Paradero"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--default.svg",
                 "label": "totem",
-                "category": ["Trámites","Salud","Ocio"],
-                "tags": [ "Totem"]
+                "category": ["Trámites","Salud","Ocio","Transporte" ],
+                "tags": [ "Totem", "Turno", "Número", "Ticket"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--turn.svg",
                 "label": "totem turno",
-                "category": ["Trámites","Salud","Ocio"],
-                "tags": [ "Ticket de turno","Ticket", "Totem ticket"]
+                "category": ["Trámites","Salud","Ocio","Transporte"]
+                "tags": [ "Ticket de turno","Ticket", "Totem ticket", "Turno", "Número"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/turnstile--default.svg",
                 "label": "Torniquete",
                 "category": ["Transporte"],
-                "tags": [ "Torniquete"]
+                "tags": [ "Torniquete", "Pasar por torniquete"]
             },
             {
                 "layer": 2,
@@ -222,6 +222,13 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/subway-exterior--door-drop.svg",
+                "label": "Metro por fuera - bajando",
+                "category": ["Transporte"],
+                "tags": [ "Pasajeros bajando del metro", "Bajar del metro", "Exterior metro","Tren"]
+            },
+            {
+                "layer": 2,
                 "path": "2-landmarks/elevator.svg",
                 "label": "Ascensor",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -250,38 +257,31 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/line--wait.svg",
-                "label": "Fila",
-                "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Fila","Esperar en fila","Hacer fila"]
-            },
-            {
-                "layer": 2,
                 "path": "2-landmarks/desktop--wait.svg",
-                "label": "Escritorio",
+                "label": "Escritorio -espera",
                 "category": ["Trámites","Salud"],
                 "tags": [ "Trámite en escritorio", "Atención sentado", "Atención en mesa", "Mesa de atención"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--take-photo.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Escritorio -toma de foto",
+                "category": ["Trámites","Salud"],
+                "tags": ["Trámite en escritorio", "Atención sentado", "Toma de foto", "Fotografía"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--handle-money.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Escritorio -manipula dinero",
+                "category": ["Trámites","Salud"],
+                "tags": ["Trámite en escritorio", "Atención sentado", "Entrega dinero", "Pago en escritorio"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--handle-document.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Escritorio -manipula documento",
+                "category": ["Trámites","Salud"],
+                "tags": ["Trámite en escritorio", "Atención sentado", "Entrega documento"]
             },
             {
                 "layer": 2,
@@ -289,6 +289,34 @@
                 "label": "Examen medico",
                 "category": ["Salud"],
                 "tags": [ "Examen doctor","Checkeo medico","Consulta doctor"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--wait.svg",
+                "label": "Asistente -espera",
+                "category": ["Ocio","Trámites","Salud","Transporte],
+                "tags": [ "Solicitar ayuda", "Pedir ayuda", "Pregunta a persona"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--recieve.svg",
+                "label": "Asistente -recibe",
+                "category": ["Ocio","Trámites","Salud","Transporte],
+                "tags": [ "Solicitar ayuda", "Pedir ayuda", "Pregunta a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--handle-money.svg",
+                "label": "Asistente -manipula dinero",
+                "category": ["Ocio","Trámites","Salud","Transporte],
+                "tags": [ "Solicitar ayuda", "Paga a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente", "Entregar a persona"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--handle-document.svg",
+                "label": "Asistente -manipula documento",
+                "category": ["Ocio","Trámites","Salud","Transporte],
+                "tags": [ "Solicitar ayuda", "Entrega a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
             },
             {
                 "layer": 3,
@@ -313,10 +341,17 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/sign--turn.svg",
+                "path": "3-context/sign--turn-default.svg",
                 "label": "Letrero -turno",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Letrero", "Turno", "Número de atención"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sign--turn-line.svg",
+                "label": "Letrero -turno con fila",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Letrero", "Turno", "Número de atención", "Fila", "Espera en fila"]
             },
             {
                 "layer": 3,
@@ -392,7 +427,7 @@
                 "layer": 4,
                 "path": "4-icons/document.svg",
                 "label": "Entregar documento",
-                "category": ["Trámites","Salud","Transporte"],
+                "category": ["Trámites","Salud","Transporte", "Ocio"],
                 "tags": [ "Documento","Recibir documento"]
             },
             {
@@ -503,16 +538,16 @@
             {
                 "layer": 4,
                 "path": "4-icons/input-text.svg",
-                "label": "Input",
+                "label": "Input -texto",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Digitar", "Entrada web", "Redactar", "Escribir en digital"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/monitor.svg",
-                "label": "Computador-portatil",
+                "label": "Pantalla",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Notebook", "Pantalla", "Computador", "Ordenador", "Ordenador portatil"]
+                "tags": [ "Pantalla", "Computador", "Ordenador"]
             },
             {
                 "layer": 4,
@@ -608,51 +643,51 @@
             {
                 "layer": 4,
                 "path": "4-icons/leisure.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Ocio",
+                "category": ["Ocio"],
+                "tags": ["Pasatiempo", "Diversión"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/transport.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Transporte",
+                "category": ["Transporte"],
+                "tags": ["Viaje", "Bus", "Metro", "Tren"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/procedures.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Trámites",
+                "category": ["Trámites"],
+                "tags": ["Gestión", "Procedimiento"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/health.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Salud",
+                "category": ["Salud"],
+                "tags": ["Hospital", "Consultorio", "Clínica", "Médico", "Doctor"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/receive.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Recibir",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Tomar", "Entregar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/shop.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Compras",
+                "category": ["Ocio", "Trámites"],
+                "tags": ["Comprar", "Supermercado", "Mercado"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/alert.svg",
-                "label": "",
-                "category": [],
-                "tags": []
+                "label": "Emergencia",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Alerta", "Accidente", "Percance", "Imprevisto"]
             }
         ]
     }
