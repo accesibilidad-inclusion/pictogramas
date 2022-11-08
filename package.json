@@ -1,11 +1,11 @@
 {
   "name": "pictos",
-  "version": "2.0.0-alpha",
+  "version": "2.0.0-RC",
   "description": "Pictogramas para la accesibilidad cognitiva de los servicios",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepack": "prepack.js"
+    "prepack": "./prepack.js"
   },
   "repository": {
     "type": "git",
