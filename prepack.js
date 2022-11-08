@@ -3,7 +3,7 @@
 const fs = require( 'fs/promises' );
 const { optimize } = require( 'svgo' );
 
-const pictogramsSrcPath = `${__dirname}/src/pre`;
+const pictogramsSrcPath = `${__dirname}/src`;
 
 const openTargetPath = ( targetPath ) => {
 	return new Promise(
@@ -39,7 +39,7 @@ fs.readdir( pictogramsSrcPath ).then(
 		const processedFolders = layersFolders.map(
 			layer => {
 				const sourcePath = `${pictogramsSrcPath}/${layer}`;
-				const targetPathPromise = openTargetPath( sourcePath.replace('/src/pre/', '/src/') );
+				const targetPathPromise = openTargetPath( sourcePath );
 				const sourceFilesPromise = getLayerFiles( sourcePath );
 				Promise.all(
 					[
