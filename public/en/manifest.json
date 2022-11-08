@@ -300,7 +300,7 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/assistant--recieve.svg",
+                "path": "2-landmarks/assistant--receive.svg",
                 "label": "Assistant -receive",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "ask for help", "request assistance", "request help", "request support", "receive help", "receive from assistant"]
