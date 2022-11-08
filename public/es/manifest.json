@@ -299,7 +299,7 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/assistant--recieve.svg",
+                "path": "2-landmarks/assistant--receive.svg",
                 "label": "Asistente -recibe",
                 "category": ["Ocio","Trámites","Salud","Transporte"],
                 "tags": [ "Solicitar ayuda", "Pedir ayuda", "Pregunta a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
