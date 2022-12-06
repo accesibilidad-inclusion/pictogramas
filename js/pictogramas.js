@@ -25,7 +25,14 @@ document.addEventListener(
 			resp => resp.json()
 		).then(
 			data => {
-				data.properties.pictos.forEach(
+				const sortedPictos = data.properties.pictos.sort(
+					(a, b) => {
+						const labelA = a.label ? a.label : a.path.split('/')[1];
+						const labelB = b.label ? b.label : b.path.split('/')[1];
+						return labelA.localeCompare( labelB );
+					}
+				);
+				sortedPictos.forEach(
 					pictogram => {
 						const newOption = document.createElement('option');
 						newOption.value = pictogram.path;
