@@ -75,6 +75,13 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/sit-side-handle-smartphone.svg",
+                "label": "Sentado de lado manipula smartphone",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento","Sentarse", "Usar teléfono", "Usar celular", "Usar smartphone"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/smartphone.svg",
                 "label": "Usa smartphone",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
