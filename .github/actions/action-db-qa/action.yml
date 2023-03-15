@@ -4,5 +4,5 @@ runs:
   using: "composite"
   steps: 
     - run: node script.js
-      working-directory: /var/www/pictos/qa/pictos-backend/
+      working-directory: /var/www/qa/pictos-backend/
       shell: bash
