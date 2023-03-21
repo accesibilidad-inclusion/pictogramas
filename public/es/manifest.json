@@ -74,6 +74,20 @@
                 "tags": ["Tomar asiento","Sentarse", "Ser atendido", "Entregar documento", "Recibir documento"]
             },
             {
+                "layer": 1,
+                "path": "1-subject/sit-side-handle-smartphone.svg",
+                "label": "Sentado de lado manipula smartphone",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento","Sentarse", "Usar teléfono", "Usar celular", "Usar smartphone"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/smartphone.svg",
+                "label": "Usa smartphone",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Usar teléfono", "Usar celular", "Celular", "Teléfono"]
+            },
+            {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
                 "label": "Suelo",
@@ -96,10 +110,17 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/stop.svg",
+                "path": "2-landmarks/stop--default.svg",
                 "label": "Parada",
                 "category": ["Transporte"],
                 "tags": [ "Parada de bus", "Parada de metro", "Parada de tren", "Paradero"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/stop--train-line.svg",
+                "label": "Parada de tren",
+                "category": ["Transporte"],
+                "tags": [ "Parada de tren", "Parada de metro", "Parada de tren", "Paradero", "Línea de espera tren", "línea de espera metro"]
             },
             {
                 "layer": 2,
@@ -114,6 +135,13 @@
                 "label": "totem turno",
                 "category": ["Trámites","Salud","Ocio","Transporte"],
                 "tags": [ "Ticket de turno","Ticket", "Totem ticket", "Turno", "Número"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/totem--qr.svg",
+                "label": "totem qr",
+                "category": ["Trámites","Salud","Ocio","Transporte"],
+                "tags": [ "QR", "Leer QR", "Escanear QR"]
             },
             {
                 "layer": 2,
