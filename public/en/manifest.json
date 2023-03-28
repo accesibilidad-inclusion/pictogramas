@@ -4,7 +4,7 @@
     "properties": {
         "pictos": [
             
-			{
+	    {
                 "layer": 1,
                 "path": "1-subject/ease.svg",
                 "label": "Ease",
@@ -353,11 +353,18 @@
                 "label": "Assistant -handle document",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "ask for help", "request assistance", "request help", "request support", "receive help", "receive from assistant", "handle to assistant"]
-            },			
+            },	
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--handle-various-documents.svg",
+                "label": "Assistant - handle various documents",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "ask for documents", "receive documents", "request documents", "receive from assistant", "handle to assistant"]
+            },
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
-                "label": "Stop -train",
+                "label": "Stop - train",
                 "category": ["Transportation"],
                 "tags": ["train stop", "subway stop", "train station", "subway station"]
             },			
