@@ -414,7 +414,7 @@
                 "path": "3-context/house--default.svg",
                 "label": "Casa",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
+                "tags": [ "Living", "Espera en casa", "Hogar"]
             },
             {
                 "layer": 3,
