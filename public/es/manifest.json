@@ -146,21 +146,21 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--default.svg",
-                "label": "totem",
+                "label": "Totem",
                 "category": ["Trámites","Salud","Ocio","Transporte" ],
                 "tags": [ "Totem", "Turno", "Número", "Ticket"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--turn.svg",
-                "label": "totem turno",
+                "label": "Totem turno",
                 "category": ["Trámites","Salud","Ocio","Transporte"],
                 "tags": [ "Ticket de turno","Ticket", "Totem ticket", "Turno", "Número"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--qr.svg",
-                "label": "totem qr",
+                "label": "Totem qr",
                 "category": ["Trámites","Salud","Ocio","Transporte"],
                 "tags": [ "QR", "Leer QR", "Escanear QR"]
             },
@@ -412,8 +412,8 @@
             {
                 "layer": 3,
                 "path": "3-context/house--default.svg",
-                "label": "Tabla de anuncios",
-                "category": ["Trámites", "Ocio"],
+                "label": "Casa",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
             },
             {
