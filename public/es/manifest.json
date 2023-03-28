@@ -88,6 +88,27 @@
                 "tags": ["Usar teléfono", "Usar celular", "Celular", "Teléfono"]
             },
             {
+                "layer": 1,
+                "path": "1-subject/kid-handle.svg",
+                "label": "Manipula documento junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Manipular documento niño", "Entregar documento niño", "Niño", "Niña", "Infancia"]
+            },		
+            {
+                "layer": 1,
+                "path": "1-subject/kid-walk.svg",
+                "label": "Camina junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Camina con niño", "Dirígete con niño", "Niño", "Niña", "Infancia"]
+            },				
+            {
+                "layer": 1,
+                "path": "1-subject/kid-sit.svg",
+                "label": "Espera junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Sentado con niño", "Espera niño", "Niño", "Niña", "Infancia"]
+            },				
+            {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
                 "label": "Suelo",
@@ -271,20 +292,6 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/bus--default.svg",
-                "label": "Micro -frente",
-                "category": ["Transporte"],
-                "tags": [ "Micro", "bus","Bus metro"]
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/bus--door-drop.svg",
-                "label": "Micro -bajando",
-                "category": ["Transporte"],
-                "tags": [ "Pasajeros bajando","Bajar micro"]
-            },
-            {
-                "layer": 2,
                 "path": "2-landmarks/desktop--wait.svg",
                 "label": "Escritorio -espera",
                 "category": ["Trámites","Salud"],
@@ -401,6 +408,27 @@
                 "label": "Tabla de anuncios",
                 "category": ["Trámites", "Ocio"],
                 "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/house--default.svg",
+                "label": "Tabla de anuncios",
+                "category": ["Trámites", "Ocio"],
+                "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
+            },
+            {
+                "layer": 3,
+                "path": "3-landmarks/bus--default.svg",
+                "label": "Bus -frente",
+                "category": ["Transporte"],
+                "tags": [ "Micro", "bus","Bus metro"]
+            },
+            {
+                "layer": 3,
+                "path": "3-landmarks/bus--door-drop.svg",
+                "label": "Bus -bajando",
+                "category": ["Transporte"],
+                "tags": [ "Pasajeros bajando","Bajar micro"]
             },
             {
                 "layer": 4,
