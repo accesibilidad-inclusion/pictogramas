@@ -73,7 +73,42 @@
                 "label": "Sit-side-handle",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "Take a sit", "Sit and handle", "Be seated", "Receive while seated"]
-            },			
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/sit-side-handle-smartphone.svg",
+                "label": "Sit side handle smartphone",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Take a sit", "Sit and handle", "Use phone", "Use cellphone", "Use smartphone"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/smartphone.svg",
+                "label": "Use smartphone",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Use cellphone", "Use phone", "Cellphone", "Phone", "Social media", "Make a call"]
+            },		
+           {
+                "layer": 1,
+                "path": "1-subject/kid-handle.svg",
+                "label": "Handle accompanied by kid",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Handle kid document", "Handle kid procedure", "Kid", "Infant", "Toddler", "Child"]
+            },		
+            {
+                "layer": 1,
+                "path": "1-subject/kid-walk.svg",
+                "label": "Walk with kid",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Go with kid", "Kid", "Infant", "Toddler", "Accompany the child", "Child"]
+            },				
+            {
+                "layer": 1,
+                "path": "1-subject/kid-sit.svg",
+                "label": "Wait with kid",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Sit with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child"]
+            },				
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
@@ -97,11 +132,18 @@
             },		
             {
                 "layer": 2,
-                "path": "2-landmarks/stop.svg",
+                "path": "2-landmarks/stop--default.svg",
                 "label": "Stop",
                 "category": ["Transportation"],
                 "tags": [ "Bus stop", "Subway stop", "Train stop"]
             },	
+            {
+                "layer": 2,
+                "path": "2-landmarks/stop--train-line.svg",
+                "label": "Train stop",
+                "category": ["Transportation"],
+                "tags": [ "Subway station", "Subway stop", "Train station", "Stop", "Waiting line train", "Waiting line subway"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--default.svg",
@@ -115,6 +157,13 @@
                 "label": "Totem turn",
                 "category": ["Procedure","Health","Leisure", "Transportation"],
                 "tags": [ "Turn ticket","Ticket","Totem turn", "Turn"]
+            },	
+            {
+                "layer": 2,
+                "path": "2-landmarks/totem--qr.svg",
+                "label": "Totem qr",
+                "category": ["Procedure","Health","Leisure", "Transportation"],
+                "tags": [ "QR", "Reed QR", "Scan QR"]
             },			
             {
                 "layer": 2,
@@ -241,21 +290,7 @@
                 "label": "Seat",
                 "category": ["Procedure","Health","Transportation","Leisure"],
 				"tags": [ "Wait seated", "waiting room"]
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/bus--default.svg",
-                "label": "Bus -front",
-                "category": ["Transportation"],
-                "tags": [ "bus", "autobus"]
-            },	
-            {
-                "layer": 2,
-                "path": "2-landmarks/bus--door-drop.svg",
-                "label": "Bus -door drop",
-                "category": ["Transportation"],
-                "tags": [ "people getting off","passengers", "getting of the bus", "get off the bus"]
-            },			
+            },		
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--wait.svg",
@@ -375,6 +410,27 @@
                 "category": ["Procedure","Leisure"],
                 "tags": [ "Poster", "wall of announcements", "municipality"]
             },
+            {
+                "layer": 3,
+                "path": "3-context/house--default.svg",
+                "label": "House",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Home", "Living room", "Wait at home"]
+            },
+            {
+                "layer": 3,
+                "path": "3-landmarks/bus--default.svg",
+                "label": "Bus -front",
+                "category": ["Transportation"],
+                "tags": [ "bus", "autobus"]
+            },	
+            {
+                "layer": 3,
+                "path": "3-landmarks/bus--door-drop.svg",
+                "label": "Bus -door drop",
+                "category": ["Transportation"],
+                "tags": [ "people getting off","passengers", "getting of the bus", "get off the bus"]
+            },	
             {
                 "layer": 4,
                 "path": "4-icons/ticket.svg",
