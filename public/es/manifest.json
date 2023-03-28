@@ -349,9 +349,16 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--handle-document.svg",
-                "label": "Asistente -manipula documento",
+                "label": "Asistente - manipula documento",
                 "category": ["Ocio","Trámites","Salud","Transporte"],
-                "tags": [ "Solicitar ayuda", "Entrega a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
+                "tags": [ "Recibir documento", "Entrega documento", "Documento", "Recibir de guardia", "Recibir de asistente"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--handle-various-documents.svg",
+                "label": "Asistente - manipula varios documentos",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Recibir documentos", "Entrega documentos", "Documentos", "Recibir de guardia", "Recibir de asistente"]
             },
             {
                 "layer": 3,
