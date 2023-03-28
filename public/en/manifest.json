@@ -419,14 +419,14 @@
             },
             {
                 "layer": 3,
-                "path": "3-landmarks/bus--default.svg",
+                "path": "3-context/bus--default.svg",
                 "label": "Bus -front",
                 "category": ["Transportation"],
                 "tags": [ "bus", "autobus"]
             },	
             {
                 "layer": 3,
-                "path": "3-landmarks/bus--door-drop.svg",
+                "path": "3-context/bus--door-drop.svg",
                 "label": "Bus -door drop",
                 "category": ["Transportation"],
                 "tags": [ "people getting off","passengers", "getting of the bus", "get off the bus"]
