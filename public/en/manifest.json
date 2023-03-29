@@ -362,6 +362,13 @@
                 "tags": [ "ask for documents", "receive documents", "request documents", "receive from assistant", "handle to assistant"]
             },
             {
+                "layer": 2,
+                "path": "2-landmarks/house--default.svg",
+                "label": "House",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Home", "Living room", "Wait at home"]
+            },
+            {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
                 "label": "Stop - train",
@@ -416,13 +423,6 @@
                 "label": "Announcement",
                 "category": ["Procedure","Leisure"],
                 "tags": [ "Poster", "wall of announcements", "municipality"]
-            },
-            {
-                "layer": 3,
-                "path": "3-context/house--default.svg",
-                "label": "House",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Home", "Living room", "Wait at home"]
             },
             {
                 "layer": 3,
@@ -753,6 +753,20 @@
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Alert", "Accident", "urgency", "unforeseen"]
             }   
+            {
+                "layer": 4,
+                "path": "4-icons/smartphone.svg",
+                "label": "Smartphone",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Smartphone", "Phone", "Social media", "Call", "Cellphone"]
+            }
+            {
+                "layer": 4,
+                "path": "4-icons/id.svg",
+                "label": "Id",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Id", "Identity card"]
+            }
         ]
     }
 }
