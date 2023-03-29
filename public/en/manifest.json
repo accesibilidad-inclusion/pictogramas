@@ -363,6 +363,13 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/assistant--guard-handle.svg",
+                "label": "Assistant - guard handle",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "ask for documents", "receive documents", "request documents", "receive from guard", "security guard"]
+            },		
+            {
+                "layer": 2,
                 "path": "2-landmarks/house--default.svg",
                 "label": "House",
                 "category": ["Procedure","Health","Transportation","Leisure"],
