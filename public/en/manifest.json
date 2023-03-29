@@ -752,14 +752,14 @@
                 "label": "Emergency",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Alert", "Accident", "urgency", "unforeseen"]
-            }   
+            },   
             {
                 "layer": 4,
                 "path": "4-icons/smartphone.svg",
                 "label": "Smartphone",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Smartphone", "Phone", "Social media", "Call", "Cellphone"]
-            }
+            },
             {
                 "layer": 4,
                 "path": "4-icons/id.svg",
