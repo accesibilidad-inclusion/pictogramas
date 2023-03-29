@@ -3,7 +3,7 @@
     "description": "Librería gráfica modular para la composición de pictogramas enfocados en la accesibilidad cognitiva",
     "properties": {
         "pictos": [
-            {
+            {	
                 "layer": 1,
                 "path": "1-subject/ease.svg",
                 "label": "Parado",
@@ -88,6 +88,27 @@
                 "tags": ["Usar teléfono", "Usar celular", "Celular", "Teléfono"]
             },
             {
+                "layer": 1,
+                "path": "1-subject/kid-handle.svg",
+                "label": "Manipula documento junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Manipular documento niño", "Entregar documento niño", "Niño", "Niña", "Infancia"]
+            },		
+            {
+                "layer": 1,
+                "path": "1-subject/kid-walk.svg",
+                "label": "Camina junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Camina con niño", "Dirígete con niño", "Niño", "Niña", "Infancia"]
+            },				
+            {
+                "layer": 1,
+                "path": "1-subject/kid-sit.svg",
+                "label": "Sentado junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Sentado con niño", "Espera niño", "Niño", "Niña", "Infancia"]
+            },				
+            {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
                 "label": "Suelo",
@@ -125,21 +146,21 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--default.svg",
-                "label": "totem",
+                "label": "Totem",
                 "category": ["Trámites","Salud","Ocio","Transporte" ],
                 "tags": [ "Totem", "Turno", "Número", "Ticket"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--turn.svg",
-                "label": "totem turno",
+                "label": "Totem turno",
                 "category": ["Trámites","Salud","Ocio","Transporte"],
                 "tags": [ "Ticket de turno","Ticket", "Totem ticket", "Turno", "Número"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--qr.svg",
-                "label": "totem qr",
+                "label": "Totem qr",
                 "category": ["Trámites","Salud","Ocio","Transporte"],
                 "tags": [ "QR", "Leer QR", "Escanear QR"]
             },
@@ -271,20 +292,6 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/bus--default.svg",
-                "label": "Micro -frente",
-                "category": ["Transporte"],
-                "tags": [ "Micro", "bus","Bus metro"]
-            },
-            {
-                "layer": 2,
-                "path": "2-landmarks/bus--door-drop.svg",
-                "label": "Micro -bajando",
-                "category": ["Transporte"],
-                "tags": [ "Pasajeros bajando","Bajar micro"]
-            },
-            {
-                "layer": 2,
                 "path": "2-landmarks/desktop--wait.svg",
                 "label": "Escritorio -espera",
                 "category": ["Trámites","Salud"],
@@ -342,9 +349,30 @@
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--handle-document.svg",
-                "label": "Asistente -manipula documento",
+                "label": "Asistente - manipula documento",
                 "category": ["Ocio","Trámites","Salud","Transporte"],
-                "tags": [ "Solicitar ayuda", "Entrega a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
+                "tags": [ "Recibir documento", "Entrega documento", "Documento", "Recibir de guardia", "Recibir de asistente"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--handle-various-documents.svg",
+                "label": "Asistente - manipula varios documentos",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Recibir documentos", "Entrega documentos", "Documentos", "Recibir de guardia", "Recibir de asistente"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--guard-handle.svg",
+                "label": "Asistente - guardia",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Recibir documento", "Entrega documento", "Documentos", "Recibir de guardia", "Guardia"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/house--default.svg",
+                "label": "Casa",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Living", "Espera en casa", "Hogar"]
             },
             {
                 "layer": 3,
@@ -401,6 +429,20 @@
                 "label": "Tabla de anuncios",
                 "category": ["Trámites", "Ocio"],
                 "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/bus--default.svg",
+                "label": "Bus -frente",
+                "category": ["Transporte"],
+                "tags": [ "Micro", "bus","Bus metro"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/bus--door-drop.svg",
+                "label": "Bus -bajando",
+                "category": ["Transporte"],
+                "tags": [ "Pasajeros bajando","Bajar micro"]
             },
             {
                 "layer": 4,
@@ -716,6 +758,20 @@
                 "label": "Emergencia",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Alerta", "Accidente", "Percance", "Imprevisto"]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/smartphone.svg",
+                "label": "Celular",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Smartphone", "Teléfono", "Redes sociales", "Llamada"]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/id.svg",
+                "label": "Carnet de identidad",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Id", "Cédula de identidad", "identificación"]
             }
         ]
     }
