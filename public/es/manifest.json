@@ -3,7 +3,7 @@
     "description": "Librería gráfica modular para la composición de pictogramas enfocados en la accesibilidad cognitiva",
     "properties": {
         "pictos": [
-            {
+            {	
                 "layer": 1,
                 "path": "1-subject/ease.svg",
                 "label": "Parado",
@@ -359,6 +359,13 @@
                 "label": "Asistente - manipula varios documentos",
                 "category": ["Ocio","Trámites","Salud","Transporte"],
                 "tags": [ "Recibir documentos", "Entrega documentos", "Documentos", "Recibir de guardia", "Recibir de asistente"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--guard-handle.svg",
+                "label": "Asistente - guardia",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Recibir documento", "Entrega documento", "Documentos", "Recibir de guardia", "Guardia"]
             },
             {
                 "layer": 2,
