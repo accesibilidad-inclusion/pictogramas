@@ -751,14 +751,14 @@
                 "label": "Emergencia",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Alerta", "Accidente", "Percance", "Imprevisto"]
-            }
+            },
             {
                 "layer": 4,
                 "path": "4-icons/smartphone.svg",
                 "label": "Celular",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Smartphone", "Teléfono", "Redes sociales", "Llamada"]
-            }
+            },
             {
                 "layer": 4,
                 "path": "4-icons/id.svg",
