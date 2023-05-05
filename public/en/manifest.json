@@ -209,6 +209,13 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/service-module--handle-various-documents.svg",
+                "label": "Service module -handle various document",
+                "category": ["Procedure","Health","Leisure"],
+                "tags": [ "Receive documents", "Handle documents", "Receive", "Deliver", "Documents", "Costumer service", "attention module"]
+            },		
+            {
+                "layer": 2,
                 "path": "2-landmarks/service-module--sit-side.svg",
                 "label": "Service module -sit side",
                 "category": ["Procedure","Health","Leisure"],
@@ -321,6 +328,13 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/desktop--handle-various-documents.svg",
+                "label": "Desk -handle various documents",
+                "category": ["Procedure","Health"],
+                "tags": [ "Procedures on desk", "seated attention", "services on desk", "handle documents", "receive documents"]
+            },
+            {
+                "layer": 2,
                 "path": "2-landmarks/medical-checkup--examine.svg",
                 "label": "Medical checkup -examine",
                 "category": ["Health"],
@@ -367,13 +381,41 @@
                 "label": "Assistant - guard handle",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "ask for documents", "receive documents", "request documents", "receive from guard", "security guard"]
-            },		
+            },	
+            {
+                "layer": 2,
+                "path": "2-landmarks/assistant--guard-ease.svg",
+                "label": "Asisstant - guard",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Ask guard", "Security guard"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/house--default.svg",
                 "label": "House",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "Home", "Living room", "Wait at home"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/door--default.svg",
+                "label": "Door",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Entrance", "Access", "Access door", "Access gate", "Exit"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/door--ringer.svg",
+                "label": "Door with ringer",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Entrance", "Access", "Door bell", "Door ringer", "Pager", "Intercom"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/vote--voting-chamber.svg",
+                "label": "Voting chamber",
+                "category": ["Procedure"],
+                "tags": [ "Vote", "Elections", "Election chamber", "Election box"]
             },
             {
                 "layer": 3,
@@ -389,7 +431,7 @@
                 "category": ["Transportation"],
                 "tags": ["bus stop", "bus station"]
             },	
-      {
+      	    {
                 "layer": 3,
                 "path": "3-context/sign--keep-walking.svg",
                 "label": "Sign -keep walking",
@@ -630,7 +672,7 @@
             {
                 "layer": 4,
                 "path": "4-icons/radio.svg",
-                "label": "Radio",
+                "label": "Choose",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "Radio", "Sector", "Space", "area"]
             },
@@ -773,6 +815,20 @@
                 "label": "Id",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Id", "Identity card"]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/fold.svg",
+                "label": "Doblar",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Plisar", "Doblar papel"]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/vote.svg",
+                "label": "Vote",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Vote box", "Voting box"]
             }
         ]
     }
