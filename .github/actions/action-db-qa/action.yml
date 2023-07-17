@@ -1,0 +1,8 @@
+name: 'Update pictos QA DB'
+description: 'excecute sync script'
+runs:
+  using: "composite"
+  steps: 
+    - run: node script.js
+      working-directory: /var/www/qa/pictos-backend/
+      shell: bash

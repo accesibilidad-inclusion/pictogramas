@@ -1,0 +1,78 @@
+/*
+
+Pictogramas para PICTOS
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+body {
+    margin: 1em;
+    background-color: white;
+    font-family: 'Open Sans';
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-column-gap: 1em;
+}
+#head h1{
+    font-size: 2em;
+    font-weight: 400;
+    margin: 1em 0 0 0;
+}
+
+#head p{
+    font-size: 2em;
+    font-weight: 100;
+    margin: 0 0 2em 0;
+}
+select.huge{
+    font-family: 'Open Sans';
+    font-size: 5em;
+    display: inline-block;
+    font-weight: 100;
+}
+.picto{
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+    grid-template-rows: 4em 1fr 1fr;
+    border: 3px solid rgb(219, 218, 218);
+    border-radius: 1ex;
+    margin: 0 0 1em 0;
+}
+
+.picto h3{
+    grid-column: 1;
+    font-weight: 800;
+    font-size: 1.4em;
+    margin: .5em 0 0 1ex;
+}
+
+.picto > .pictogram {
+    grid-column: 2;
+    grid-row: 1 / span 3;
+    background-color: rgb(219, 218, 218);
+    width: 100%;
+    height: auto;
+}
+
+.tags{
+    padding: 0 1em;
+}
+.tags h4{
+    margin: 1em 0 .5ex 0;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.tag{
+    font-size: 1.1em;
+    font-weight: 200;
+    display: inline-block;
+    background-color: rgb(241, 241, 241);
+    padding: 0 .8ex 0.2ex .8ex ;
+    margin: .1ex;
+    border-radius: 1.3ex;
+    text-transform: lowercase;
+}

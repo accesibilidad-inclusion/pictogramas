@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html lang="es">
 
 <head>
@@ -76,3 +77,112 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<title>Pictogramas PICTOS</title>
+	<meta name="description" content="Pictogramas">
+	<meta name="author" content="accesibilidad-inclusion.cl">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/pictogramas.js" defer></script>
+</head>
+
+<body>
+	<aside>
+		<div class="header">
+			<h1>Pictogramas</h1>
+			<p class="tagline">
+				es un sistema de apoyos visuales para la accesibilidad cognitiva de
+				los servicios públicos.
+			</p>
+		</div>
+
+		<div class="texto">
+			<p>
+				<strong>Pictogramas</strong> es una librería gráfica diseñada para
+				componer los pictogramas que se utilizan en
+				<strong><a href="http://www.pictos.cl">PICTOS</a></strong> y se
+				disponibiliza de forma gratuita y abierta para la elaboración de
+				apoyos visuales y señalética accesible en espacios y servicios
+				públicos.
+			</p>
+
+			<p>
+				Puedes componer el pictograma que necesites combinando las 3 capas y
+				exportándolo a tu dispositivo
+			</p>
+		</div>
+	</aside>
+
+	<div id="preview">
+		<div id="controls">
+			<div id="control-action">
+				<label for="sel-subject">acción</label>
+				<select class="layer-switch" data-target="1-subject" name="subject" id="sel-subject">
+					<option value="">Selecciona una acción</option>
+				</select>
+			</div>
+			<div id="control-element">
+				<label for="sel-landmark">elemento</label>
+				<select class="layer-switch" data-target="2-landmarks" name="landmark" id="sel-landmark">
+					<option value="">Selecciona un elemento</option>
+				</select>
+			</div>
+			<div id="control-context">
+				<label for="sel-context">contexto</label>
+				<select class="layer-switch" data-target="3-context" name="context" id="sel-context">
+					<option value="">Selecciona un contexto</option>
+				</select>
+			</div>
+		</div>
+
+		<div id="pictos" style="height: 353px;">
+			<img id="3-context" src="" alt="">
+			<img id="2-landmarks" src="" alt="">
+			<img id="1-subject" src="" alt="">
+		</div>
+
+		<div id="control-bottom">
+			<div id="icon">
+				<div id="control-icon">
+					<label for="sel-icon">ícono</label>
+					<select name="action" id="sel-icon" class="layer-switch" data-target="4-actions">
+						<option value="">Selecciona un ícono</option>
+					</select>
+				</div>
+				<img id="4-actions" width="68" height="68" src="" alt="">
+			</div>
+			<div id="typing">
+				<textarea id="type" class="input" placeholder="Escribir aqui..." required></textarea>
+			</div>
+		</div>
+
+		<div id="save">
+			<input type="button" id="printBtn" onClick="window.print();" value="Guardar Pictograma">
+		</div>
+
+		<footer>
+			<div class="logo">
+				<a href="http://www.accesibilidad-inclusion.cl"><img src="https://accesibilidad-inclusion.cl/assets/img/logo.svg"
+						alt="Núcleo de Accesibilidad e Inclusión de la Pontificia Universidad Católica de Valparaíso"></a>
+			</div>
+			<p>
+				Este proyecto es mantenido por el
+				<a href="http://www.accesibilidad-inclusion.cl" title="Sitio web del núcleo">Núcleo de Accesibilidad e Inclusión
+					de la Pontificia Universidad
+					Católica de Valparaíso</a>
+				como repositorio de
+				<a href="http://github.com/accesibilidad-inclusion/pictogramas" title="Repositorio en Github">código abierto
+				</a>.
+			</p>
+		</footer>
+	</div>
+</body>
+
+</html>
+>>>>>>> qa

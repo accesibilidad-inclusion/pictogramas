@@ -1,0 +1,11 @@
+name: 'Update pictos QA on clients'
+description: 'update yarn pictos dependence'
+runs:
+  using: "composite"
+  steps: 
+    - run: yarn add https://github.com/accesibilidad-inclusion/pictogramas.git#qa && yarn build
+      working-directory: /var/www/qa/pictos-admin/
+      shell: bash
+    - run: yarn add https://github.com/accesibilidad-inclusion/pictogramas.git#qa && yarn build
+      working-directory: /var/www/qa/web-app/
+      shell: bash
