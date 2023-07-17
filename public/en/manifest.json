@@ -566,7 +566,7 @@
                 ],
                 "label": "Subway interior",
                 "layer": 2,
-                "path": "2-landmarks/subway-interior--default.svg",
+                "path": "2-landmarks/subway-interior--door-drop.svg",
                 "tags": [
                     "Train door closed",
                     "Train inside",
@@ -580,7 +580,7 @@
                 ],
                 "label": "Subway interior -door closed",
                 "layer": 2,
-                "path": "2-landmarks/subway-interior--door-open.svg",
+                "path": "2-landmarks/subway-interior--door-closed.svg",
                 "tags": [
                     "Train door open",
                     "Train inside",
@@ -624,7 +624,7 @@
                 ],
                 "label": "Subway exterior -door closed",
                 "layer": 2,
-                "path": "2-landmarks/subway-exterior--door-open.svg",
+                "path": "2-landmarks/subway-exterior--door-closed.svg",
                 "tags": [
                     "Train door open",
                     "Train ouside",
