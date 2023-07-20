@@ -391,13 +391,6 @@
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/house--default.svg",
-                "label": "House",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Home", "Living room", "Wait at home"]
-            },
-            {
-                "layer": 2,
                 "path": "2-landmarks/door--default.svg",
                 "label": "Door",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -487,6 +480,13 @@
                 "category": ["Transportation"],
                 "tags": [ "people getting off","passengers", "getting of the bus", "get off the bus"]
             },	
+            {
+                "layer": 3,
+                "path": "3-context/house--default.svg",
+                "label": "House",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Home", "Living room", "Wait at home"]
+            },
             {
                 "layer": 4,
                 "path": "4-icons/ticket.svg",
@@ -829,6 +829,13 @@
                 "label": "Vote",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Vote box", "Voting box"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/train.svg",
+                "label": "Train",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Train","subway","metro","travel"]
             }
         ]
     }
