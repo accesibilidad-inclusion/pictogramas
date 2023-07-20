@@ -901,20 +901,11 @@
                 ]
             },
             {
-                "category": [
-                    "Procedure",
-                    "Health",
-                    "Transportation",
-                    "Leisure"
-                ],
-                "label": "House",
                 "layer": 2,
                 "path": "2-landmarks/house--default.svg",
-                "tags": [
-                    "Home",
-                    "Living room",
-                    "Wait at home"
-                ]
+                "label": "House",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Home", "Living room", "Wait at home"]
             },
             {
                 "category": [
@@ -1113,13 +1104,10 @@
                 "label": "Bus -door drop",
                 "layer": 3,
                 "path": "3-context/bus--door-drop.svg",
-                "tags": [
-                    "people getting off",
-                    "passengers",
-                    "getting of the bus",
-                    "get off the bus"
-                ]
-            },
+                "label": "Bus -door drop",
+                "category": ["Transportation"],
+                "tags": [ "people getting off","passengers", "getting of the bus", "get off the bus"]
+            },	
             {
                 "category": [
                     "Procedure",
@@ -1896,10 +1884,9 @@
                 "label": "Vote",
                 "layer": 4,
                 "path": "4-icons/vote.svg",
-                "tags": [
-                    "Vote box",
-                    "Voting box"
-                ]
+                "label": "Vote",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Vote box", "Voting box"]
             }
         ]
     },

@@ -870,20 +870,11 @@
                 ]
             },
             {
-                "category": [
-                    "Trámites",
-                    "Salud",
-                    "Transporte",
-                    "Ocio"
-                ],
-                "label": "Casa",
                 "layer": 2,
                 "path": "2-landmarks/house--default.svg",
-                "tags": [
-                    "Living",
-                    "Espera en casa",
-                    "Hogar"
-                ]
+                "label": "Casa",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Living", "Espera en casa", "Hogar"]
             },
             {
                 "category": [
@@ -1082,6 +1073,13 @@
                     "Pasajeros bajando",
                     "Bajar micro"
                 ]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/house--default.svg",
+                "label": "Casa",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Living", "Espera en casa", "Hogar"]
             },
             {
                 "category": [
@@ -1853,11 +1851,9 @@
                 "label": "Votar",
                 "layer": 4,
                 "path": "4-icons/vote.svg",
-                "tags": [
-                    "Voto",
-                    "Ingresar voto",
-                    "Urna de votación"
-                ]
+                "label": "Votar",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Voto", "Ingresar voto", "Urna de votación"]
             }
         ]
     },
