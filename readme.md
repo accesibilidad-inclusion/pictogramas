@@ -80,3 +80,5 @@ Pictogramas (inicialmente "PICTOS") fue el proyecto de Titulación de Diseño Gr
 Pontificia Universidad Católica de Valparaíso
 
 [CC BY-SA-NC](LICENSE)
+
+:)
