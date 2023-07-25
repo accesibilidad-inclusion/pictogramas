@@ -24,13 +24,9 @@ body{
 }
 
 .container {
-	max-width: 800px;
+	max-width: 555px;
 	margin: 0 auto;
 }
-section{
-	/* height: 100vh; */
-}
-
 
 menu{
 	display: flex;
