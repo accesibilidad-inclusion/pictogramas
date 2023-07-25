@@ -160,10 +160,26 @@ menu ul.menu li a.btn-pictos{
 	height: 100%;
 }
 
-input[type="button"]{
+.ilust{
+	width: 100%;
+	height: auto;
+}
+
+input[type="button"].reg{
 	background-color: orangered;
 	font-size: 1em;
 	text-transform: uppercase;
+	color: white !important;
+	letter-spacing: .45ex;
+	font-weight: bolder;
+	word-spacing: 2em;
+	border: 2ps solid black !important;
+}
+
+input[type="button"].sm{
+	font-size: initial;
+	font-weight: 600;
+	border: 2px solid black;
 }
 
 img[src=""] {
