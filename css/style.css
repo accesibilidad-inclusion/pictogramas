@@ -140,7 +140,11 @@ menu ul.menu li a{
 	padding: .6ex 1ex .5ex 1ex;
 	border-radius: .9ex;
 	letter-spacing: .23ex;
-	font-weight: 300;
+	font-weight: 500;
+}
+
+menu ul.menu li a.btn-pictos{
+	padding: 0;
 }
 
 #pictos {
@@ -276,19 +280,6 @@ textarea#type {
 }
 
 
-.header h1 {
-	font-weight: 700;
-	font-size: 3em;
-	display: inline;
-}
-
-.tagline {
-	display: inline;
-	font-weight: 300;
-	font-size: 2rem;
-	color: orangered;
-}
-
 label {
 	font-weight: 800;
 	margin: 0 0 -1ex 0;
@@ -334,6 +325,25 @@ footer {
 	font-weight: 300;
 	line-height: 129%;
 	margin-top: 3em;
+}
+
+section{
+	padding: 2em 0;
+}
+section p, section ul{
+	font-size: 1.7em;
+	font-weight: 300;
+}
+
+section h2{
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: orangered;
+}
+
+section h3{
+	font-size: 1.8em;
 }
 
 input[type="button"],
@@ -385,7 +395,7 @@ option:checked {
 		border-radius: 0px;
 	}
 
-	aside,
+	section,
 	#controls,
 	#control-icon {
 		display: none;
@@ -405,5 +415,11 @@ option:checked {
 	#creditos{
 		height: 0vh;
 		display: none;
+	}
+
+	footer{
+		position: absolute;
+		margin: 0 15%;
+		bottom: 0;
 	}
 }
