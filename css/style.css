@@ -317,14 +317,13 @@ a:hover {
 footer {
 	max-width: 800px;
 	margin: 0 auto;
-	direction: rtl;
 	display: grid;
-	grid-template-columns: 2fr 6fr;
+	grid-template-columns: 1fr 6fr;
 	font-size: 12px;
 	text-align: left;
 	font-weight: 300;
 	line-height: 129%;
-	margin-top: 3em;
+	margin: 3em auto 1em auto;
 }
 
 section{
