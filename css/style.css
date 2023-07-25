@@ -419,7 +419,9 @@ option:checked {
 	}
 
 	#icon img {
-		margin: 3em;
+		position: relative;
+		top: 2em;
+		left: 2em;
 	}
 
 	textarea {
@@ -436,8 +438,12 @@ option:checked {
 
 	footer{
 		position: absolute;
-		margin: 0 15%;
+		margin: 0 0 0 66%;
 		bottom: 0;
+	}
+
+	footer .logo{
+		padding: 0 2ex;
 	}
 
 	#icon img {
