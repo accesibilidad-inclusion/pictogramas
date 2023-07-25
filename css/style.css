@@ -108,6 +108,10 @@ menu .menu-icon{
 	direction: rtl;
 }
 
+.menu a{
+	text-decoration:none;
+}
+
 /* Mostrar el menú cuando se hace clic en el icono del menú */
 #menuToggle:checked + label .menu {
 
@@ -202,7 +206,7 @@ img[src=""] {
 }
 
 #icon img {
-	margin: 2em;
+	margin: 0 2em;
 }
 
 #typing {
@@ -317,9 +321,11 @@ a {
 	margin-bottom: -1px;
 }
 
+/*
 a:hover {
 	border-bottom: 1px solid orangered;
 }
+*/
 
 .logo img {
 	width: 72px;
@@ -432,5 +438,9 @@ option:checked {
 		position: absolute;
 		margin: 0 15%;
 		bottom: 0;
+	}
+
+	#icon img {
+		margin: 2em;
 	}
 }
