@@ -1,841 +1,840 @@
 {
-    "title": "Pictograms",
-    "description": "Pictographic system as visual support for cognitive accessibility of services",
+    "title": "Pictogramas",
+    "description": "Librería gráfica modular para la composición de pictogramas enfocados en la accesibilidad cognitiva",
     "properties": {
         "pictos": [
-            
-	    {
+            {	
                 "layer": 1,
                 "path": "1-subject/ease.svg",
-                "label": "Ease",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "look", "wait", "listen to","still","standing"]
+                "label": "Parado",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "mirar", "esperar", "escuchar","quieto","de pie"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/push.svg",
-                "label": "Push",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "push button", "swipe ticket", "take ticket","push"]
-            },					
+                "label": "Presiona",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Apretar botón", "Deslizar ticket", "Tomar ticket", "Presionar"]
+            },
             {
                 "layer": 1,
                 "path": "1-subject/handle.svg",
-                "label": "Handle",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "give", "swipe","hand","dandle","take", "receive", "fingerprint"]
+                "label": "Manipula",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "entregar", "deslizar","manipular", "recibir", "tomar", "huella dactilar"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/show.svg",
-                "label": "Show",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "explain", "show", "indicate"]
-            },		
-			{
+                "label": "Muestra",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Explicar", "Mostrar", "Indicar"]
+            },
+            {
                 "layer": 1,
                 "path": "1-subject/reach.svg",
-                "label": "Reach",
-                "category": ["Transportation"],
-                "tags": [ "hold", "hold on"]
-            },		
+                "label": "Sostenido",
+                "category": ["Transporte"],
+                "tags": [ "Sostenerse", "Afirmarse"]
+            },
             {
                 "layer": 1,
                 "path": "1-subject/walk.svg",
-                "label": "Walk",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "go to", "walk", "move to", "go towards"]
+                "label": "Camina",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Ir hacia", "Caminar", "Desplazar", "Avanzar"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/wait.svg",
-                "label": "Wait",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "queuing","queue", "wait", "look"]
+                "label": "Espera",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Hablar", "Explicar", "Escuchar","Responder","Esperar"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/sit.svg",
-                "label": "Sit",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Take a sit", "Sit and wait", "Be seated", "Sit down", "wait seated"]
+                "label": "Sentado",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento", "Esperar sentado","Sentarse"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/sit-side.svg",
-                "label": "Sit-side",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Take a sit", "Sit and wait", "Be seated", "Sit down", "wait seated"]
-            },		
+                "label": "Sentado de lado",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento","Sentarse", "Ser atendido"]
+            },
             {
                 "layer": 1,
                 "path": "1-subject/sit-side-handle.svg",
-                "label": "Sit-side-handle",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Take a sit", "Sit and handle", "Be seated", "Receive while seated"]
+                "label": "Sentado de lado manipula",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento","Sentarse", "Ser atendido", "Entregar documento", "Recibir documento"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/sit-side-handle-smartphone.svg",
-                "label": "Sit side handle smartphone",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Take a sit", "Sit and handle", "Use phone", "Use cellphone", "Use smartphone"]
+                "label": "Sentado de lado manipula smartphone",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento","Sentarse", "Usar teléfono", "Usar celular", "Usar smartphone"]
             },
             {
                 "layer": 1,
                 "path": "1-subject/smartphone.svg",
-                "label": "Use smartphone",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Use cellphone", "Use phone", "Cellphone", "Phone", "Social media", "Make a call"]
-            },		
-           {
+                "label": "Usa smartphone",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Usar teléfono", "Usar celular", "Celular", "Teléfono"]
+            },
+            {
                 "layer": 1,
                 "path": "1-subject/kid-handle.svg",
-                "label": "Handle accompanied by kid",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Handle kid document", "Handle kid procedure", "Kid", "Infant", "Toddler", "Child"]
+                "label": "Manipula documento junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Manipular documento niño", "Entregar documento niño", "Niño", "Niña", "Infancia"]
             },		
             {
                 "layer": 1,
                 "path": "1-subject/kid-walk.svg",
-                "label": "Walk with kid",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Go with kid", "Kid", "Infant", "Toddler", "Accompany the child", "Child"]
+                "label": "Camina junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Camina con niño", "Dirígete con niño", "Niño", "Niña", "Infancia"]
             },				
             {
                 "layer": 1,
                 "path": "1-subject/kid-sit.svg",
-                "label": "Sit with kid",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Sit with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child"]
+                "label": "Sentado junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Sentado con niño", "Espera niño", "Niño", "Niña", "Infancia"]
             },				
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
-                "label": "Floor",
-                "category": ["Procedure", "Health", "Leisure", "Transportation"],
-				"tags": ["Empty", "ground"]
+                "label": "Suelo",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Piso", "Vacío"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/vending-machine--default.svg",
-                "label": "Vending machine",
-                "category": ["Procedure","Transportation","Leisure"],
-                "tags": [ "Vending machine", "recycling machine", "Recycle"]
+                "label": "Máquina dispensadora",
+                "category": ["Trámites","Transporte","Ocio"],
+                "tags": [ "Dispensador", "Máquina recicladora"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/vending-machine--insert-bottle.svg",
-                "label": "Vending machine -insert-bottle",
-                "category": ["Procedure","Transportation","Leisure"],
-                "tags": [ "Vending machine", "recycling machine", "Recycle", "Recycle bottle", "bottle recycling"]
-            },		
+                "label": "Máquina dispensadora -insertar botella",
+                "category": ["Trámites","Transporte","Ocio"],
+                "tags": [ "Dispensador", "Máquina recicladora", "Reciclar botella", "Insertar botella"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/stop--default.svg",
-                "label": "Stop",
-                "category": ["Transportation"],
-                "tags": [ "Bus stop", "Subway stop", "Train stop"]
-            },	
+                "label": "Parada",
+                "category": ["Transporte"],
+                "tags": [ "Parada de bus", "Parada de metro", "Parada de tren", "Paradero"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/stop--train-line.svg",
-                "label": "Train stop",
-                "category": ["Transportation"],
-                "tags": [ "Subway station", "Subway stop", "Train station", "Stop", "Waiting line train", "Waiting line subway"]
+                "label": "Parada de tren",
+                "category": ["Transporte"],
+                "tags": [ "Parada de tren", "Parada de metro", "Parada de tren", "Paradero", "Línea de espera tren", "línea de espera metro"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--default.svg",
                 "label": "Totem",
-                "category": ["Procedure","Health","Leisure","Transportation"],
-                "tags": [ "Totem", "Turn", "Ticket"]
+                "category": ["Trámites","Salud","Ocio","Transporte" ],
+                "tags": [ "Totem", "Turno", "Número", "Ticket"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--turn.svg",
-                "label": "Totem turn",
-                "category": ["Procedure","Health","Leisure", "Transportation"],
-                "tags": [ "Turn ticket","Ticket","Totem turn", "Turn"]
-            },	
+                "label": "Totem turno",
+                "category": ["Trámites","Salud","Ocio","Transporte"],
+                "tags": [ "Ticket de turno","Ticket", "Totem ticket", "Turno", "Número"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/totem--qr.svg",
                 "label": "Totem qr",
-                "category": ["Procedure","Health","Leisure", "Transportation"],
-                "tags": [ "QR", "Reed QR", "Scan QR"]
-            },			
+                "category": ["Trámites","Salud","Ocio","Transporte"],
+                "tags": [ "QR", "Leer QR", "Escanear QR"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/turnstile--default.svg",
-                "label": "Turnstile",
-                "category": ["Transportation"],
-                "tags": [ "Turnstile", "pass through turnstile", "go through turnstile"]
+                "label": "Torniquete",
+                "category": ["Transporte"],
+                "tags": [ "Torniquete", "Pasar por torniquete"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/turnstile--active.svg",
-                "label": "Turnstile -active",
-                "category": ["Transportation"],
-                "tags": [ "Turnstile", "pass through turnstile", "go through turnstile", "card on turnstile"]
-            },			
+                "label": "Torniquete -en uso",
+                "category": ["Transporte"],
+                "tags": [ "Torniquete", "Pasar por torniquete", "Tarjeta en torniquete"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--wait.svg",
-                "label": "Service module -wait",
-                "category": ["Procedure","Health","Leisure"],
-                "tags": [ "Costumer service", "attention module"]
-            },					
+                "label": "Módulo de servicio -espera",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Módulo de atención" ]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--receive.svg",
-                "label": "Service module -receive",
-                "category": ["Procedure","Health","Leisure"],
-                "tags": [ "Receive document","Take","Costumer service", "attention module", "Receive"]
-            },						
+                "label": "Módulo de servicio -recibe",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Recibir documento","Módulo de atención","Recibir", "Entregar"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--handle-card.svg",
-                "label": "Service module -handle card",
-                "category": ["Procedure","Health","Leisure"],
-                "tags": [ "Receive card", "Handle card", "Receive", "Deliver", "Card", "Costumer service", "attention module"]
+                "label": "Módulo de servicio -tarjeta",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Recibir tarjeta", "Entregar tarjeta","Recibir", "Entregar","Tarjeta"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--handle-document.svg",
-                "label": "Service module -handle document",
-                "category": ["Procedure","Health","Leisure"],
-                "tags": [ "Receive document", "Handle document", "Receive", "Deliver", "Document", "Costumer service", "attention module"]
+                "label": "Módulo de servicio -documento",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Recibir documento", "Entregar documento","Recibir", "Entregar","Documento"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--handle-various-documents.svg",
-                "label": "Service module -handle various document",
-                "category": ["Procedure","Health","Leisure"],
-                "tags": [ "Receive documents", "Handle documents", "Receive", "Deliver", "Documents", "Costumer service", "attention module"]
-            },		
+                "label": "Módulo de servicio -manipula varios documentos",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Recibir documentos", "Entregar documentos","Recibir", "Entregar","Documentos"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/service-module--sit-side.svg",
-                "label": "Service module -sit side",
-                "category": ["Procedure","Health","Leisure"],
-                "tags": [ "Wait while seated", "Costumer service", "attention module", "Listen while seated"]
+                "label": "Módulo de servicio -sentado de lado",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Espera sentado","Recibe atención sentado"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--wait.svg",
-                "label": "Ticket office -wait",
-                "category": ["Transportation","Leisure"],
-                "tags": [ "Ticket office wait"]
+                "label": "Boletería -espera",
+                "category": ["Transporte","Ocio"],
+                "tags": [ "Boletería espera","Taquilla"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/ticket-office--receive.svg",
-                "label": "Ticket office -receive",
-                "category": ["Transportation","Leisure"],
-                "tags": [ "Ticket office received", "Ticket office handle"]
-            },	
-            {
-                "layer": 2,
-                "path": "2-landmarks/ticket-office--handle-card.svg",
-                "label": "Ticket office -handle card",
-                "category": ["Transportation","Leisure"],
-                "tags": [ "Ticket office receive card", "Ticket office hand card"]
+                "label": "Boletería -recibir",
+                "category": ["Transporte","Ocio"],
+                "tags": [ "Boletería recibe", "Boletería entrega", "Taquilla"]
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/subway-interior--default.svg",
-                "label": "Subway interior",
-                "category": ["Transportation"],
-                "tags": [ "Train door closed", "Train inside", "Subway interior", "Subway door closed"]
+                "path": "2-landmarks/ticket-office--handle-card.svg",
+                "label": "Boletería -tarjeta",
+                "category": ["Transporte","Ocio"],
+                "tags": [ "Boletería recibe tarjera", "Boletería entrega tarjeta", "Taquilla"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/subway-interior--door-closed.svg",
+                "label": "Metro por dentro -puerta cerrada",
+                "category": ["Transporte"],
+                "tags": [ "Metro", "Interior metro", "Tren"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/subway-interior--door-open.svg",
-                "label": "Subway interior -door closed",
-                "category": ["Transportation"],
-                "tags": [ "Train door open", "Train inside", "Subway interior", "Subway door open"]
+                "label": "Metro por dentro -puerta abierta",
+                "category": ["Transporte"],
+                "tags": [ "Puerta abierta metro", "Interior metro", "Tren"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/subway-interior--door-drop.svg",
-                "label": "Subway interior -door closed",
-                "category": ["Transportation"],
-                "tags": [ "Train door open", "Train inside", "Subway interior", "Subway door open", "People getting off the train","Passengers"]
-            },					
+                "label": "Metro por dentro - bajando",
+                "category": ["Transporte"],
+                "tags": [ "Pasajeros bajando del metro", "Bajar del metro", "Interior metro","Tren"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/subway-exterior--default.svg",
-                "label": "Subway exterior",
-                "category": ["Transportation"],
-                "tags": [ "Train door closed", "Train ouside", "Subway outside", "Subway door closed"]
+                "label": "Metro por fuera",
+                "category": ["Transporte"],
+                "tags": [ "Metro", "Exterior metro","Tren"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/subway-exterior--door-open.svg",
-                "label": "Subway exterior -door closed",
-                "category": ["Transportation"],
-                "tags": [ "Train door open", "Train ouside", "Subway outside", "Subway door open"]
+                "label": "Metro por fuera -puerta abierta",
+                "category": ["Transporte"],
+                "tags": [ "Metro", "Exterior metro", "Puerta abierta metro", "Tren"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/subway-exterior--door-drop.svg",
-                "label": "Subway exterior -door closed",
-                "category": ["Transportation"],
-                "tags": [ "Train door open", "Train ouside", "Subway outside", "Subway door open", "People getting off the train","Passengers"]
-            },		
+                "label": "Metro por fuera - bajando",
+                "category": ["Transporte"],
+                "tags": [ "Pasajeros bajando del metro", "Bajar del metro", "Exterior metro","Tren"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/elevator.svg",
-                "label": "Elevator",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Elevator", "Go down", "Go up", "Lift"]
+                "label": "Ascensor",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Ascensor", "Bajar", "Subir"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/seat.svg",
-                "label": "Seat",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-				"tags": [ "Wait seated", "waiting room"]
-            },		
+                "label": "Asiento",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Esperar sentado", "Asiento", "Sala de espera"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--wait.svg",
-                "label": "Desk -wait",
-                "category": ["Procedure","Health"],
-                "tags": [ "Procedures on desk", "seated attention", "services on desk"]
+                "label": "Escritorio -espera",
+                "category": ["Trámites","Salud"],
+                "tags": [ "Trámite en escritorio", "Atención sentado", "Atención en mesa", "Mesa de atención"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--take-photo.svg",
-                "label": "Desk -take photo",
-                "category": ["Procedure","Health"],
-                "tags": [ "Procedures on desk", "seated attention", "services on desk", "take a photo", "photography"]
+                "label": "Escritorio -toma de foto",
+                "category": ["Trámites","Salud"],
+                "tags": ["Trámite en escritorio", "Atención sentado", "Toma de foto", "Fotografía"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--handle-money.svg",
-                "label": "Desk -handle money",
-                "category": ["Procedure","Health"],
-                "tags": [ "Procedures on desk", "seated attention", "services on desk", "pay on desk", "pay", "handle money"]
+                "label": "Escritorio -manipula dinero",
+                "category": ["Trámites","Salud"],
+                "tags": ["Trámite en escritorio", "Atención sentado", "Entrega dinero", "Pago en escritorio"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--handle-document.svg",
-                "label": "Desk -handle document",
-                "category": ["Procedure","Health"],
-                "tags": [ "Procedures on desk", "seated attention", "services on desk", "handle document", "receive document"]
+                "label": "Escritorio -manipula documento",
+                "category": ["Trámites","Salud"],
+                "tags": ["Trámite en escritorio", "Atención sentado", "Entrega documento"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/desktop--handle-various-documents.svg",
-                "label": "Desk -handle various documents",
-                "category": ["Procedure","Health"],
-                "tags": [ "Procedures on desk", "seated attention", "services on desk", "handle documents", "receive documents"]
+                "label": "Escritorio -manipula varios documento",
+                "category": ["Trámites","Salud"],
+                "tags": ["Trámites en escritorio", "Atención sentado", "Entrega documentos", "Lleva varios documentos", "Recibe documentos"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/medical-checkup--examine.svg",
-                "label": "Medical checkup -examine",
-                "category": ["Health"],
-                "tags": [ "doctor's office", "medical consultation", "doctor's visit", "doctor's checkup"]
+                "label": "Examen medico",
+                "category": ["Salud"],
+                "tags": [ "Examen doctor","Checkeo medico","Consulta doctor"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--wait.svg",
-                "label": "Assistant -wait",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "ask for help", "request assistance", "request help", "request support"]
+                "label": "Asistente -espera",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Solicitar ayuda", "Pedir ayuda", "Pregunta a persona"]
             },
             {
                 "layer": 2,
-                "path": "2-landmarks/assistant--recieve.svg",
-                "label": "Assistant -receive",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "ask for help", "request assistance", "request help", "request support", "receive help", "receive from assistant"]
+                "path": "2-landmarks/assistant--receive.svg",
+                "label": "Asistente -recibe",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Solicitar ayuda", "Pedir ayuda", "Pregunta a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--handle-money.svg",
-                "label": "Assistant -handle money",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "ask for help", "request assistance", "request help", "request support", "receive help", "receive from assistant", "pay to assistant"]
+                "label": "Asistente -manipula dinero",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Solicitar ayuda", "Paga a persona", "Recibir de una persona", "Recibir de guardia", "Recibir de asistente", "Entregar a persona"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--handle-document.svg",
-                "label": "Assistant -handle document",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "ask for help", "request assistance", "request help", "request support", "receive help", "receive from assistant", "handle to assistant"]
-            },	
+                "label": "Asistente - manipula documento",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Recibir documento", "Entrega documento", "Documento", "Recibir de guardia", "Recibir de asistente"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--handle-various-documents.svg",
-                "label": "Assistant - handle various documents",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "ask for documents", "receive documents", "request documents", "receive from assistant", "handle to assistant"]
+                "label": "Asistente - manipula varios documentos",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Recibir documentos", "Entrega documentos", "Documentos", "Recibir de guardia", "Recibir de asistente"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--guard-handle.svg",
-                "label": "Assistant - guard handle",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "ask for documents", "receive documents", "request documents", "receive from guard", "security guard"]
-            },	
+                "label": "Asistente - guardia manipula",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Recibir documento", "Entrega documento", "Documentos", "Recibir de guardia", "Guardia"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/assistant--guard-ease.svg",
-                "label": "Asisstant - guard",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Ask guard", "Security guard"]
+                "label": "Asistente - guardia",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Consultar a guardia", "Preguntar a guardia", "Guardia"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/door--default.svg",
-                "label": "Door",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Entrance", "Access", "Access door", "Access gate", "Exit"]
+                "label": "Puerta",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entrada", "Salida", "Puerta de entrada", "Acceso"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/door--ringer.svg",
-                "label": "Door with ringer",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Entrance", "Access", "Door bell", "Door ringer", "Pager", "Intercom"]
+                "label": "Puerta con timbre",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entrada", "Salida", "Timbre de entrada", "Acceso", "Timbre", "Citófono", "Buzón"]
             },
             {
                 "layer": 2,
                 "path": "2-landmarks/vote--voting-chamber.svg",
-                "label": "Voting chamber",
-                "category": ["Procedure"],
-                "tags": [ "Vote", "Elections", "Election chamber", "Election box"]
+                "label": "Cámara de votación",
+                "category": ["Trámites"],
+                "tags": [ "Votar", "Votación", "Votaciones"]
             },
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
-                "label": "Stop - train",
-                "category": ["Transportation"],
-                "tags": ["train stop", "subway stop", "train station", "subway station"]
-            },			
+                "label": "Paradero -metro",
+                "category": ["Transporte"],
+                "tags": [ "Paradero tren", "Parada tren", "Estación tren", "Estación metro"]
+            },
             {
                 "layer": 3,
                 "path": "3-context/stop--bus.svg",
-                "label": "Stop -bus",
-                "category": ["Transportation"],
-                "tags": ["bus stop", "bus station"]
-            },	
-      	    {
+                "label": "Paradero -bus",
+                "category": ["Transporte"],
+                "tags": [ "Paradero micro", "Parada micro", "Estación de buses", "Parada de bus"]
+            },
+            {
                 "layer": 3,
                 "path": "3-context/sign--keep-walking.svg",
-                "label": "Sign -keep walking",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "sign", "continue walking", "walk"]
+                "label": "Letrero -sigue caminando",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Letrero", "Continua"]
             },
             {
                 "layer": 3,
                 "path": "3-context/sign--turn-default.svg",
-                "label": "Sign -turn",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "sign", "turn", "wait for your turn", "waiting room"]
+                "label": "Letrero -turno",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Letrero", "Turno", "Número de atención"]
             },
             {
                 "layer": 3,
                 "path": "3-context/sign--turn-line.svg",
-                "label": "Sign -turn line",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "sign", "turn", "wait for your turn", "waiting room", "wait on line", "queue", "queueing"]
+                "label": "Letrero -turno con fila",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Letrero", "Turno", "Número de atención", "Fila", "Espera en fila"]
             },
             {
                 "layer": 3,
                 "path": "3-context/medic.svg",
-                "label": "Medic",
-                "category": ["Health"],
-                "tags": [ "doctor's office", "medical consultation", "doctor's visit", "doctor's checkup"]
-            },    
+                "label": "Medico",
+                "category": ["Salud"],
+                "tags": [ "Consulta médica", "Consulta doctor", "Hospital", "Consultorio"]
+            },
             {
                 "layer": 3,
                 "path": "3-context/security-guard.svg",
-                "label": "security guard",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Guard", "Security" , "bank line", "bank queue", "Procedures line", "waiting line", "waiting room"]
+                "label": "Guardia de seguridad -fila",
+                "category": ["Trámites", "Ocio", "Transporte", "Salud"],
+                "tags": [ "Guardia", "Seguridad" , "Fila de trámites", "Fila en banco", "Banco"]
             },
             {
                 "layer": 3,
                 "path": "3-context/announcement.svg",
-                "label": "Announcement",
-                "category": ["Procedure","Leisure"],
-                "tags": [ "Poster", "wall of announcements", "municipality"]
+                "label": "Tabla de anuncios",
+                "category": ["Trámites", "Ocio"],
+                "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
             },
             {
                 "layer": 3,
                 "path": "3-context/bus--default.svg",
-                "label": "Bus -front",
-                "category": ["Transportation"],
-                "tags": [ "bus", "autobus"]
-            },	
+                "label": "Bus -frente",
+                "category": ["Transporte"],
+                "tags": [ "Micro", "bus","Bus metro"]
+            },
             {
                 "layer": 3,
                 "path": "3-context/bus--door-drop.svg",
-                "label": "Bus -door drop",
-                "category": ["Transportation"],
-                "tags": [ "people getting off","passengers", "getting of the bus", "get off the bus"]
-            },	
+                "label": "Bus -bajando",
+                "category": ["Transporte"],
+                "tags": [ "Pasajeros bajando","Bajar micro"]
+            },
             {
                 "layer": 3,
                 "path": "3-context/house--default.svg",
-                "label": "House",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Home", "Living room", "Wait at home"]
+                "label": "Casa",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Living", "Espera en casa", "Hogar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/ticket.svg",
                 "label": "Ticket",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Receive ticket", "Take ticket", "Ticket", "Entrance", "Use ticket"]
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Recibir ticket", "Tomar ticket", "Sacar ticket", "Boleto", "Entrada", "Usar ticket"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/fingerprint.svg",
-                "label": "Fingerprint",
-                "category": ["Procedure","Health"],
-                "tags": [ "Put finger","Put fingerprint"]
+                "label": "Huella digital",
+                "category": ["Trámites","Salud"],
+                "tags": [ "Poner dedo","Marcar huella"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/down.svg",
-                "label": "Down",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Down"]
+                "label": "Hacia abajo",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Abajo"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/left.svg",
-                "label": "Left",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Left"]
+                "label": "Hacia izquierda",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Izquierda"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/right.svg",
-                "label": "Right",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Right"]
+                "label": "Hacia derecha",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Derecha"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/up.svg",
-                "label": "Up",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Up"]
+                "label": "Hacia arriba",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Arriba"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/card.svg",
-                "label": "Card",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Handle card","Receive card", "Identity card", "Pay","Pay by card", "Use card"]
+                "label": "Tarjeta",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entregar tarjeta","Recibir tarjeta", "Carnet", "Cédula de identidad", "Entregar Cédula" , "Pagar","Pagar con tarjeta", "Pasar tarjeta"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/document.svg",
-                "label": "Document",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Handle document","Receive document"]
+                "label": "Entregar documento",
+                "category": ["Trámites","Salud","Transporte", "Ocio"],
+                "tags": [ "Documento","Recibir documento"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/money.svg",
-                "label": "Money",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Handle money","Receive money","Pay", "Bill", "Cash"]
+                "label": "Entregar dinero",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entregar dinero","Recibir dinero","Pagar", "Billete", "Efectivo"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/edit.svg",
-                "label": "Edit",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Sign", "Write", "Pen","Pencil", "Correct", "Review"]
+                "label": "Escribir",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Firmar", "Escribir" , "Editar", "Lápiz", "Corregir", "Revisar"]
             },			
             {
                 "layer": 4,
                 "path": "4-icons/push-button.svg",
-                "label": "Push button",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Press button", "Push button", "Button"]
+                "label": "Apretar boton",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Apretar botón", "Pulsar botón", "Presionar botón", "Botón"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/type.svg",
-                "label": "Type",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Type in", "Digit", "typing"]
+                "label": "Digitar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Teclear", "Digitar"]
             },
 			{
                 "layer": 4,
                 "path": "4-icons/hold.svg",
-                "label": "Hold",
-                "category": ["Transportation"],
-                "tags": [ "Hold on", "Support"]
+                "label": "Sostener",
+                "category": ["Transporte"],
+                "tags": [ "Sostener","Afirmarse"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/look-for.svg",
-                "label": "Look for",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Look","Watch", "observe", "see"]
+                "label": "Mirar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Mirar","Observar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/camera.svg",
-                "label": "Camera",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Photo", "Photography", "Take photo", "Take picture"]
+                "label": "Cámara",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Foto", "Fotografía", "Tomar foto"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/call.svg",
-                "label": "Call",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Telephone", "Cellphone", "Phone", "Communicate"]
+                "label": "Llamar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Telefono", "Comunicar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/comment.svg",
-                "label": "Comment",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Say", "Talk","Speak", "Message","Explain", "Comment"]
+                "label": "Comentar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Decir", "Hablar", "Mensaje","Explicar", "Comentar", "Comunicar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/search.svg",
-                "label": "Search",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Search for", "Find", "Explore"]
+                "label": "Buscar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Buscar", "Encontrar", "Explorar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/point.svg",
-                "label": "Point",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Choose", "Point to", "Click", "Select"]
+                "label": "Seleccionar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Escoger", "Elegir", "Apuntar", "Cliquear", "Seleccionar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/check.svg",
-                "label": "Check",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Approve", "Select"]
+                "label": "Chequear",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Aprobar", "Seleccionar", "Visto bueno"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/clock.svg",
-                "label": "Clock",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "wait", "Time", "stop"]
+                "label": "Reloj",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Esperar", "Tiempo", "Detenerse", "Hora"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/date.svg",
-                "label": "Date",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Calendar", "Day", "Month", "Schedule"]
+                "label": "Fecha",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Calendario", "Calendarizar", "Día", "Mes"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/email.svg",
-                "label": "Email",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Email", "Mail", "Message"]
+                "label": "Correo",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Email", "Mail", "Mensaje"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/input-text.svg",
-                "label": "Input -text",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Digit", "web", "write"]
+                "label": "Input -texto",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Digitar", "Entrada web", "Redactar", "Escribir en digital"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/monitor.svg",
-                "label": "Monitor",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Screen", "Computer"]
+                "label": "Pantalla",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Pantalla", "Computador", "Ordenador"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/button.svg",
-                "label": "Button",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Button", "Click", "Select"]
+                "label": "Botón",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Botón", "Cliquear", "Seleccionar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/radio.svg",
-                "label": "Choose",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Radio", "Sector", "Space", "area"]
+                "label": "Elegir",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Radio", "Sector", "Espacio"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/select.svg",
-                "label": "Select",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Choose", "Click"]
+                "label": "Seleccionar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Escoger", "Apretar", "Elegir", "Cliquear"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/checkbox.svg",
-                "label": "Checkbox",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Verify", "Select", "Checkbox", "Option"]
+                "label": "Casilla-de-verificación",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Verificar", "Seleccionar", "Casilla de selección", "Opción"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/attach.svg",
-                "label": "Attach",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Add", "Include", "Annex", "Add", "Append"]
+                "label": "Adjuntar",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Agregar", "Añadir", "Incluir", "Anexar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/password.svg",
-                "label": "Password",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "key", "type password", "write password", "type key"]
+                "label": "Contraseña",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Clave", "Ingresar contraseña", "Escribir contraseña"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/speak.svg",
-                "label": "Speak",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Record audio", "Speak", "Record"]
+                "label": "Audio",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Grabar audio", "Hablar", "Grabar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/text.svg",
-                "label": "Text",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Web text", "Write text"]
+                "label": "Texto",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": [ "Texto web", "Redactar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/cancel.svg",
-                "label": "Cancel",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Eliminate", "Don't save", "Do not save"]
+                "label": "Cancelar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Eliminar", "No guardar", "Anular"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/image.svg",
-                "label": "Image",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Photography", "Picture", "Draw", "Photo", "Drawing", "Illustration"]
+                "label": "Imagen",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Fotografía", "Foto", "Dibujo"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/position.svg",
-                "label": "Position",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Location", "Place", "Localization"]
+                "label": "Posición",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Ubicación", "Lugar", "Localización"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/switch.svg",
                 "label": "Switch",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Select", "Selection", "Deselect", "Choose"]
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Interruptor", "Selección", "Deseleccionar", "Elegir", "Marcar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/window.svg",
-                "label": "Window",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "Web window", "Page", "Tab"]
+                "label": "Ventana-web",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Ventana", "Página", "Pestaña"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/leisure.svg",
-                "label": "Leisure",
-                "category": ["Leisure"],
-                "tags": ["Hobby", "entertainment"]
+                "label": "Ocio",
+                "category": ["Ocio"],
+                "tags": ["Pasatiempo", "Diversión"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/transport.svg",
-                "label": "Transport",
-                "category": ["Transportation"],
-                "tags": ["Travel", "Bus", "Metro", "Train", "Subway"]
+                "label": "Transporte",
+                "category": ["Transporte"],
+                "tags": ["Viaje", "Bus", "Metro", "Tren"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/procedures.svg",
-                "label": "Procedures",
-                "category": ["Procedure"],
-                "tags": ["Management", "Proceeding"]
+                "label": "Trámites",
+                "category": ["Trámites"],
+                "tags": ["Gestión", "Procedimiento"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/health.svg",
                 "label": "Salud",
-                "category": ["Health"],
-                "tags": ["Hospital", "Consultory", "Clinic", "Medic", "Doctor"]
+                "category": ["Salud"],
+                "tags": ["Hospital", "Consultorio", "Clínica", "Médico", "Doctor"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/receive.svg",
-                "label": "Receive",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Take", "Handle", "hand"]
+                "label": "Recibir",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Tomar", "Entregar"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/shop.svg",
-                "label": "Shop",
-                "category": ["Procedure","Leisure"],
-                "tags": ["Shops", "Buy", "Market", "Shopping", "purchases"]
+                "label": "Compras",
+                "category": ["Ocio", "Trámites"],
+                "tags": ["Comprar", "Supermercado", "Mercado"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/alert.svg",
-                "label": "Emergency",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Alert", "Accident", "urgency", "unforeseen"]
-            },   
+                "label": "Emergencia",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Alerta", "Accidente", "Percance", "Imprevisto"]
+            },
             {
                 "layer": 4,
                 "path": "4-icons/smartphone.svg",
-                "label": "Smartphone",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Smartphone", "Phone", "Social media", "Call", "Cellphone"]
+                "label": "Celular",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Smartphone", "Teléfono", "Redes sociales", "Llamada"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/id.svg",
-                "label": "Id",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Id", "Identity card"]
+                "label": "Carnet de identidad",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Id", "Cédula de identidad", "identificación"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/fold.svg",
                 "label": "Doblar",
-                "category": ["Procedure","Health","Transportation","Leisure"],
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Plisar", "Doblar papel"]
             },
             {
                 "layer": 4,
                 "path": "4-icons/vote.svg",
-                "label": "Vote",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Vote box", "Voting box"]
+                "label": "Votar",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Voto", "Ingresar voto", "Urna de votación"]
             },
-	    {
+	   {
                 "layer": 4,
                 "path": "4-icons/train.svg",
-                "label": "Train",
-                "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["Train","subway","metro","travel"]
+                "label": "Tren",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Tren", "Metro", "Viaje"]
             },
 	    {
                 "layer": 4,
