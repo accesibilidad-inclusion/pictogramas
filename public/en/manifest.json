@@ -836,6 +836,13 @@
                 "label": "Train",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Train","subway","metro","travel"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/web.svg",
+                "label": "Web",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["internet","www","digital"]
             }
         ]
     }
