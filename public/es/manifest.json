@@ -835,6 +835,13 @@
                 "label": "Tren",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Tren", "Metro", "Viaje"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/web.svg",
+                "label": "Web",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["internet","www","digital"]
             }
         ]
     }
