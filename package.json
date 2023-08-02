@@ -1,6 +1,6 @@
 {
   "name": "pictos",
-  "version": "2.0.0-RC",
+  "version": "2.1.0",
   "description": "Pictogramas para la accesibilidad cognitiva de los servicios",
   "main": "index.html",
   "scripts": {
