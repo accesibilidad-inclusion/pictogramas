@@ -847,16 +847,16 @@
 	    {
                 "layer": 4,
                 "path": "4-icons/thumbs-up.svg",
-                "label": "Pulgar arriba",
+                "label": "Thumbs up",
                 "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["like, aceptar, de acuerdo, dedo arriba, bien, aceptar"]
+                "tags": ["like, accept, good, great"]
             },
 	    {
                 "layer": 4,
                 "path": "4-icons/thumbs-down.svg",
-                "label": "Pulgar abajo",
+                "label": "Thumbs down",
                 "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["dislike, malo, mal, no, cancelar, dedo abajo"]
+                "tags": ["dislike, bad, cancel"]
             }
         ]
     }
