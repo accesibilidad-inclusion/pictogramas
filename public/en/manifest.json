@@ -843,6 +843,20 @@
                 "label": "Web",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet","www","digital"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-up.svg",
+                "label": "Pulgar arriba",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["like, aceptar, de acuerdo, dedo arriba, bien, aceptar"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-down.svg",
+                "label": "Pulgar abajo",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["dislike, malo, mal, no, cancelar, dedo abajo"]
             }
         ]
     }
