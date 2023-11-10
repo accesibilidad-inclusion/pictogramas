@@ -843,6 +843,20 @@
                 "label": "Web",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet","www","digital"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-up.svg",
+                "label": "Thumbs up",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["like, accept, good, great"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-down.svg",
+                "label": "Thumbs down",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["dislike, bad, cancel"]
             }
         ]
     }
