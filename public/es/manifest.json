@@ -82,6 +82,13 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/sit-side-handle-book.svg",
+                "label": "Sentado de lado manipula libro",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento","Sentarse", "Lee libro", "Toma libro", "Lee", "Libro"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/smartphone.svg",
                 "label": "Usa smartphone",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -107,7 +114,14 @@
                 "label": "Sentado junto a niño",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Sentado con niño", "Espera niño", "Niño", "Niña", "Infancia"]
-            },				
+            },	
+	    {
+                "layer": 1,
+                "path": "1-subject/kid-ease.svg",
+                "label": "Parado junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Parado con niño", "Acompaña a niño", "Niño", "Infancia", "Niña", "Espera junto a niño"]
+            },	
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
@@ -332,6 +346,13 @@
                 "category": ["Trámites","Salud"],
                 "tags": ["Trámites en escritorio", "Atención sentado", "Entrega documentos", "Lleva varios documentos", "Recibe documentos"]
             },
+	    {
+                "layer": 2,
+                "path": "2-landmarks/desktop--computer.svg",
+                "label": "Escritorio -computador",
+                "category": ["Ocio","Trámites","Salud","Transporte"],
+                "tags": [ "Trámite en escritorio", "Atención sentado", "Servicios en escritorio", "Computador", "Trabajo en computador", "Usar computador"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/medical-checkup--examine.svg",
@@ -485,6 +506,20 @@
                 "label": "Casa",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Living", "Espera en casa", "Hogar"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/library--default.svg",
+                "label": "Biblioteca",
+                "category": ["Trámites","Transporte","Ocio"],
+                "tags": [ "Biblioteca", "Libros", "Biblioteca pública", "Librería"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sports--swimming-pool.svg",
+                "label": "Deportes -Piscina",
+                "category": ["Salud", "Ocio"],
+                "tags": [ "Deportes", "Nadar", "Piscina", "Deporte", "Terapia", "Rehabilitación"]
             },
             {
                 "layer": 4,
@@ -840,8 +875,50 @@
                 "layer": 4,
                 "path": "4-icons/web.svg",
                 "label": "Web",
-                "category": ["Procedure","Health","Transportation","Leisure"],
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["internet","www","digital"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-up.svg",
+                "label": "Pulgar arriba",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["like, aceptar, de acuerdo, dedo arriba, bien, aceptar"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-down.svg",
+                "label": "Pulgar abajo",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["dislike, malo, mal, no, cancelar, dedo abajo"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/add.svg",
+                "label": "Agregar",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["sumar", "más", "agrega"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/at.svg",
+                "label": "Arroba",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Signo arroba", "signo", "email", "correo"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/install-app.svg",
+                "label": "Instalar app",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["agrega app", "instalar", "descargar", "app", "smartphone", "celular", "web app"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/share.svg",
+                "label": "Compartir",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Publicar", "postear", "smartphone", "web", "redes sociales"]
             }
         ]
     }

@@ -83,6 +83,13 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/sit-side-handle-book.svg",
+                "label": "Sit side handle book",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Take a sit", "Sit and handle", "Read book", "Sit and read", "Book", "Read"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/smartphone.svg",
                 "label": "Use smartphone",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -108,7 +115,14 @@
                 "label": "Sit with kid",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Sit with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child"]
-            },				
+            },
+	    {
+                "layer": 1,
+                "path": "1-subject/kid-ease.svg",
+                "label": "Ease with kid",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Stand with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child", "Wait with kid"]
+            },	
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
@@ -333,6 +347,13 @@
                 "category": ["Procedure","Health"],
                 "tags": [ "Procedures on desk", "seated attention", "services on desk", "handle documents", "receive documents"]
             },
+	    {
+                "layer": 2,
+                "path": "2-landmarks/desktop--computer.svg",
+                "label": "Desk -computer",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Procedures on desk", "seated attention", "services on desk", "computer", "work in computer", "use computer"]
+            },
             {
                 "layer": 2,
                 "path": "2-landmarks/medical-checkup--examine.svg",
@@ -486,6 +507,20 @@
                 "label": "House",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "Home", "Living room", "Wait at home"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/library--default.svg",
+                "label": "Library",
+                "category": ["Procedure","Transportation","Leisure"],
+                "tags": [ "Library", "Books", "Public library"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sports--swimming-pool.svg",
+                "label": "Sports -Swimming pool",
+                "category": ["Health", "Leisure"],
+                "tags": [ "Sports", "Swimm", "Pool", "Sport", "Therapy", "Rehabilitation"]
             },
             {
                 "layer": 4,
@@ -843,6 +878,48 @@
                 "label": "Web",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet","www","digital"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-up.svg",
+                "label": "Thumbs up",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["like, accept, good, great"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/thumbs-down.svg",
+                "label": "Thumbs down",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["dislike, bad, cancel"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/add.svg",
+                "label": "add",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["add", "sum", "more"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/at.svg",
+                "label": "at",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["at sign", "sign", "mail", "enchant"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/install-app.svg",
+                "label": "install-app",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["add", "install", "download", "app", "smartphone", "web app"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/share.svg",
+                "label": "share",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["share", "post", "smartphone", "web"]
             }
         ]
     }
