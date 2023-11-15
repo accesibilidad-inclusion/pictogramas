@@ -432,6 +432,13 @@
                 "tags": [ "Vote", "Elections", "Election chamber", "Election box"]
             },
             {
+                "layer": 2,
+                "path": "2-landmarks/sports--swimming-pool.svg",
+                "label": "Sports -Swimming pool",
+                "category": ["Health", "Leisure"],
+                "tags": [ "Sports", "Swimm", "Pool", "Sport", "Therapy", "Rehabilitation"]
+            },
+            {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
                 "label": "Stop - train",
@@ -514,13 +521,6 @@
                 "label": "Library",
                 "category": ["Procedure","Transportation","Leisure"],
                 "tags": [ "Library", "Books", "Public library"]
-            },
-            {
-                "layer": 3,
-                "path": "3-context/sports--swimming-pool.svg",
-                "label": "Sports -Swimming pool",
-                "category": ["Health", "Leisure"],
-                "tags": [ "Sports", "Swimm", "Pool", "Sport", "Therapy", "Rehabilitation"]
             },
             {
                 "layer": 4,
