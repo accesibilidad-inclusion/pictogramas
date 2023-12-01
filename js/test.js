@@ -5,7 +5,7 @@
 
 let data;
 let manifestSelect;
-let container;
+let container, conticons;
 
 function setup() {
     manifestSelect = createSelect();
@@ -16,6 +16,8 @@ function setup() {
     manifestSelect.class('huge');
     container = createDiv();
     container.id('container');
+    conticons = createDiv();
+    conticons.id('cont-icons');
     defineData();
 }
 
@@ -53,7 +55,14 @@ function gotData() {
         let img = createImg("../src/"+picto.path, picto.label);
         img.class('pictogram layer'+picto.layer);
         img.parent(setId);
-        let tagContainer = createDiv('<h4>tags</h4>');
+        if(picto.layer){
+            let layerNum = createDiv('<h4>layer</h4>'+picto.layer);
+            layerNum.parent(setId);
+            layerNum.class('layer');
+        }
+        
+       
+        let tagContainer = createDiv('<h4>tags</h4><br>');
         tagContainer.parent(setId);
         tagContainer.class('tags');
         let tags = picto.tags;
@@ -63,9 +72,9 @@ function gotData() {
             t.class('tag');
             t.parent(tagContainer);
         }
-       let catContainer = createDiv('<h4>categories</h4>');
+       let catContainer = createDiv('<h4>categories</h4><br>');
        catContainer.parent(setId);
-       catContainer.class('tags');
+       catContainer.class('categories');
        let cats = picto.category;
         for(index in cats){
             let cat = cats[index];

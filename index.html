@@ -13,95 +13,127 @@
 </head>
 
 <body>
-	<aside>
-		<div class="header">
-			<h1>Pictogramas</h1>
-			<p class="tagline">
-				es un sistema de apoyos visuales para la accesibilidad cognitiva de
-				los servicios públicos.
-			</p>
-		</div>
+	<div class="container">
+		<menu>
+			<span>
+				<img class="logo-pictos-sq" src="logos/logo-pictos.svg" alt="Pictogramas Pictos">
+				<h1>Pictogramas</h1>
+			</span>
+			
+			<input type="checkbox" id="menuToggle" />
+			<label for="menuToggle" class="menu-icon">&#9776;
+				<ul class="menu">
+					<li>
+						<a href="http://pictos.cl" title="PICTOS: accesibilidad para los servicios" class="btn-pictos"><img class="logo-pictos-ext" src="logos/logo-pictos-ext.svg" alt="Pictos App"></a>
+						<a href="#que-son">¿Qué son?</a> 
+					</li>
+					<li><a href="#como-funcionan">Cómo funcionan</a></li>
+					<li><a href="#colabora">Colabora</a></li>
+					<li><a href="#creditos">Créditos</a></li>
+				</ul>
+			</label>
+		</menu>
+	
 
-		<div class="texto">
-			<p>
-				<strong>Pictogramas</strong> es una librería gráfica diseñada para
-				componer los pictogramas que se utilizan en
-				<strong><a href="http://www.pictos.cl">PICTOS</a></strong> y se
-				disponibiliza de forma gratuita y abierta para la elaboración de
-				apoyos visuales y señalética accesible en espacios y servicios
-				públicos.
-			</p>
+		<div id="main">
+			<div id="preview">
 
-			<p>
-				Puedes componer el pictograma que necesites combinando las 3 capas y
-				exportándolo a tu dispositivo
-			</p>
-		</div>
-	</aside>
-
-	<div id="preview">
-		<div id="controls">
-			<div id="control-action">
-				<label for="sel-subject">acción</label>
-				<select class="layer-switch" data-target="1-subject" name="subject" id="sel-subject">
-					<option value="">Selecciona una acción</option>
-				</select>
-			</div>
-			<div id="control-element">
-				<label for="sel-landmark">elemento</label>
-				<select class="layer-switch" data-target="2-landmarks" name="landmark" id="sel-landmark">
-					<option value="">Selecciona un elemento</option>
-				</select>
-			</div>
-			<div id="control-context">
-				<label for="sel-context">contexto</label>
-				<select class="layer-switch" data-target="3-context" name="context" id="sel-context">
-					<option value="">Selecciona un contexto</option>
-				</select>
-			</div>
-		</div>
-
-		<div id="pictos" style="height: 353px;">
-			<img id="3-context" src="" alt="">
-			<img id="2-landmarks" src="" alt="">
-			<img id="1-subject" src="" alt="">
-		</div>
-
-		<div id="control-bottom">
-			<div id="icon">
-				<div id="control-icon">
-					<label for="sel-icon">ícono</label>
-					<select name="action" id="sel-icon" class="layer-switch" data-target="4-actions">
-						<option value="">Selecciona un ícono</option>
-					</select>
+		
+				<div id="pictos">
+					<img id="3-context" src="" alt="">
+					<img id="2-landmarks" src="" alt="">
+					<img id="1-subject" src="" alt="">
 				</div>
-				<img id="4-actions" width="68" height="68" src="" alt="">
-			</div>
-			<div id="typing">
-				<textarea id="type" class="input" placeholder="Escribir aqui..." required></textarea>
+		
+				<div id="control-bottom">
+					<div id="icon">
+						<div id="control-icon">
+							<label for="sel-icon">ícono</label>
+							<select name="action" id="sel-icon" class="layer-switch" data-target="4-actions">
+								<option value="">Selecciona un ícono</option>
+							</select>
+						</div>
+						<img id="4-actions" width="68" height="68" src="" alt="">
+					</div>
+					<div id="typing">
+						<textarea id="type" class="input" placeholder="Escribir aqui..." required></textarea>
+					</div>
+				</div>
+
+				<div id="controls">
+					<div id="control-action">
+						<label for="sel-subject">acción</label>
+						<select class="layer-switch" data-target="1-subject" name="subject" id="sel-subject">
+							<option value="">Selecciona una acción</option>
+						</select>
+					</div>
+					<div id="control-element">
+						<label for="sel-landmark">elemento</label>
+						<select class="layer-switch" data-target="2-landmarks" name="landmark" id="sel-landmark">
+							<option value="">Selecciona un elemento</option>
+						</select>
+					</div>
+					<div id="control-context">
+						<label for="sel-context">contexto</label>
+						<select class="layer-switch" data-target="3-context" name="context" id="sel-context">
+							<option value="">Selecciona un contexto</option>
+						</select>
+					</div>
+				</div>
+		
+				<div id="save">
+					<input type="button" id="printBtn" class="reg" onClick="window.print();" value="Guardar Pictograma">
+				</div>
 			</div>
 		</div>
 
-		<div id="save">
-			<input type="button" id="printBtn" onClick="window.print();" value="Guardar Pictograma">
-		</div>
 
-		<footer>
-			<div class="logo">
-				<a href="http://www.accesibilidad-inclusion.cl"><img src="https://accesibilidad-inclusion.cl/assets/img/logo.svg"
-						alt="Núcleo de Accesibilidad e Inclusión de la Pontificia Universidad Católica de Valparaíso"></a>
-			</div>
+		<section id="que-son">
+			<h2>¿Qué son los pictogramas?</h2>
 			<p>
-				Este proyecto es mantenido por el
-				<a href="http://www.accesibilidad-inclusion.cl" title="Sitio web del núcleo">Núcleo de Accesibilidad e Inclusión
-					de la Pontificia Universidad
-					Católica de Valparaíso</a>
-				como repositorio de
-				<a href="http://github.com/accesibilidad-inclusion/pictogramas" title="Repositorio en Github">código abierto
-				</a>.
+				Los <strong>Pictogramas de PICTOS</strong> son un sistema gráfico que permite construir pictogramas para comunicar las interacciones en los trámites y servicios de la ciudad. Estos pictogramas buscan servir de apoyo a la comunidad para poder generar <strong>señalética accesible</strong> y fácil de usar por el público general.</p>
+				<p>Estos pictogramas son la <strong>biblioteca</strong> del vocabulario visual de la aplicación <strong><a href="http://www.pictos.cl">PICTOS</a></strong> y se disponibilizan de forma pública y abierta para la elaboración de apoyos visuales de forma comunitaria. Su principal aplicación son los trámites de los servicios, como atenciones de salud, trámites municipales, compras, recorrido de atracciones; tanto físicos como digitales.</p>
 			</p>
-		</footer>
+		</section>
+		<section id="como-funcionan">
+			<h2>¿Cómo funcionan?</h2>
+				<p>Este sistema pictográfico permite construir apoyos visuales que favorecen la comprensión del paso-a-paso de las diversas tareas o transacciones de los servicios.</p><p>Estos apoyos visuales se componen de:</p>
+					<ul>
+						<li>La imagen pictográfica</li>
+						<li>Un texto en la forma de una instrucción en lenguaje llano</li>
+						<li>Un ícono que refuerza la idea o acción principal de la acción descrita</li>
+					</ul>
+				<h3>3 capas</h3>
+				<img src="logos/3-layers.svg" class="ilust" aria-details="3 capas de pictogramas">
+				<p>La imagen pictográfica, por su parte, se <strong>construye por 3 capas</strong> que guardan una estrecha relación con el texto que la describe, de forma tal que una capa representa <strong>la acción</strong>, la segunda <strong>el hito o elemento</strong> con el que se interactúa y la tercera representa al <strong>espacio que contextualiza</strong> la escena.</p>
+			<p>En este sitio puedes crear tu propio pictograma, con la instrucción y el ícono, y exportalo con el botón <input type="button" id="printBtn" onClick="window.print();" value="Guardar Pictograma" class="sm"></p>
+		</section>
+		<section id="colabora">
+			<h2>Colabora con este proyecto</h2>
+			<p>Este proyecto se disponibiliza de forma gratuita y abierta para la elaboración de apoyos visuales y señalética accesible en espacios y servicios públicos.</p>
+			<p>Puedes ayudar con nuevas sugerencias o directamente dibujando nuevos pictogramas en <a href="http://github.com/accesibilidad-inclusion/pictogramas" title="Repositorio en Github">este repositorio</a>.</p>
+			<p>Otra forma muy valiosa de participar es donando a esta iniciativa:</p>
+			<script src="https://liberapay.com/accesibilidad-inclusion/widgets/button.js"></script>
+<noscript><a href="https://liberapay.com/accesibilidad-inclusion/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+		</section>
+		<section id="creditos">
+			<h2>Créditos</h2>
+			<p>Este proyecto es mantenido por el <a href="http://www.accesibilidad-inclusion.cl" title="Sitio web del núcleo">Núcleo de Accesibilidad e Inclusión </a> de la Pontificia Universidad Católica de Valparaíso. Muchas personas han trabajado en esta iniciativa desde 2018, tanto estudiantes como profesores, de forma colaborativa en este repositorio de <a href="http://github.com/accesibilidad-inclusion/pictogramas" title="Repositorio en Github">código abierto</a>.</p>
+		</section>
 	</div>
+
+
+	<footer>
+		<div class="logo">
+			<a href="http://www.accesibilidad-inclusion.cl"><img src="https://accesibilidad-inclusion.cl/assets/img/logo.svg"
+					alt="Núcleo de Accesibilidad e Inclusión de la Pontificia Universidad Católica de Valparaíso"></a>
+		</div>
+		<p>
+			<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />Esta obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Licencia Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional</a>.
+			<br>
+			
+		</p>
+	</footer>
 </body>
 
 </html>

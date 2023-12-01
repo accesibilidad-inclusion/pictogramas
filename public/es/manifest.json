@@ -431,6 +431,13 @@
                 "tags": [ "Votar", "Votación", "Votaciones"]
             },
             {
+                "layer": 2,
+                "path": "2-landmarks/sports--swimming-pool.svg",
+                "label": "Deportes -Piscina",
+                "category": ["Salud", "Ocio"],
+                "tags": [ "Deportes", "Nadar", "Piscina", "Deporte", "Terapia", "Rehabilitación"]
+            },
+            {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
                 "label": "Paradero -metro",
@@ -513,13 +520,6 @@
                 "label": "Biblioteca",
                 "category": ["Trámites","Transporte","Ocio"],
                 "tags": [ "Biblioteca", "Libros", "Biblioteca pública", "Librería"]
-            },
-            {
-                "layer": 3,
-                "path": "3-context/sports--swimming-pool.svg",
-                "label": "Deportes -Piscina",
-                "category": ["Salud", "Ocio"],
-                "tags": [ "Deportes", "Nadar", "Piscina", "Deporte", "Terapia", "Rehabilitación"]
             },
             {
                 "layer": 4,
