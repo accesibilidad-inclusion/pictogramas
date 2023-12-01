@@ -481,7 +481,14 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/security-guard.svg",
+                "path": "3-context/security-guard--default.svg",
+                "label": "Guardia de seguridad",
+                "category": ["Trámites", "Ocio", "Transporte", "Salud"],
+                "tags": [ "Guardia", "Seguridad", "Banco"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/security-guard--queue.svg",
                 "label": "Guardia de seguridad -fila",
                 "category": ["Trámites", "Ocio", "Transporte", "Salud"],
                 "tags": [ "Guardia", "Seguridad" , "Fila de trámites", "Fila en banco", "Banco"]
@@ -520,6 +527,13 @@
                 "label": "Biblioteca",
                 "category": ["Trámites","Transporte","Ocio"],
                 "tags": [ "Biblioteca", "Libros", "Biblioteca pública", "Librería"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/library--computer-room.svg",
+                "label": "Sala de computación",
+                "category": ["Trámites","Transporte","Ocio"],
+                "tags": ["Biblioteca", "Computador", "Biblioteca pública", "Sala de computadores", "pc", "internet", "trabajo", "oficina"]
             },
             {
                 "layer": 4,
@@ -919,6 +933,13 @@
                 "label": "Compartir",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Publicar", "postear", "smartphone", "web", "redes sociales"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/wifi.svg",
+                "label": "Wifi",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["internet", "wifi", "conexión", "web", "redes sociales"]
             }
         ]
     }
