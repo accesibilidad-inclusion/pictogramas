@@ -482,8 +482,15 @@
             },    
             {
                 "layer": 3,
-                "path": "3-context/security-guard.svg",
-                "label": "security guard",
+                "path": "3-context/security-guard--default.svg",
+                "label": "Security guard",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Guard", "Security", "Bank"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/security-guard--queue.svg",
+                "label": "Security guard- queue",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "Guard", "Security" , "bank line", "bank queue", "Procedures line", "waiting line", "waiting room"]
             },
@@ -521,6 +528,13 @@
                 "label": "Library",
                 "category": ["Procedure","Transportation","Leisure"],
                 "tags": [ "Library", "Books", "Public library"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/library--computer-room.svg",
+                "label": "Computer room",
+                "category": ["Procedure","Transportation","Leisure"],
+                "tags": [ "Library", "Computer", "Public library", "internet", "Office", "Pc"]
             },
             {
                 "layer": 4,
@@ -919,7 +933,14 @@
                 "path": "4-icons/share.svg",
                 "label": "share",
                 "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["share", "post", "smartphone", "web"]
+                "tags": ["share", "post", "smartphone", "web", "social media"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/wifi.svg",
+                "label": "Wifi",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["internet", "wifi", "conection", "web", "social media"]
             }
         ]
     }
