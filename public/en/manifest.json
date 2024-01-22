@@ -503,6 +503,13 @@
             },
             {
                 "layer": 3,
+                "path": "3-context/announcement--metro-map.svg",
+                "label": "Metro -map",
+                "category": ["Transportation","Leisure"],
+                "tags": [ "metro map", "subway information", "subway stations", "metro information", "metro sign"]
+            },
+            {
+                "layer": 3,
                 "path": "3-context/bus--default.svg",
                 "label": "Bus -front",
                 "category": ["Transportation"],
@@ -535,6 +542,13 @@
                 "label": "Computer room",
                 "category": ["Procedure","Transportation","Leisure"],
                 "tags": [ "Library", "Computer", "Public library", "internet", "Office", "Pc"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/bathroom--default.svg",
+                "label": "Bathroom",
+                "category": ["Procedure","Health","Leisure"],
+                "tags": ["bathroom", "public bathroom", "restroom"]
             },
             {
                 "layer": 4,
