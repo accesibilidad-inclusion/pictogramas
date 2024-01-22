@@ -502,6 +502,13 @@
             },
             {
                 "layer": 3,
+                "path": "3-context/announcement--metro-map.svg",
+                "label": "Mapa metro",
+                "category": ["Transporte", "Ocio"],
+                "tags": [ "Mapa metro", "metro", "mapa", "mapa tren"]
+            },
+            {
+                "layer": 3,
                 "path": "3-context/bus--default.svg",
                 "label": "Bus -frente",
                 "category": ["Transporte"],
@@ -534,6 +541,13 @@
                 "label": "Sala de computación",
                 "category": ["Trámites","Transporte","Ocio"],
                 "tags": ["Biblioteca", "Computador", "Biblioteca pública", "Sala de computadores", "pc", "internet", "trabajo", "oficina"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/bathroom--default.svg",
+                "label": "Baño",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": ["baño", "baño público"]
             },
             {
                 "layer": 4,
