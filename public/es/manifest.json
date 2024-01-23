@@ -537,6 +537,13 @@
             },
             {
                 "layer": 3,
+                "path": "3-context/library--2.svg",
+                "label": "Biblioteca 2",
+                "category": ["Trámites","Transporte","Ocio"],
+                "tags": [ "Biblioteca", "Libros", "Biblioteca pública", "Librería"]
+            },
+            {
+                "layer": 3,
                 "path": "3-context/library--computer-room.svg",
                 "label": "Sala de computación",
                 "category": ["Trámites","Transporte","Ocio"],
