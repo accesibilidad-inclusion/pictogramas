@@ -538,6 +538,13 @@
             },
             {
                 "layer": 3,
+                "path": "3-context/library--2.svg",
+                "label": "Library 2",
+                "category": ["Procedure","Transportation","Leisure"],
+                "tags": [ "Library", "Books", "Public library"]
+            },
+            {
+                "layer": 3,
                 "path": "3-context/library--computer-room.svg",
                 "label": "Computer room",
                 "category": ["Procedure","Transportation","Leisure"],
