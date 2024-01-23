@@ -517,6 +517,13 @@
             },
             {
                 "layer": 3,
+                "path": "3-context/library--2.svg",
+                "label": "Library 2",
+                "category": ["Procedure","Transportation","Leisure"],
+                "tags": [ "Library", "Books", "Public library"]
+            },
+            {
+                "layer": 3,
                 "path": "3-context/sports--swimming-pool.svg",
                 "label": "Sports -Swimming pool",
                 "category": ["Health", "Leisure"],
