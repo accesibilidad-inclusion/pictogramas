@@ -27,6 +27,13 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/handle-book.svg",
+                "label": "Handle book",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "give", "read","hand","study","take", "receive", "library"]
+            },			
+            {
+                "layer": 1,
                 "path": "1-subject/show.svg",
                 "label": "Show",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -123,6 +130,34 @@
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Stand with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child", "Wait with kid"]
             },	
+	    {
+                "layer": 1,
+                "path": "1-subject/elder.svg",
+                "label": "Elder",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["senior", "senile", "old", "aged", "elderly","reduced movility"]
+            },		
+	    {
+                "layer": 1,
+                "path": "1-subject/elder-walk.svg",
+                "label": "Elder -walk",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["senior", "senile", "old", "aged", "elderly", "reduced movility", "stick", "walking stick", "walk"]
+            },
+	    {
+                "layer": 1,
+                "path": "1-subject/wheelchair.svg",
+                "label": "Wheelchair",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["reduced movility", "transport", "injury", "disability"]
+            },	
+	    {
+                "layer": 1,
+                "path": "1-subject/wheelchair-help.svg",
+                "label": "Wheelchair -help",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["reduced movility", "transport", "injury", "disability"]
+            },			
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
@@ -565,6 +600,41 @@
                 "tags": ["bathroom", "public bathroom", "restroom"]
             },
             {
+                "layer": 3,
+                "path": "3-context/street--default.svg",
+                "label": "Street",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["walk", "city", "paseo", "signal", "transit", "stroll", "outing", "out"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/street--name-signal.svg",
+                "label": "Street -name signal",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["walk", "city", "paseo", "signal", "transit", "stroll", "outing", "out"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/street--park.svg",
+                "label": "Park",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["walk", "city", "paseo", "signal", "transit", "stroll", "outing", "out", "nature", "tree", "square"]
+            },	
+            {
+                "layer": 3,
+                "path": "3-context/theatre--default.svg",
+                "label": "Theatre",
+                "category": ["Leisure"],
+                "tags": ["Cinema", "movie", "opera"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/theatre--side.svg",
+                "label": "Theatre -side",
+                "category": ["Leisure"],
+                "tags": ["Cinema", "movie", "opera"]
+            },		
+            {
                 "layer": 4,
                 "path": "4-icons/ticket.svg",
                 "label": "Ticket",
@@ -969,7 +1039,28 @@
                 "label": "Wifi",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet", "wifi", "conection", "web", "social media"]
-            }
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/book.svg",
+                "label": "Book",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["read", "study", "magazine"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/book-2.svg",
+                "label": "Book -2",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["read", "study", "magazine"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/coffee.svg",
+                "label": "Coffee",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["tea", "cafe", "restaurant", "food"]
+            }		
         ]
     }
 }
