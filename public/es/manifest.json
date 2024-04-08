@@ -26,6 +26,13 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/handle-book.svg",
+                "label": "Manipula libro",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "entregar", "leer","manipular", "recibir", "libro", "biblioteca", "estudiar", "estudio"]
+            },		
+            {
+                "layer": 1,
                 "path": "1-subject/show.svg",
                 "label": "Muestra",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -122,6 +129,34 @@
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Parado con niño", "Acompaña a niño", "Niño", "Infancia", "Niña", "Espera junto a niño"]
             },	
+	    {
+                "layer": 1,
+                "path": "1-subject/elder.svg",
+                "label": "Adulto mayor",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Movilidad reducida", "Tercera edad", "Persona mayor", "Mayor", "Anciano", "Vejez"]
+            },
+	    {
+                "layer": 1,
+                "path": "1-subject/elder-walk.svg",
+                "label": "Adulto mayor camina",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Movilidad reducida", "Tercera edad", "Persona mayor", "Mayor", "Anciano", "Vejez", "Caminar", "Movilidad", "Bastón"]
+            },
+	    {
+                "layer": 1,
+                "path": "1-subject/wheelchair.svg",
+                "label": "Silla de ruedas",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Movilidad reducida", "Discapacidad física", "Silla autopropulsable"]
+            },	
+	    {
+                "layer": 1,
+                "path": "1-subject/wheelchair-help.svg",
+                "label": "Silla de ruedas -ayuda",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Movilidad reducida", "Discapacidad física", "Silla autopropulsable", "Llevar silla de ruedas", "Acompañar"]
+            },		
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
@@ -564,6 +599,41 @@
                 "tags": ["baño", "baño público"]
             },
             {
+                "layer": 3,
+                "path": "3-context/street--default.svg",
+                "label": "Calle",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Caminar", "ciudad", "paseo", "señaletica", "transito"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/street--name-signal.svg",
+                "label": "Calle -letrero calle",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Caminar", "ciudad", "paseo", "señaletica", "transito", "nombre calle", "letrero"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/street--park.svg",
+                "label": "Plaza",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Caminar", "ciudad", "paseo", "parque", "sentarse", "naturaleza"]
+            },	
+            {
+                "layer": 3,
+                "path": "3-context/theatre--default.svg",
+                "label": "Teatro",
+                "category": ["Ocio"],
+                "tags": ["Cine", "Sala de teatro", "sala de cine", "pelicula", "obra", "actuacion"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/theatre--side.svg",
+                "label": "Teatro- de lado",
+                "category": ["Ocio"],
+                "tags": ["Cine", "Sala de teatro", "sala de cine", "pelicula", "obra", "actuacion"]
+            },			
+            {
                 "layer": 4,
                 "path": "4-icons/ticket.svg",
                 "label": "Ticket",
@@ -968,6 +1038,27 @@
                 "label": "Wifi",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["internet", "wifi", "conexión", "web", "redes sociales"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/book.svg",
+                "label": "Libro",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["leer", "estudiar", "revista"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/book-2.svg",
+                "label": "Libro -2",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["leer", "estudiar", "revista"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/coffee.svg",
+                "label": "Café",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["té", "cafetería", "once", "comida"]
             }
         ]
     }
