@@ -1,11 +1,11 @@
-name: 'Update pictos on clients'
-description: 'update yarn pictos dependence'
+name: "Update pictos on clients"
+description: "update yarn pictos dependence"
 runs:
   using: "composite"
-  steps: 
+  steps:
     - run: yarn add https://github.com/accesibilidad-inclusion/pictogramas.git#master && yarn build
       working-directory: /var/www/production/pictos-admin/
       shell: bash
-    - run: yarn add https://github.com/accesibilidad-inclusion/pictogramas.git#master && yarn build
+    - run: npm install https://github.com/accesibilidad-inclusion/pictogramas.git#master && npm run build
       working-directory: /var/www/production/web-app/
       shell: bash
