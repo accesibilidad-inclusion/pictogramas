@@ -1,3 +1,9 @@
 /vendor/
 /node_modules/
 .DS_Store
+<<<<<<< HEAD
+logos/.DS_Store
+public/.DS_Store
+src/.DS_Store
+=======
+>>>>>>> qa

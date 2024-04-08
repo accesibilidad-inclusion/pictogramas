@@ -1,5 +1,6 @@
 /**
  * Pictogramas
+
  */
 
 const id = function( id ){

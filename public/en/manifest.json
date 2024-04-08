@@ -432,6 +432,13 @@
                 "tags": [ "Vote", "Elections", "Election chamber", "Election box"]
             },
             {
+                "layer": 2,
+                "path": "2-landmarks/sports--swimming-pool.svg",
+                "label": "Sports -Swimming pool",
+                "category": ["Health", "Leisure"],
+                "tags": [ "Sports", "Swimm", "Pool", "Sport", "Therapy", "Rehabilitation"]
+            },
+            {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
                 "label": "Stop - train",
@@ -475,8 +482,15 @@
             },    
             {
                 "layer": 3,
-                "path": "3-context/security-guard.svg",
-                "label": "security guard",
+                "path": "3-context/security-guard--default.svg",
+                "label": "Security guard",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Guard", "Security", "Bank"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/security-guard--queue.svg",
+                "label": "Security guard- queue",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "Guard", "Security" , "bank line", "bank queue", "Procedures line", "waiting line", "waiting room"]
             },
@@ -486,6 +500,20 @@
                 "label": "Announcement",
                 "category": ["Procedure","Leisure"],
                 "tags": [ "Poster", "wall of announcements", "municipality"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--metro-map.svg",
+                "label": "Metro -map",
+                "category": ["Transportation","Leisure"],
+                "tags": [ "metro map", "subway information", "subway stations", "metro information", "metro sign"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--metro-map-2.svg",
+                "label": "Metro -map 2",
+                "category": ["Transportation","Leisure"],
+                "tags": [ "metro map", "subway information", "subway stations", "metro information", "metro sign"]
             },
             {
                 "layer": 3,
@@ -524,10 +552,17 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/sports--swimming-pool.svg",
-                "label": "Sports -Swimming pool",
-                "category": ["Health", "Leisure"],
-                "tags": [ "Sports", "Swimm", "Pool", "Sport", "Therapy", "Rehabilitation"]
+                "path": "3-context/library--computer-room.svg",
+                "label": "Computer room",
+                "category": ["Procedure","Transportation","Leisure"],
+                "tags": [ "Library", "Computer", "Public library", "internet", "Office", "Pc"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/bathroom--default.svg",
+                "label": "Bathroom",
+                "category": ["Procedure","Health","Leisure"],
+                "tags": ["bathroom", "public bathroom", "restroom"]
             },
             {
                 "layer": 4,
@@ -926,7 +961,14 @@
                 "path": "4-icons/share.svg",
                 "label": "share",
                 "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["share", "post", "smartphone", "web"]
+                "tags": ["share", "post", "smartphone", "web", "social media"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/wifi.svg",
+                "label": "Wifi",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["internet", "wifi", "conection", "web", "social media"]
             }
         ]
     }

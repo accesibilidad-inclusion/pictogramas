@@ -431,6 +431,13 @@
                 "tags": [ "Votar", "Votación", "Votaciones"]
             },
             {
+                "layer": 2,
+                "path": "2-landmarks/sports--swimming-pool.svg",
+                "label": "Deportes -Piscina",
+                "category": ["Salud", "Ocio"],
+                "tags": [ "Deportes", "Nadar", "Piscina", "Deporte", "Terapia", "Rehabilitación"]
+            },
+            {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
                 "label": "Paradero -metro",
@@ -474,7 +481,14 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/security-guard.svg",
+                "path": "3-context/security-guard--default.svg",
+                "label": "Guardia de seguridad",
+                "category": ["Trámites", "Ocio", "Transporte", "Salud"],
+                "tags": [ "Guardia", "Seguridad", "Banco"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/security-guard--queue.svg",
                 "label": "Guardia de seguridad -fila",
                 "category": ["Trámites", "Ocio", "Transporte", "Salud"],
                 "tags": [ "Guardia", "Seguridad" , "Fila de trámites", "Fila en banco", "Banco"]
@@ -485,6 +499,20 @@
                 "label": "Tabla de anuncios",
                 "category": ["Trámites", "Ocio"],
                 "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--metro-map.svg",
+                "label": "Mapa metro",
+                "category": ["Transporte", "Ocio"],
+                "tags": [ "Mapa metro", "metro", "mapa", "mapa tren"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--metro-map-2.svg",
+                "label": "Mapa metro 2",
+                "category": ["Transporte", "Ocio"],
+                "tags": [ "Mapa metro", "metro", "mapa", "mapa tren"]
             },
             {
                 "layer": 3,
@@ -523,10 +551,17 @@
             },
             {
                 "layer": 3,
-                "path": "3-context/sports--swimming-pool.svg",
-                "label": "Deportes -Piscina",
-                "category": ["Salud", "Ocio"],
-                "tags": [ "Deportes", "Nadar", "Piscina", "Deporte", "Terapia", "Rehabilitación"]
+                "path": "3-context/library--computer-room.svg",
+                "label": "Sala de computación",
+                "category": ["Trámites","Transporte","Ocio"],
+                "tags": ["Biblioteca", "Computador", "Biblioteca pública", "Sala de computadores", "pc", "internet", "trabajo", "oficina"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/bathroom--default.svg",
+                "label": "Baño",
+                "category": ["Trámites","Salud","Ocio"],
+                "tags": ["baño", "baño público"]
             },
             {
                 "layer": 4,
@@ -926,6 +961,13 @@
                 "label": "Compartir",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Publicar", "postear", "smartphone", "web", "redes sociales"]
+            },
+	    {
+                "layer": 4,
+                "path": "4-icons/wifi.svg",
+                "label": "Wifi",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["internet", "wifi", "conexión", "web", "redes sociales"]
             }
         ]
     }
