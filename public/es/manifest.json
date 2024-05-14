@@ -502,18 +502,25 @@
             },	
 	    {
                 "layer": 2,
-                "path": "2-landmarks/shopping--supermarket-grocery.svg",
+                "path": "2-landmarks/shopping--supermarket-cash-register-grocery.svg",
                 "label": "Compras- supermercado con mercadería",
                 "category": ["Ocio", "Trámite"],
                 "tags": ["supermercado", "caja registradora", "supermercado pago", "frutas", "verduras"]
             },	
  	    {
                 "layer": 2,
-                "path": "2-landmarks/shopping--supermarket.svg",
+                "path": "2-landmarks/shopping--supermarket-cash-register.svg",
                 "label": "Compras- supermercado",
                 "category": ["Ocio", "Trámite"],
                 "tags": ["supermercado", "caja registradora", "supermercado pago","pagar"]
-            },			
+            },	
+ 	    {
+                "layer": 2,
+                "path": "2-landmarks/hotel--lobby.svg",
+                "label": "Hotel- recepción",
+                "category": ["Ocio"],
+                "tags": ["hotel", "recepción", "vacaciones", "viaje"]
+            },	
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
