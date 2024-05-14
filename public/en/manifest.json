@@ -157,7 +157,21 @@
                 "label": "Wheelchair -help",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["reduced movility", "transport", "injury", "disability"]
-            },			
+            },	
+	    {
+                "layer": 1,
+                "path": "1-subject/ease-with-shopping-bag.svg",
+                "label": "Ease with shopping bag",
+                "category": ["Leisure","Procedure"],
+                "tags": ["go shopping", "shopping", "shopping bags", "bags"]
+            },
+	    {
+                "layer": 1,
+                "path": "1-subject/walk-with-shopping-bag.svg",
+                "label": "Walk with shopping bag",
+                "category": ["Leisure","Procedure"],
+                "tags": ["go shopping", "shopping", "shopping bags", "bags", "walk with bags"]
+            },		
             {
                 "layer": 2,
                 "path": "2-landmarks/floor.svg",
@@ -473,6 +487,35 @@
                 "category": ["Health", "Leisure"],
                 "tags": [ "Sports", "Swimm", "Pool", "Sport", "Therapy", "Rehabilitation"]
             },
+		
+            {
+                "layer": 2,
+                "path": "2-landmarks/restaurant--coffee.svg",
+                "label": "Restaurant- coffee",
+                "category": ["Leisure"],
+                "tags": ["coffee", "café", "table", "restaurant", "food", "coffee shop"]
+            },
+	    {
+                "layer": 2,
+                "path": "2-landmarks/restaurant--table.svg",
+                "label": "Restaurant- table",
+                "category": ["Leisure"],
+                "tags": ["coffee", "café", "table", "restaurant", "food"]
+            },	
+	    {
+                "layer": 2,
+                "path": "2-landmarks/shopping--supermarket-grocery.svg",
+                "label": "Shopping- supermarket with grocery",
+                "category": ["Leisure", "Procedure"],
+                "tags": ["supermarket", "cash register", "supermarket pay", "grocery", "food"]
+            },	
+ 	    {
+                "layer": 2,
+                "path": "2-landmarks/shopping--supermarket.svg",
+                    "label": "Shopping- supermarket",
+                "category": ["Leisure", "Procedure"],
+                "tags": ["supermarket", "cash register", "supermarket pay", "market", "pay"]
+            },		
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
