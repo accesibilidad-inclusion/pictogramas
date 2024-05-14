@@ -504,17 +504,24 @@
             },	
 	    {
                 "layer": 2,
-                "path": "2-landmarks/shopping--supermarket-grocery.svg",
-                "label": "Shopping- supermarket with grocery",
+                "path": "2-landmarks/shopping--supermarket-cash-register-grocery.svg",
+                "label": "Shopping- supermarket cash register with grocery",
                 "category": ["Leisure", "Procedure"],
                 "tags": ["supermarket", "cash register", "supermarket pay", "grocery", "food"]
             },	
  	    {
                 "layer": 2,
-                "path": "2-landmarks/shopping--supermarket.svg",
-                    "label": "Shopping- supermarket",
+                "path": "2-landmarks/shopping--supermarket-cash-register.svg",
+                    "label": "Shopping- supermarket cash register",
                 "category": ["Leisure", "Procedure"],
                 "tags": ["supermarket", "cash register", "supermarket pay", "market", "pay"]
+            },
+ 	    {
+                "layer": 2,
+                "path": "2-landmarks/hotel--lobby.svg",
+                "label": "Hotel- lobby",
+                "category": ["Leisure"],
+                "tags": ["hotel", "lobby", "holiday", "travel", "trip"]
             },		
             {
                 "layer": 3,
