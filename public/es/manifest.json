@@ -156,6 +156,20 @@
                 "label": "Silla de ruedas -ayuda",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Movilidad reducida", "Discapacidad física", "Silla autopropulsable", "Llevar silla de ruedas", "Acompañar"]
+            },
+	    {
+                "layer": 1,
+                "path": "1-subject/ease-with-shopping-bag.svg",
+                "label": "Parado con bolsa de compras",
+                "category": ["Trámites","Ocio"],
+                "tags": [ "ir de compras", "esperar", "cargar bolsas","de pie con bolsas", "compras", "supermercado", "feria"]
+            },
+	    {
+                "layer": 1,
+                "path": "1-subject/walk-with-shopping-bag.svg",
+                "label": "Camina con bolsa de compras",
+                "category": ["Trámites","Ocio"],
+                "tags": [ "ir de compras", "cargar bolsas","de pie con bolsas", "compras", "supermercado", "feria", "caminar con bolsas"]
             },		
             {
                 "layer": 2,
@@ -472,6 +486,41 @@
                 "category": ["Salud", "Ocio"],
                 "tags": [ "Deportes", "Nadar", "Piscina", "Deporte", "Terapia", "Rehabilitación"]
             },
+            {
+                "layer": 2,
+                "path": "2-landmarks/restaurant--coffee.svg",
+                "label": "Restaurante- café",
+                "category": ["Ocio"],
+                "tags": ["cafetería","café", "restaurant", "restaurante", "comida", "mesa"]
+            },
+	    {
+                "layer": 2,
+                "path": "2-landmarks/restaurant--table.svg",
+                "label": "Restaurante- mesa",
+                "category": ["Ocio"],
+                "tags": ["cafetería","café", "restaurant", "restaurante","comida", "mesa"]
+            },	
+	    {
+                "layer": 2,
+                "path": "2-landmarks/shopping--supermarket-cash-register-grocery.svg",
+                "label": "Compras- supermercado con mercadería",
+                "category": ["Ocio", "Trámite"],
+                "tags": ["supermercado", "caja registradora", "supermercado pago", "frutas", "verduras"]
+            },	
+ 	    {
+                "layer": 2,
+                "path": "2-landmarks/shopping--supermarket-cash-register.svg",
+                "label": "Compras- supermercado",
+                "category": ["Ocio", "Trámite"],
+                "tags": ["supermercado", "caja registradora", "supermercado pago","pagar"]
+            },	
+ 	    {
+                "layer": 2,
+                "path": "2-landmarks/hotel--lobby.svg",
+                "label": "Hotel- recepción",
+                "category": ["Ocio"],
+                "tags": ["hotel", "recepción", "vacaciones", "viaje"]
+            },	
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
