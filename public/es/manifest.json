@@ -516,11 +516,25 @@
             },	
  	    {
                 "layer": 2,
-                "path": "2-landmarks/hotel--lobby.svg",
-                "label": "Hotel- recepción",
+                "path": "2-landmarks/reception--hotel-lobby.svg",
+                "label": "Recepción - Hotel",
                 "category": ["Ocio"],
                 "tags": ["hotel", "recepción", "vacaciones", "viaje"]
             },	
+ 	    {
+                "layer": 2,
+                "path": "2-landmarks/reception--default.svg",
+                "label": "Recepción",
+                "category": ["Trámites","Ocio"],
+                "tags": ["recepción", "museo", "evento", "cultura", "recepcionista", "entrada", "palacio"]
+            },	
+	    {
+                "layer": 2,
+                "path": "2-landmarks/reception--default-handle.svg",
+                "label": "Recepción -manipula",
+                "category": ["Trámites","Ocio"],
+                "tags": ["recepción", "museo", "evento", "cultura", "recepcionista", "entrada", "palacio"]
+            },		
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
