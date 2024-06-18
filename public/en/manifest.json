@@ -518,10 +518,24 @@
             },
  	    {
                 "layer": 2,
-                "path": "2-landmarks/hotel--lobby.svg",
-                "label": "Hotel- lobby",
+                "path": "2-landmarks/reception--hotel-lobby.svg",
+                "label": "Reception - Hotel lobby",
                 "category": ["Leisure"],
-                "tags": ["hotel", "lobby", "holiday", "travel", "trip"]
+                "tags": ["hotel", "reception", "holidays", "trip"]
+            },	
+ 	    {
+                "layer": 2,
+                "path": "2-landmarks/reception--default.svg",
+                "label": "Reception",
+                "category": ["Procedure","Leisure"],
+                "tags": ["reception", "museum", "event", "culture", "recepcionit", "entrance", "palace"]
+            },	
+	    {
+                "layer": 2,
+                "path": "2-landmarks/reception--default-handle.svg",
+                "label": "Reception -handle",
+                "category": ["Procedure","Leisure"],
+                "tags": ["recepción", "museo", "evento", "cultura", "recepcionista", "entrada", "palacio"]
             },		
             {
                 "layer": 3,
