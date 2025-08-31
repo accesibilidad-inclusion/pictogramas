@@ -168,15 +168,20 @@ menu ul.menu li a.btn-pictos{
 	width: 100%;
 	height: auto;
 }
+input[type="button"]{
+	cursor: pointer;
+	font-family: Lexend;
+}
 
 input[type="button"].reg{
 	background-color: orangered;
 	font-size: 1em;
 	text-transform: uppercase;
 	color: white !important;
-	letter-spacing: .45ex;
-	font-weight: bolder;
-	word-spacing: 2em;
+	letter-spacing: .25ex;
+	word-spacing: 1ex;
+	font-weight: 600;
+	
 	border: 2ps solid black !important;
 }
 
@@ -225,6 +230,10 @@ textarea#type {
 	font-family: 'Lexend';
 }
 
+textarea#type::first-letter {
+	text-transform: uppercase;
+}
+
 #type:focus::placeholder {
 	color: transparent;
 }
@@ -258,13 +267,16 @@ textarea#type {
 textarea#type {
 	border: none;
 	width: 100%;
-	font-family: 'Open Sans';
+	font-family: 'Lexend';
 	padding: .10em;
 	font-weight: 400;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	background: rgb(231, 231, 231);
 	outline: none;
 	border-radius: .2ex;
+	&::first-letter {
+		text-transform: uppercase;
+	}
 }
 
 #type:focus::placeholder {
@@ -348,8 +360,10 @@ section{
 	padding: 2em 0;
 }
 section p, section ul{
-	font-size: 1.7em;
-	font-weight: 300;
+	font-size: 1.5em;
+	line-height: 150%;
+	font-weight: 200;
+	color: #000A;
 }
 
 section h2{

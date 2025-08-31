@@ -103,9 +103,21 @@ document.addEventListener('DOMContentLoaded', function() {
       setLayer('sel-landmark', picto.element || '');
       setLayer('sel-context',  picto.context || '');
       setLayer('sel-icon',     picto.icon    || '');
-      // Actualizar textarea con la instrucción (ES o EN)
+      // Actualizar textarea con la instrucción. En el nuevo JSON,
+      // picto.text puede ser una cadena simple o un objeto con idiomas.
       const textarea = document.getElementById('type');
-      const text = (picto.text && (picto.text.es || picto.text.en)) || '';
+      let text;
+      if (typeof picto.text === 'string') {
+        text = picto.text;
+      } else if (picto.text && (picto.text.es || picto.text.en)) {
+        text = picto.text.es || picto.text.en;
+      } else {
+        text = '';
+      }
+      // Asegurar que empiece en mayúscula
+      if (text) {
+        text = text.charAt(0).toUpperCase() + text.slice(1);
+      }
       if (textarea) {
         textarea.value = text;
       }
@@ -128,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
       demoBtn.classList.remove('is-paused');
       caption.classList.remove('is-hidden');
       nextPicto();
-      timerId = setInterval(nextPicto, 5000);
+      timerId = setInterval(nextPicto, 2100);
     }
 
     function stopDemo() {

@@ -1,850 +1,303 @@
 [
   {
-    "text": {
-      "es": "informa tu llegada y retira el número de atención",
-      "en": "inform your arrival and take the attention number",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/ease.svg",
-    "element": "2-landmarks/assistant--guard-ease.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/add.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "espera a ser llamado por el número indicado",
-      "en": "wait to be called by the indicated number",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/push.svg",
-    "element": "2-landmarks/assistant--guard-handle.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/alert.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "dirígete al mesón de la farmacia municipal quisco centro",
-      "en": "go to the municipal pharmacy counter",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/handle.svg",
-    "element": "2-landmarks/assistant--handle-document.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/attach.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "entrega la receta de los medicamentos que debes comprar",
-      "en": "hand over the prescription for the medicines you need to buy",
-      "arn": "",
-      "mi": ""
-    },
+    "text": "Presenta tu identificación en el módulo de atención.",
     "action": "1-subject/show.svg",
-    "element": "2-landmarks/assistant--handle-money.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/book.svg",
+    "element": "2-landmarks/service-module--handle-card.svg",
+    "context": "3-context/security-guard--queue.svg",
+    "icon": "4-icons/card.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Espera a que te llamen por tu nombre.",
+    "action": "1-subject/wait.svg",
+    "element": "2-landmarks/service-module--wait.svg",
+    "context": "3-context/security-guard--queue.svg",
+    "icon": "4-icons/clock.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Camina hacia la consulta cuando te llamen.",
+    "action": "1-subject/walk.svg",
+    "element": "2-landmarks/service-module--receive.svg",
+    "context": "",
+    "icon": "4-icons/document.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Explica al profesional el motivo de tu consulta.",
+    "action": "1-subject/sit.svg",
+    "element": "2-landmarks/medical-checkup--examine.svg",
+    "context": "3-context/medic.svg",
+    "icon": "4-icons/comment.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Inserta tu tarjeta en la máquina de recarga.",
+    "action": "1-subject/handle.svg",
+    "element": "2-landmarks/vending-machine--default.svg",
+    "context": "3-context/announcement.svg",
+    "icon": "4-icons/card.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Retira tu tarjeta cuando termine la carga.",
+    "action": "1-subject/handle.svg",
+    "element": "2-landmarks/vending-machine--default.svg",
+    "context": "3-context/announcement.svg",
+    "icon": "4-icons/card.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Elige el número de entradas y la fecha en la boletería.",
+    "action": "1-subject/push.svg",
+    "element": "2-landmarks/ticket-office--handle-card.svg",
+    "context": "",
+    "icon": "4-icons/ticket.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Presenta tu tarjeta para el pago.",
+    "action": "1-subject/handle.svg",
+    "element": "2-landmarks/ticket-office--handle-card.svg",
+    "context": "3-context/theatre--default.svg",
+    "icon": "4-icons/card.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Toma tus entradas impresas.",
+    "action": "1-subject/handle.svg",
+    "element": "2-landmarks/ticket-office--receive.svg",
+    "context": "",
+    "icon": "4-icons/ticket.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Camina hacia la exposición siguiendo la ruta indicada.",
+    "action": "1-subject/walk.svg",
+    "element": "2-landmarks/floor.svg",
+    "context": "",
+    "icon": "4-icons/right.svg",
+    "source": "inventado"
+  },
+  {
+    "text": "Informa tu llegada y retira el número de atención",
+    "action": "handle.svg",
+    "element": "assistant--guard-ease.svg",
+    "context": "bathroom--default.svg",
+    "icon": "add.svg",
+    "source": {
+      "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
+      "step_index": 1
+    }
+  },
+  {
+    "text": "Espera a ser llamado por el número indicado",
+    "action": "ease.svg",
+    "element": "assistant--wait.svg",
+    "context": "library--default.svg",
+    "icon": "clock.svg",
+    "source": {
+      "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
+      "step_index": 2
+    }
+  },
+  {
+    "text": "Dirígete al mesón de la farmacia municipal quisco centro",
+    "action": "walk.svg",
+    "element": "assistant--handle-document.svg",
+    "context": "medic.svg",
+    "icon": "attach.svg",
+    "source": {
+      "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
+      "step_index": 3
+    }
+  },
+  {
+    "text": "Entrega la receta de los medicamentos que debes comprar",
+    "action": "show.svg",
+    "element": "assistant--handle-various-documents.svg",
+    "context": "house--default.svg",
+    "icon": "book.svg",
     "source": {
       "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
       "step_index": 4
     }
   },
   {
-    "text": {
-      "es": "revisa si los medicamentos son los correctos",
-      "en": "check if the medicines are correct",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/walk.svg",
-    "element": "2-landmarks/assistant--handle-various-documents.svg",
-    "context": "3-context/security-guard--default.svg",
-    "icon": "4-icons/button.svg",
+    "text": "Revisa si los medicamentos son los correctos",
+    "action": "handle.svg",
+    "element": "desktop--computer.svg",
+    "context": "security-guard--default.svg",
+    "icon": "check.svg",
     "source": {
       "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
       "step_index": 5
     }
   },
   {
-    "text": {
-      "es": "paga tus medicamentos comprados",
-      "en": "pay for your purchased medicines",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/reach.svg",
-    "element": "2-landmarks/assistant--receive.svg",
-    "context": "3-context/announcement.svg",
-    "icon": "4-icons/camera.svg",
+    "text": "Paga tus medicamentos comprados",
+    "action": "handle.svg",
+    "element": "assistant--handle-money.svg",
+    "context": "announcement.svg",
+    "icon": "card.svg",
     "source": {
       "task_url": "https://app.pictos.cl/salud/cesfam-el-quisco/farmacia-municipal-quisco-centro/comprar-medicamentos",
       "step_index": 6
     }
   },
   {
-    "text": {
-      "es": "has fila e ingresa al registro civil a las 8:30 de la mañana",
-      "en": "queue up and enter the civil registry at 8:30 in the morning",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/elder.svg",
-    "element": "2-landmarks/assistant--wait.svg",
-    "context": "3-context/medic.svg",
-    "icon": "4-icons/cancel.svg",
+    "text": "Has fila e ingresa al registro civil a las 8:30 de la mañana",
+    "action": "ease.svg",
+    "element": "door--default.svg",
+    "context": "security-guard--default.svg",
+    "icon": "clock.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 1
     }
   },
   {
-    "text": {
-      "es": "solicita número de atención a guardia",
-      "en": "request attention number from security guard",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-ease.svg",
-    "element": "2-landmarks/desktop--computer.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/card.svg",
+    "text": "Solicita número de atención a guardia",
+    "action": "show.svg",
+    "element": "assistant--guard-handle.svg",
+    "context": "library--default.svg",
+    "icon": "button.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 2
     }
   },
   {
-    "text": {
-      "es": "espera que te llamen con tu número de atención",
-      "en": "wait to be called with your attention number",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-handle.svg",
-    "element": "2-landmarks/desktop--handle-document.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/check.svg",
+    "text": "Espera que te llamen con tu número de atención",
+    "action": "ease.svg",
+    "element": "assistant--receive.svg",
+    "context": "bathroom--default.svg",
+    "icon": "alert.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 3
     }
   },
   {
-    "text": {
-      "es": "acércate al módulo de atención correspondiente y entrega tu número de atención",
-      "en": "approach the corresponding service module and hand over your attention number",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-sit.svg",
-    "element": "2-landmarks/desktop--handle-money.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/checkbox.svg",
+    "text": "Acércate al módulo de atención correspondiente y entrega tu número de atención",
+    "action": "walk.svg",
+    "element": "desktop--handle-document.svg",
+    "context": "house--default.svg",
+    "icon": "cancel.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 4
     }
   },
   {
-    "text": {
-      "es": "identifícate con tu rut, e indica que vas a sacar carnet",
-      "en": "identify yourself with your ID number and indicate you want to get an ID card",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-walk.svg",
-    "element": "2-landmarks/desktop--take-photo.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/clock.svg",
+    "text": "Identifícate con tu rut, e indica que vas a sacar carnet",
+    "action": "show.svg",
+    "element": "desktop--handle-money.svg",
+    "context": "medic.svg",
+    "icon": "checkbox.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 5
     }
   },
   {
-    "text": {
-      "es": "paga con el medio de pago que prefieras a la persona encargada",
-      "en": "pay with your preferred payment method to the person in charge",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/ease.svg",
-    "element": "2-landmarks/desktop--wait.svg",
-    "context": "3-context/security-guard--default.svg",
-    "icon": "4-icons/call.svg",
+    "text": "Paga con el medio de pago que prefieras a la persona encargada",
+    "action": "handle.svg",
+    "element": "assistant--handle-money.svg",
+    "context": "announcement.svg",
+    "icon": "card.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 6
     }
   },
   {
-    "text": {
-      "es": "verifica tus datos en la pantalla de la persona encargada",
-      "en": "verify your data on the screen of the person in charge",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/push.svg",
-    "element": "2-landmarks/door--default.svg",
-    "context": "3-context/announcement.svg",
-    "icon": "4-icons/add.svg",
+    "text": "Verifica tus datos en la pantalla de la persona encargada",
+    "action": "handle.svg",
+    "element": "desktop--computer.svg",
+    "context": "bus--default.svg",
+    "icon": "check.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 7
     }
   },
   {
-    "text": {
-      "es": "sigue las instrucciones para escanear el dedo índice, tomar fotografía y firmar",
-      "en": "follow instructions to scan index finger, take photo and sign",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/handle.svg",
-    "element": "2-landmarks/assistant--guard-ease.svg",
-    "context": "3-context/medic.svg",
-    "icon": "4-icons/alert.svg",
+    "text": "Sigue las instrucciones para escanear el dedo índice, tomar fotografía y firmar",
+    "action": "handle.svg",
+    "element": "desktop--take-photo.svg",
+    "context": "security-guard--default.svg",
+    "icon": "finguerprint.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 8
     }
   },
   {
-    "text": {
-      "es": "para la foto debes mantenerte quieto y con la cara despejada",
-      "en": "for the photo you must stay still and with your face clear",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/show.svg",
-    "element": "2-landmarks/assistant--guard-handle.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/attach.svg",
+    "text": "Para la foto debes mantenerte quieto y con la cara despejada",
+    "action": "ease.svg",
+    "element": "desktop--take-photo.svg",
+    "context": "library--default.svg",
+    "icon": "camera.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 9
     }
   },
   {
-    "text": {
-      "es": "recibe comprobante de atención, y retira en fecha indicada",
-      "en": "receive service receipt and collect on indicated date",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/walk.svg",
-    "element": "2-landmarks/assistant--handle-document.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/book.svg",
+    "text": "recibe comprobante de atención, y retira en fecha indicada",
+    "action": "reach.svg",
+    "element": "assistant--receive.svg",
+    "context": "house--default.svg",
+    "icon": "book.svg",
     "source": {
       "task_url": "https://app.pictos.cl/tramites/servicio-de-registro-civil-e-identificacion/registro-civil-valparaiso/sacar-carnet-sin-hora-reservada",
       "step_index": 10
     }
   },
   {
-    "text": {
-      "es": "presenta tu tarjeta en el torniquete",
-      "en": "present your card at the turnstile",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/reach.svg",
-    "element": "2-landmarks/assistant--handle-money.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/button.svg",
+    "text": "presenta tu tarjeta en el torniquete",
+    "action": "show.svg",
+    "element": "door--default.svg",
+    "context": "bus--default.svg",
+    "icon": "card.svg",
     "source": {
       "task_url": "https://app.pictos.cl/transporte/metro/estacion/ingresar-al-anden",
       "step_index": 1
     }
   },
   {
-    "text": {
-      "es": "camina hacia el andén siguiendo las señales",
-      "en": "walk towards the platform following the signs",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/elder.svg",
-    "element": "2-landmarks/assistant--handle-various-documents.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/camera.svg",
+    "text": "camina hacia el andén siguiendo las señales",
+    "action": "walk.svg",
+    "element": "assistant--guard-ease.svg",
+    "context": "announcement.svg",
+    "icon": "attach.svg",
     "source": {
       "task_url": "https://app.pictos.cl/transporte/metro/estacion/ingresar-al-anden",
       "step_index": 2
     }
   },
   {
-    "text": {
-      "es": "espera en la fila tu turno",
-      "en": "wait in line for your turn",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-ease.svg",
-    "element": "2-landmarks/assistant--receive.svg",
-    "context": "3-context/security-guard--default.svg",
-    "icon": "4-icons/cancel.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/hospital/recepcion/solicitar-atencion",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "presenta tu carnet de identidad en recepción",
-      "en": "present your identity card at reception",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-handle.svg",
-    "element": "2-landmarks/assistant--wait.svg",
-    "context": "3-context/announcement.svg",
-    "icon": "4-icons/card.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/hospital/recepcion/solicitar-atencion",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "completa el formulario de atención médica",
-      "en": "complete the medical care form",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-sit.svg",
-    "element": "2-landmarks/desktop--computer.svg",
-    "context": "3-context/medic.svg",
-    "icon": "4-icons/check.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/hospital/recepcion/solicitar-atencion",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "siéntate en la sala de espera hasta ser llamado",
-      "en": "sit in the waiting room until called",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-walk.svg",
-    "element": "2-landmarks/desktop--handle-document.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/checkbox.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/hospital/recepcion/solicitar-atencion",
-      "step_index": 4
-    }
-  },
-  {
-    "text": {
-      "es": "sube al bus por la puerta delantera",
-      "en": "board the bus through the front door",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/ease.svg",
-    "element": "2-landmarks/desktop--handle-money.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/clock.svg",
+    "text": "sube al bus por la puerta delantera",
+    "action": "walk.svg",
+    "element": "door--default.svg",
+    "context": "bus--default.svg",
+    "icon": "button.svg",
     "source": {
       "task_url": "https://app.pictos.cl/transporte/bus/parada/subir-al-bus",
       "step_index": 1
     }
   },
   {
-    "text": {
-      "es": "paga tu pasaje al conductor",
-      "en": "pay your fare to the driver",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/push.svg",
-    "element": "2-landmarks/desktop--take-photo.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/call.svg",
+    "text": "paga tu pasaje al conductor",
+    "action": "handle.svg",
+    "element": "assistant--handle-money.svg",
+    "context": "bus--default.svg",
+    "icon": "card.svg",
     "source": {
       "task_url": "https://app.pictos.cl/transporte/bus/parada/subir-al-bus",
       "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "busca un asiento disponible",
-      "en": "look for an available seat",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/handle.svg",
-    "element": "2-landmarks/desktop--wait.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/add.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/transporte/bus/parada/subir-al-bus",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "presiona el timbre antes de tu parada",
-      "en": "press the bell before your stop",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/show.svg",
-    "element": "2-landmarks/door--default.svg",
-    "context": "3-context/security-guard--default.svg",
-    "icon": "4-icons/alert.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/transporte/bus/parada/subir-al-bus",
-      "step_index": 4
-    }
-  },
-  {
-    "text": {
-      "es": "baja del bus por la puerta trasera",
-      "en": "get off the bus through the rear door",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/walk.svg",
-    "element": "2-landmarks/assistant--guard-ease.svg",
-    "context": "3-context/announcement.svg",
-    "icon": "4-icons/attach.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/transporte/bus/parada/subir-al-bus",
-      "step_index": 5
-    }
-  },
-  {
-    "text": {
-      "es": "acércate a la caja para pagar",
-      "en": "approach the cashier to pay",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/reach.svg",
-    "element": "2-landmarks/assistant--guard-handle.svg",
-    "context": "3-context/medic.svg",
-    "icon": "4-icons/book.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/supermercado/comprar-productos",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "coloca tus productos en la cinta transportadora",
-      "en": "place your products on the conveyor belt",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/elder.svg",
-    "element": "2-landmarks/assistant--handle-document.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/button.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/supermercado/comprar-productos",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "espera que el cajero escanee todos los productos",
-      "en": "wait for the cashier to scan all products",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-ease.svg",
-    "element": "2-landmarks/assistant--handle-money.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/camera.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/supermercado/comprar-productos",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "paga el total indicado en la pantalla",
-      "en": "pay the total shown on the screen",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-handle.svg",
-    "element": "2-landmarks/assistant--handle-various-documents.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/cancel.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/supermercado/comprar-productos",
-      "step_index": 4
-    }
-  },
-  {
-    "text": {
-      "es": "guarda tus productos en bolsas",
-      "en": "put your products in bags",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-sit.svg",
-    "element": "2-landmarks/assistant--receive.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/card.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/supermercado/comprar-productos",
-      "step_index": 5
-    }
-  },
-  {
-    "text": {
-      "es": "retira tu boleta de compra",
-      "en": "take your purchase receipt",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-walk.svg",
-    "element": "2-landmarks/assistant--wait.svg",
-    "context": "3-context/security-guard--default.svg",
-    "icon": "4-icons/check.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/supermercado/comprar-productos",
-      "step_index": 6
-    }
-  },
-  {
-    "text": {
-      "es": "ingresa tu clave en el cajero automático",
-      "en": "enter your PIN at the ATM",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/ease.svg",
-    "element": "2-landmarks/desktop--computer.svg",
-    "context": "3-context/announcement.svg",
-    "icon": "4-icons/checkbox.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/tramites/banco/cajero/retirar-dinero",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "selecciona la opción retirar dinero",
-      "en": "select the withdraw money option",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/push.svg",
-    "element": "2-landmarks/desktop--handle-document.svg",
-    "context": "3-context/medic.svg",
-    "icon": "4-icons/clock.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/tramites/banco/cajero/retirar-dinero",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "ingresa el monto que deseas retirar",
-      "en": "enter the amount you want to withdraw",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/handle.svg",
-    "element": "2-landmarks/desktop--handle-money.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/call.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/tramites/banco/cajero/retirar-dinero",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "retira tu dinero de la ranura del cajero",
-      "en": "take your money from the ATM slot",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/show.svg",
-    "element": "2-landmarks/desktop--take-photo.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/add.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/tramites/banco/cajero/retirar-dinero",
-      "step_index": 4
-    }
-  },
-  {
-    "text": {
-      "es": "retira tu tarjeta del cajero automático",
-      "en": "remove your card from the ATM",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/walk.svg",
-    "element": "2-landmarks/desktop--wait.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/alert.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/tramites/banco/cajero/retirar-dinero",
-      "step_index": 5
-    }
-  },
-  {
-    "text": {
-      "es": "busca el libro que necesitas en los estantes",
-      "en": "look for the book you need on the shelves",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/reach.svg",
-    "element": "2-landmarks/door--default.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/attach.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/biblioteca/buscar-libro",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "presenta tu carnet de biblioteca en el mostrador",
-      "en": "present your library card at the counter",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/elder.svg",
-    "element": "2-landmarks/assistant--guard-ease.svg",
-    "context": "3-context/security-guard--default.svg",
-    "icon": "4-icons/book.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/biblioteca/buscar-libro",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "entrega los libros que quieres llevar prestados",
-      "en": "hand over the books you want to borrow",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-ease.svg",
-    "element": "2-landmarks/assistant--guard-handle.svg",
-    "context": "3-context/announcement.svg",
-    "icon": "4-icons/button.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/biblioteca/buscar-libro",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "confirma la fecha de devolución de los libros",
-      "en": "confirm the return date for the books",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-handle.svg",
-    "element": "2-landmarks/assistant--handle-document.svg",
-    "context": "3-context/medic.svg",
-    "icon": "4-icons/camera.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/biblioteca/buscar-libro",
-      "step_index": 4
-    }
-  },
-  {
-    "text": {
-      "es": "compra tu entrada en la boletería",
-      "en": "buy your ticket at the box office",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-sit.svg",
-    "element": "2-landmarks/assistant--handle-money.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/cancel.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/cine/comprar-entrada",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "muestra tu entrada al acomodador",
-      "en": "show your ticket to the usher",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-walk.svg",
-    "element": "2-landmarks/assistant--handle-various-documents.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/card.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/cine/comprar-entrada",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "busca tu asiento según el número de la entrada",
-      "en": "find your seat according to the ticket number",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/ease.svg",
-    "element": "2-landmarks/assistant--receive.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/check.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/cine/comprar-entrada",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "apaga tu celular antes de que comience la película",
-      "en": "turn off your phone before the movie starts",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/push.svg",
-    "element": "2-landmarks/assistant--wait.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/checkbox.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/cine/comprar-entrada",
-      "step_index": 4
-    }
-  },
-  {
-    "text": {
-      "es": "solicita información en el mesón de informaciones",
-      "en": "request information at the information desk",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/handle.svg",
-    "element": "2-landmarks/desktop--computer.svg",
-    "context": "3-context/security-guard--default.svg",
-    "icon": "4-icons/clock.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/centro-comercial/buscar-tienda",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "consulta el mapa del centro comercial",
-      "en": "check the mall map",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/show.svg",
-    "element": "2-landmarks/desktop--handle-document.svg",
-    "context": "3-context/announcement.svg",
-    "icon": "4-icons/call.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/centro-comercial/buscar-tienda",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "sigue las señales hacia la tienda que buscas",
-      "en": "follow the signs to the store you are looking for",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/walk.svg",
-    "element": "2-landmarks/desktop--handle-money.svg",
-    "context": "3-context/medic.svg",
-    "icon": "4-icons/add.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/centro-comercial/buscar-tienda",
-      "step_index": 3
-    }
-  },
-  {
-    "text": {
-      "es": "usa el ascensor para cambiar de piso",
-      "en": "use the elevator to change floors",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/reach.svg",
-    "element": "2-landmarks/desktop--take-photo.svg",
-    "context": "3-context/bathroom--default.svg",
-    "icon": "4-icons/alert.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/ocio/centro-comercial/buscar-tienda",
-      "step_index": 4
-    }
-  },
-  {
-    "text": {
-      "es": "verifica tu nombre en la etiqueta del medicamento",
-      "en": "check your name on the medicine label",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/elder.svg",
-    "element": "2-landmarks/desktop--wait.svg",
-    "context": "3-context/library--default.svg",
-    "icon": "4-icons/attach.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/farmacia/retirar-medicamentos",
-      "step_index": 1
-    }
-  },
-  {
-    "text": {
-      "es": "lee las instrucciones de dosificación",
-      "en": "read the dosage instructions",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-ease.svg",
-    "element": "2-landmarks/door--default.svg",
-    "context": "3-context/bus--default.svg",
-    "icon": "4-icons/book.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/farmacia/retirar-medicamentos",
-      "step_index": 2
-    }
-  },
-  {
-    "text": {
-      "es": "guarda los medicamentos en lugar seguro",
-      "en": "store medicines in a safe place",
-      "arn": "",
-      "mi": ""
-    },
-    "action": "1-subject/kid-handle.svg",
-    "element": "2-landmarks/assistant--guard-ease.svg",
-    "context": "3-context/house--default.svg",
-    "icon": "4-icons/button.svg",
-    "source": {
-      "task_url": "https://app.pictos.cl/salud/farmacia/retirar-medicamentos",
-      "step_index": 3
     }
   }
 ]
+
