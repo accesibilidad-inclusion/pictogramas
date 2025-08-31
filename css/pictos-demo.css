@@ -1,0 +1,46 @@
+/* Styles for PICTOS autoplay demo UI */
+.pictos-demo-toggle {
+  position: fixed;
+  right: 1rem;
+  top: 1rem;
+  z-index: 9999;
+  padding: 0.3rem 0.45rem;
+  font: 500 12px/1.2 system-ui, "Lexend";
+  border-radius: 0.3rem;
+  border: 1px solid #FF4500;
+  background: #fff;
+  cursor: pointer;
+  color: #ff4500;
+}
+
+.pictos-demo-toggle.is-paused {
+  opacity: 0.2;
+}
+
+.pictos-demo-caption {
+  position: fixed;
+  left: 1rem;
+  bottom: 1rem;
+  z-index: 9998;
+  padding: 0.5rem 0.75rem;
+  max-width: 50vw;
+  background: rgba(0, 0, 0, 0.85);
+  color: #fff;
+  border-radius: 0.5rem;
+  font: 500 14px/1.35 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+.pictos-demo-caption.is-hidden {
+  display: none;
+}
+
+/* Ocultar selects y etiquetas asociadas cuando el autoplay está activo */
+body.autoplay-running select.layer-switch {
+  color: transparent !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+body.autoplay-running label[for^="sel-"] {
+  color: transparent !important;
+}

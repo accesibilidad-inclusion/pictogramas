@@ -4,7 +4,7 @@ Pictogramas para PICTOS
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Outfit:wght@100..900&display=swap');
 
 /* Desplazamiento suave */
 
@@ -20,7 +20,7 @@ html {
 body{
 	margin: 0;
 	box-sizing: content-box;
-	font-family: 'Open Sans';
+	font-family: 'Lexend';
 }
 
 .container {
@@ -216,13 +216,13 @@ img[src=""] {
 textarea#type {
 	border: none;
 	width: 100%;
-	font-family: 'Open Sans';
 	padding: .10em;
 	font-weight: 400;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	background: rgb(231, 231, 231);
 	outline: none;
 	border-radius: .2ex;
+	font-family: 'Lexend';
 }
 
 #type:focus::placeholder {
