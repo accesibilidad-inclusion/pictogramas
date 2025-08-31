@@ -228,6 +228,7 @@ textarea#type {
 	outline: none;
 	border-radius: .2ex;
 	font-family: 'Lexend';
+	text-transform: uppercase;
 }
 
 textarea#type::first-letter {
