@@ -123,49 +123,49 @@
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Sit with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child"]
             },
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/kid-ease.svg",
                 "label": "Ease with kid",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Stand with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child", "Wait with kid"]
             },	
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/elder.svg",
                 "label": "Elder",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["senior", "senile", "old", "aged", "elderly","reduced movility"]
             },		
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/elder-walk.svg",
                 "label": "Elder -walk",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["senior", "senile", "old", "aged", "elderly", "reduced movility", "stick", "walking stick", "walk"]
             },
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/wheelchair.svg",
                 "label": "Wheelchair",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["reduced movility", "transport", "injury", "disability"]
             },	
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/wheelchair-help.svg",
                 "label": "Wheelchair -help",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["reduced movility", "transport", "injury", "disability"]
             },	
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/ease-with-shopping-bag.svg",
                 "label": "Ease with shopping bag",
                 "category": ["Leisure","Procedure"],
                 "tags": ["go shopping", "shopping", "shopping bags", "bags"]
             },
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/walk-with-shopping-bag.svg",
                 "label": "Walk with shopping bag",
@@ -396,7 +396,7 @@
                 "category": ["Procedure","Health"],
                 "tags": [ "Procedures on desk", "seated attention", "services on desk", "handle documents", "receive documents"]
             },
-	    {
+	    	{
                 "layer": 2,
                 "path": "2-landmarks/desktop--computer.svg",
                 "label": "Desk -computer",
@@ -495,42 +495,42 @@
                 "category": ["Leisure"],
                 "tags": ["coffee", "café", "table", "restaurant", "food", "coffee shop"]
             },
-	    {
+	    	{
                 "layer": 2,
                 "path": "2-landmarks/restaurant--table.svg",
                 "label": "Restaurant- table",
                 "category": ["Leisure"],
                 "tags": ["coffee", "café", "table", "restaurant", "food"]
             },	
-	    {
+	    	{
                 "layer": 2,
                 "path": "2-landmarks/shopping--supermarket-cash-register-grocery.svg",
                 "label": "Shopping- supermarket cash register with grocery",
                 "category": ["Leisure", "Procedure"],
                 "tags": ["supermarket", "cash register", "supermarket pay", "grocery", "food"]
             },	
- 	    {
+ 	    	{
                 "layer": 2,
                 "path": "2-landmarks/shopping--supermarket-cash-register.svg",
                     "label": "Shopping- supermarket cash register",
                 "category": ["Leisure", "Procedure"],
                 "tags": ["supermarket", "cash register", "supermarket pay", "market", "pay"]
             },
- 	    {
+ 	    	{
                 "layer": 2,
                 "path": "2-landmarks/reception--hotel-lobby.svg",
                 "label": "Reception - Hotel lobby",
                 "category": ["Leisure"],
                 "tags": ["hotel", "reception", "holidays", "trip"]
             },	
- 	    {
+ 	    	{
                 "layer": 2,
                 "path": "2-landmarks/reception--default.svg",
                 "label": "Reception",
                 "category": ["Procedure","Leisure"],
                 "tags": ["reception", "museum", "event", "culture", "recepcionit", "entrance", "palace"]
             },	
-	    {
+	    	{
                 "layer": 2,
                 "path": "2-landmarks/reception--default-handle.svg",
                 "label": "Reception -handle",
@@ -1041,90 +1041,104 @@
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Vote box", "Voting box"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/train.svg",
                 "label": "Train",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Train","subway","metro","travel"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/web.svg",
                 "label": "Web",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet","www","digital"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/thumbs-up.svg",
                 "label": "Thumbs up",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["like, accept, good, great"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/thumbs-down.svg",
                 "label": "Thumbs down",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["dislike, bad, cancel"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/add.svg",
                 "label": "add",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["add", "sum", "more"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/at.svg",
                 "label": "at",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["at sign", "sign", "mail", "enchant"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/install-app.svg",
                 "label": "install-app",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["add", "install", "download", "app", "smartphone", "web app"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/share.svg",
                 "label": "share",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["share", "post", "smartphone", "web", "social media"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/wifi.svg",
                 "label": "Wifi",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet", "wifi", "conection", "web", "social media"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/book.svg",
                 "label": "Book",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["read", "study", "magazine"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/book-2.svg",
                 "label": "Book -2",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["read", "study", "magazine"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/coffee.svg",
                 "label": "Coffee",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["tea", "cafe", "restaurant", "food"]
-            }		
+            },
+			{
+                "layer": 4,
+                "path": "4-icons/ask.svg",
+                "label": "Aks",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["question", "ask", "doubt", "query"]
+            },
+			{
+                "layer": 4,
+                "path": "4-icons/box.svg",
+                "label": "Box",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["box", "package", "shipment"]
+            }
         ]
     }
 }
