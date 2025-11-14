@@ -130,35 +130,35 @@
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Sit with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child"]
             },
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/kid-ease.svg",
                 "label": "Ease with kid",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Stand with kid", "Accompany the kid", "Kid", "Infant", "Toddler", "Child", "Wait with kid"]
             },	
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/elder.svg",
                 "label": "Elder",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["senior", "senile", "old", "aged", "elderly","reduced movility"]
             },		
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/elder-walk.svg",
                 "label": "Elder -walk",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["senior", "senile", "old", "aged", "elderly", "reduced movility", "stick", "walking stick", "walk"]
             },
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/wheelchair.svg",
                 "label": "Wheelchair",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["reduced movility", "transport", "injury", "disability"]
             },	
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/wheelchair-help.svg",
                 "label": "Wheelchair -help",
@@ -179,7 +179,7 @@
                 "category": ["Leisure","Procedure"],
                 "tags": ["go shopping", "shopping", "shopping bags", "bags"]
             },
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/walk-with-shopping-bag.svg",
                 "label": "Walk with shopping bag",
@@ -410,7 +410,7 @@
                 "category": ["Procedure","Health"],
                 "tags": [ "Procedures on desk", "seated attention", "services on desk", "handle documents", "receive documents"]
             },
-	    {
+	    	{
                 "layer": 2,
                 "path": "2-landmarks/desktop--computer.svg",
                 "label": "Desk -computer",
