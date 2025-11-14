@@ -55,6 +55,13 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/walk-back.svg",
+                "label": "Walk back",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "go to", "walk", "move to", "go towards", "return","go back", "go left"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/wait.svg",
                 "label": "Wait",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -158,7 +165,14 @@
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["reduced movility", "transport", "injury", "disability"]
             },	
-	    	{
+            {
+                "layer": 1,
+                "path": "1-subject/wheelchair-handle.svg",
+                "label": "Wheelchair -handle",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["reduced movility", "transport", "injury", "disability"]
+            },	
+	    {
                 "layer": 1,
                 "path": "1-subject/ease-with-shopping-bag.svg",
                 "label": "Ease with shopping bag",
@@ -475,6 +489,27 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/door--doorstep.svg",
+                "label": "Doorstep",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Entrance", "Access", "Doorway", "threshold"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/door--doorstep-2.svg",
+                "label": "Doorstep 2",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Entrance", "Access", "Doorway", "threshold"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/door--entrance.svg",
+                "label": "Entrance",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Entrance", "Access", "Doorway", "Door", "Building", "entry", "entryway", "portal"]
+            },
+            {
+                "layer": 2,
                 "path": "2-landmarks/vote--voting-chamber.svg",
                 "label": "Voting chamber",
                 "category": ["Procedure"],
@@ -495,52 +530,80 @@
                 "category": ["Leisure"],
                 "tags": ["coffee", "café", "table", "restaurant", "food", "coffee shop"]
             },
-	    	{
+	        {
                 "layer": 2,
                 "path": "2-landmarks/restaurant--table.svg",
                 "label": "Restaurant- table",
                 "category": ["Leisure"],
                 "tags": ["coffee", "café", "table", "restaurant", "food"]
             },	
-	    	{
+	        {
                 "layer": 2,
                 "path": "2-landmarks/shopping--supermarket-cash-register-grocery.svg",
                 "label": "Shopping- supermarket cash register with grocery",
                 "category": ["Leisure", "Procedure"],
                 "tags": ["supermarket", "cash register", "supermarket pay", "grocery", "food"]
             },	
- 	    	{
+ 	        {
                 "layer": 2,
                 "path": "2-landmarks/shopping--supermarket-cash-register.svg",
                     "label": "Shopping- supermarket cash register",
                 "category": ["Leisure", "Procedure"],
                 "tags": ["supermarket", "cash register", "supermarket pay", "market", "pay"]
             },
- 	    	{
+ 	        {
                 "layer": 2,
                 "path": "2-landmarks/reception--hotel-lobby.svg",
                 "label": "Reception - Hotel lobby",
                 "category": ["Leisure"],
                 "tags": ["hotel", "reception", "holidays", "trip"]
             },	
- 	    	{
+ 	        {
                 "layer": 2,
                 "path": "2-landmarks/reception--default.svg",
                 "label": "Reception",
                 "category": ["Procedure","Leisure"],
                 "tags": ["reception", "museum", "event", "culture", "recepcionit", "entrance", "palace"]
             },	
-	    	{
+	        {
                 "layer": 2,
                 "path": "2-landmarks/reception--default-handle.svg",
                 "label": "Reception -handle",
                 "category": ["Procedure","Leisure"],
                 "tags": ["recepción", "museo", "evento", "cultura", "recepcionista", "entrada", "palacio"]
-            },		
+            },	
+            {
+                "layer": 2,
+                "path": "2-landmarks/reception--small.svg",
+                "label": "Reception -small",
+                "category": ["Procedure","Leisure"],
+                "tags": ["reception", "museum", "event", "culture", "recepcionit", "entrance", "procedure"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/reception--small-handle.svg",
+                "label": "Reception -small handle",
+                "category": ["Procedure","Leisure"],
+                "tags": ["reception", "museum", "event", "culture", "recepcionit", "entrance", "procedure"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/stairs--default.svg",
+                "label": "Stairs",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["go up", "staircase", "steps", "stairway"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/stairs--down.svg",
+                "label": "Stairs -down",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["go down", "staircase", "steps", "stairway"]
+            },			
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
-                "label": "Stop - train",
+                "label": "Stop -train",
                 "category": ["Transportation"],
                 "tags": ["train stop", "subway stop", "train station", "subway station"]
             },			
@@ -556,7 +619,14 @@
                 "path": "3-context/sign--keep-walking.svg",
                 "label": "Sign -keep walking",
                 "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": [ "sign", "continue walking", "walk"]
+                "tags": [ "sign", "continue walking", "walk", "go right", "continue"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sign--keep-walking-left.svg",
+                "label": "Sign -keep walking",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "sign", "continue walking", "walk", "go left", "return", "go back"]
             },
             {
                 "layer": 3,
@@ -613,6 +683,20 @@
                 "label": "Metro -map 2",
                 "category": ["Transportation","Leisure"],
                 "tags": [ "metro map", "subway information", "subway stations", "metro information", "metro sign"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--menu.svg",
+                "label": "Menu",
+                "category": ["Leisure"],
+                "tags": [ "Poster", "menu", "restaurant", "coffee", "cafe", "lunch", "dinner"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--signage.svg",
+                "label": "Signage",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Location", "indications", "markers", "sign" ]
             },
             {
                 "layer": 3,
@@ -697,7 +781,42 @@
                 "label": "Theatre -side",
                 "category": ["Leisure"],
                 "tags": ["Cinema", "movie", "opera"]
-            },		
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--artwork.svg",
+                "label": "Interior -artwork",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["museum", "office", "room", "waiting room", "art", "picture"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--artwork-2.svg",
+                "label": "Interior -artwork 2",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["museum", "office", "room", "waiting room", "art", "picture"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--waiting-room.svg",
+                "label": "Interior -waiting room",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["office", "secretary", "wait", "reception", "vestibule", "foyer", "lounge" ]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--waiting-room-2.svg",
+                "label": "Interior -waiting room 2",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["office", "secretary", "wait", "reception", "vestibule", "foyer", "lounge" ]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--waiting-room-3.svg",
+                "label": "Interior -waiting room 3",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["office", "secretary", "wait", "reception", "vestibule", "foyer", "lounge" ]
+            },			
             {
                 "layer": 4,
                 "path": "4-icons/ticket.svg",
@@ -1041,104 +1160,104 @@
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Vote box", "Voting box"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/train.svg",
                 "label": "Train",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Train","subway","metro","travel"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/web.svg",
                 "label": "Web",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet","www","digital"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/thumbs-up.svg",
                 "label": "Thumbs up",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["like, accept, good, great"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/thumbs-down.svg",
                 "label": "Thumbs down",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["dislike, bad, cancel"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/add.svg",
                 "label": "add",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["add", "sum", "more"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/at.svg",
                 "label": "at",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["at sign", "sign", "mail", "enchant"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/install-app.svg",
                 "label": "install-app",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["add", "install", "download", "app", "smartphone", "web app"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/share.svg",
                 "label": "share",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["share", "post", "smartphone", "web", "social media"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/wifi.svg",
                 "label": "Wifi",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["internet", "wifi", "conection", "web", "social media"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/book.svg",
                 "label": "Book",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["read", "study", "magazine"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/book-2.svg",
                 "label": "Book -2",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["read", "study", "magazine"]
             },
-	    	{
+	        {
                 "layer": 4,
                 "path": "4-icons/coffee.svg",
                 "label": "Coffee",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["tea", "cafe", "restaurant", "food"]
             },
-			{
+            {
                 "layer": 4,
-                "path": "4-icons/ask.svg",
-                "label": "Aks",
+                "path": "4-icons/stairs-up.svg",
+                "label": "Stairs -up",
                 "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["question", "ask", "doubt", "query"]
+                "tags": ["stairs", "go up", "steps"]
             },
-			{
+            {
                 "layer": 4,
-                "path": "4-icons/box.svg",
-                "label": "Box",
+                "path": "4-icons/stairs-down.svg",
+                "label": "Stairs -down",
                 "category": ["Procedure","Health","Transportation","Leisure"],
-                "tags": ["box", "package", "shipment"]
-            }
+                "tags": ["stairs", "go down", "steps"]
+            }		
         ]
     }
 }
