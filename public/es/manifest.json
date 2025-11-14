@@ -54,6 +54,13 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/walk-back.svg",
+                "label": "Camina hacia la izquierda",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Ir hacia", "Caminar", "Desplazar", "Avanzar", "Retroceder"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/wait.svg",
                 "label": "Espera",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -122,49 +129,56 @@
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Sentado con niño", "Espera niño", "Niño", "Niña", "Infancia"]
             },	
-	    {
+	    	{
                 "layer": 1,
                 "path": "1-subject/kid-ease.svg",
                 "label": "Parado junto a niño",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Parado con niño", "Acompaña a niño", "Niño", "Infancia", "Niña", "Espera junto a niño"]
             },	
-	    {
+	   		{
                 "layer": 1,
                 "path": "1-subject/elder.svg",
                 "label": "Adulto mayor",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Movilidad reducida", "Tercera edad", "Persona mayor", "Mayor", "Anciano", "Vejez"]
             },
-	    {
+	        {
                 "layer": 1,
                 "path": "1-subject/elder-walk.svg",
                 "label": "Adulto mayor camina",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Movilidad reducida", "Tercera edad", "Persona mayor", "Mayor", "Anciano", "Vejez", "Caminar", "Movilidad", "Bastón"]
             },
-	    {
+	        {
                 "layer": 1,
                 "path": "1-subject/wheelchair.svg",
                 "label": "Silla de ruedas",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Movilidad reducida", "Discapacidad física", "Silla autopropulsable"]
             },	
-	    {
+	        {
                 "layer": 1,
                 "path": "1-subject/wheelchair-help.svg",
                 "label": "Silla de ruedas -ayuda",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["Movilidad reducida", "Discapacidad física", "Silla autopropulsable", "Llevar silla de ruedas", "Acompañar"]
             },
-	    {
+            {
+                "layer": 1,
+                "path": "1-subject/wheelchair-handle.svg",
+                "label": "Silla de ruedas -manipula",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Movilidad reducida", "Discapacidad física", "Silla autopropulsable", "Llevar silla de ruedas", "Manipular", "hacer"]
+            },
+	        {
                 "layer": 1,
                 "path": "1-subject/ease-with-shopping-bag.svg",
                 "label": "Parado con bolsa de compras",
                 "category": ["Trámites","Ocio"],
                 "tags": [ "ir de compras", "esperar", "cargar bolsas","de pie con bolsas", "compras", "supermercado", "feria"]
             },
-	    {
+	        {
                 "layer": 1,
                 "path": "1-subject/walk-with-shopping-bag.svg",
                 "label": "Camina con bolsa de compras",
@@ -395,7 +409,7 @@
                 "category": ["Trámites","Salud"],
                 "tags": ["Trámites en escritorio", "Atención sentado", "Entrega documentos", "Lleva varios documentos", "Recibe documentos"]
             },
-	    {
+	    	{
                 "layer": 2,
                 "path": "2-landmarks/desktop--computer.svg",
                 "label": "Escritorio -computador",
@@ -474,6 +488,27 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/door--doorstep.svg",
+                "label": "Umbral",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entrada", "Salida", "Puerta de entrada", "Acceso", "Pasillo", "Portal"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/door--doorstep-2.svg",
+                "label": "Umbral 2",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entrada", "Salida", "Puerta de entrada", "Acceso", "Pasillo", "Portal"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/door--entrance.svg",
+                "label": "Entrada",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entrada", "Salida", "Puerta de entrada", "Acceso", "Edificio", "Portal"]
+            },
+            {
+                "layer": 2,
                 "path": "2-landmarks/vote--voting-chamber.svg",
                 "label": "Cámara de votación",
                 "category": ["Trámites"],
@@ -493,48 +528,76 @@
                 "category": ["Ocio"],
                 "tags": ["cafetería","café", "restaurant", "restaurante", "comida", "mesa"]
             },
-	    {
+	        {
                 "layer": 2,
                 "path": "2-landmarks/restaurant--table.svg",
                 "label": "Restaurante- mesa",
                 "category": ["Ocio"],
                 "tags": ["cafetería","café", "restaurant", "restaurante","comida", "mesa"]
             },	
-	    {
+	        {
                 "layer": 2,
                 "path": "2-landmarks/shopping--supermarket-cash-register-grocery.svg",
                 "label": "Compras- supermercado con mercadería",
                 "category": ["Ocio", "Trámite"],
                 "tags": ["supermercado", "caja registradora", "supermercado pago", "frutas", "verduras"]
             },	
- 	    {
+ 	        {
                 "layer": 2,
                 "path": "2-landmarks/shopping--supermarket-cash-register.svg",
                 "label": "Compras- supermercado",
                 "category": ["Ocio", "Trámite"],
                 "tags": ["supermercado", "caja registradora", "supermercado pago","pagar"]
             },	
- 	    {
+ 	        {
                 "layer": 2,
                 "path": "2-landmarks/reception--hotel-lobby.svg",
                 "label": "Recepción - Hotel",
                 "category": ["Ocio"],
                 "tags": ["hotel", "recepción", "vacaciones", "viaje"]
             },	
- 	    {
+ 	        {
                 "layer": 2,
                 "path": "2-landmarks/reception--default.svg",
                 "label": "Recepción",
                 "category": ["Trámites","Ocio"],
                 "tags": ["recepción", "museo", "evento", "cultura", "recepcionista", "entrada", "palacio"]
             },	
-	    {
+	        {
                 "layer": 2,
                 "path": "2-landmarks/reception--default-handle.svg",
                 "label": "Recepción -manipula",
                 "category": ["Trámites","Ocio"],
                 "tags": ["recepción", "museo", "evento", "cultura", "recepcionista", "entrada", "palacio"]
-            },		
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/reception--small.svg",
+                "label": "Recepción pequeña",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["recepción", "secretaria", "recepcionista", "entrada", "oficina", "trámite", "escritorio"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/reception--small-handle.svg",
+                "label": "Recepción pequeña -manipula",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["recepción", "secretaria", "recepcionista", "entrada", "oficina", "trámite", "escritorio"]
+            },
+             {
+                "layer": 2,
+                "path": "2-landmarks/stairs--default.svg",
+                "label": "Escalera",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["subir", "escalas", "edificio", "ir hacia", "arriba", "piso"]
+            },	
+            {
+                "layer": 2,
+                "path": "2-landmarks/stairs--down.svg",
+                "label": "Escalera -bajar",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["bajar", "escalas", "edificio", "ir hacia", "abajo", "piso"]
+            },	
             {
                 "layer": 3,
                 "path": "3-context/stop--train.svg",
@@ -554,7 +617,14 @@
                 "path": "3-context/sign--keep-walking.svg",
                 "label": "Letrero -sigue caminando",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": [ "Letrero", "Continua"]
+                "tags": [ "Letrero", "Continua", "camina"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/sign--keep-walking-left.svg",
+                "label": "Letrero -camina a la izquierda",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Letrero", "Continua", "Regresa", "Izquierda"]
             },
             {
                 "layer": 3,
@@ -597,6 +667,20 @@
                 "label": "Tabla de anuncios",
                 "category": ["Trámites", "Ocio"],
                 "tags": [ "Afiches", "Muro de anuncios", "Municipalidad"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--menu.svg",
+                "label": "Menu",
+                "category": ["Trámites", "Ocio"],
+                "tags": [ "Menu", "restaurant", "cafetería", "café"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/announcement--signage.svg",
+                "label": "Señalización",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Señalética", "Ubicación", "Letrero"]
             },
             {
                 "layer": 3,
@@ -695,6 +779,41 @@
                 "label": "Teatro- de lado",
                 "category": ["Ocio"],
                 "tags": ["Cine", "Sala de teatro", "sala de cine", "pelicula", "obra", "actuacion"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--artwork.svg",
+                "label": "Interior -cuadro",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Arte", "Museo", "Sala de espera", "Decoración"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--artwork-2.svg",
+                "label": "Interior -cuadros 2",
+                "category": ["Ocio"],
+                "tags": ["Arte", "Museo", "Sala de espera", "Decoración"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--waiting-room.svg",
+                "label": "Sala de espera",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Oficina", "Sala de espera", "Secretaría", "Vestíbulo", "Recepción", "Recibidor"]
+            },	
+            {
+                "layer": 3,
+                "path": "3-context/interior--waiting-room-2.svg",
+                "label": "Sala de espera 2",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Oficina", "Sala de espera", "Secretaría", "Vestíbulo", "Recepción", "Recibidor"]
+            },
+            {
+                "layer": 3,
+                "path": "3-context/interior--waiting-room-3.svg",
+                "label": "Sala de espera 3",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Oficina", "Sala de espera", "Secretaría", "Vestíbulo", "Recepción", "Recibidor"]
             },			
             {
                 "layer": 4,
@@ -1039,89 +1158,117 @@
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Voto", "Ingresar voto", "Urna de votación"]
             },
-	   {
+	   		{
                 "layer": 4,
                 "path": "4-icons/train.svg",
                 "label": "Tren",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Tren", "Metro", "Viaje"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/web.svg",
                 "label": "Web",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["internet","www","digital"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/thumbs-up.svg",
                 "label": "Pulgar arriba",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["like, aceptar, de acuerdo, dedo arriba, bien, aceptar"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/thumbs-down.svg",
                 "label": "Pulgar abajo",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["dislike, malo, mal, no, cancelar, dedo abajo"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/add.svg",
                 "label": "Agregar",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["sumar", "más", "agrega"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/at.svg",
                 "label": "Arroba",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Signo arroba", "signo", "email", "correo"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/install-app.svg",
                 "label": "Instalar app",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["agrega app", "instalar", "descargar", "app", "smartphone", "celular", "web app"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/share.svg",
                 "label": "Compartir",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["Publicar", "postear", "smartphone", "web", "redes sociales"]
             },
-	    {
+	    	{
                 "layer": 4,
                 "path": "4-icons/wifi.svg",
                 "label": "Wifi",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["internet", "wifi", "conexión", "web", "redes sociales"]
             },
-	    {
+	   	 	{
                 "layer": 4,
                 "path": "4-icons/book.svg",
                 "label": "Libro",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["leer", "estudiar", "revista"]
             },
-	    {
+	        {
                 "layer": 4,
                 "path": "4-icons/book-2.svg",
                 "label": "Libro -2",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["leer", "estudiar", "revista"]
             },
-	    {
+            {
+                "layer": 4,
+                "path": "4-icons/stairs-down.svg",
+                "label": "Escaleras -abajo",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Bajar", "Edificio", "Escala"]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/stairs-up.svg",
+                "label": "Escaleras -arriba",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["Subir", "Edificio", "Escala"]
+            },
+	        {
                 "layer": 4,
                 "path": "4-icons/coffee.svg",
                 "label": "Café",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["té", "cafetería", "once", "comida"]
+            },
+			{
+                "layer": 4,
+                "path": "4-icons/ask.svg",
+                "label": "Pregunta",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["pregunta", "preguntar", "duda"]
+            },
+			{
+                "layer": 4,
+                "path": "4-icons/box.svg",
+                "label": "Caja",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["caja", "envío", "paquete"]
             }
         ]
     }
