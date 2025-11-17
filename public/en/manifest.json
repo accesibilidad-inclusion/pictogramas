@@ -613,6 +613,13 @@
                 "label": "Stairs -doorstep",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": [ "Entrance", "Access", "Doorway", "Door", "Building", "entry", "entryway", "portal", "go up", "staircase", "steps", "stairway" ]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/hallway.svg",
+                "label": "Hallway",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Entrance", "Access", "Doorway", "Building", "portal", "walk", "walkway", "ingress", "portico", "corridor" ]
             },			
             {
                 "layer": 3,
