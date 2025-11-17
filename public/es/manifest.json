@@ -502,6 +502,13 @@
             },
             {
                 "layer": 2,
+                "path": "2-landmarks/door--doorstep-double.svg",
+                "label": "Umbral doble",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Entrada", "Salida", "Puerta de entrada", "Acceso", "Pasillo", "Portal"]
+            },
+            {
+                "layer": 2,
                 "path": "2-landmarks/door--entrance.svg",
                 "label": "Entrada",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -597,6 +604,20 @@
                 "label": "Escalera -bajar",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": ["bajar", "escalas", "edificio", "ir hacia", "abajo", "piso"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/stairs--doorstep.svg",
+                "label": "Escalera -umbral",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["bajar", "escalas", "edificio", "ir hacia", "abajo", "piso"]
+            },
+            {
+                "layer": 2,
+                "path": "2-landmarks/hallway.svg",
+                "label": "Pasillo",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["corredor", "galería", "caminata", "paso", "callejón"]
             },	
             {
                 "layer": 3,
