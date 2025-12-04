@@ -26,6 +26,20 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/handle-card.svg",
+                "label": "Manipula -tarjeta",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "entregar", "deslizar","manipular", "recibir", "tomar", "id", "identificación", "cedula", "tarjeta"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle-document.svg",
+                "label": "Manipula -documento",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "entregar", "deslizar","manipular", "recibir", "tomar", "documentación", "tramite", "papel", "carpeta"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/handle-book.svg",
                 "label": "Manipula libro",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -75,6 +89,20 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/sit-handle-card.svg",
+                "label": "Sentado -manipula tarjeta",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": [ "Tomar asiento", "Esperar sentado","Sentarse", "entregar", "deslizar","manipular", "recibir", "tomar", "id", "identificación", "cedula", "tarjeta"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/sit-handle-document.svg",
+                "label": "Sentado -manipula documento",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Tomar asiento", "Esperar sentado", "Sentarse", "entregar", "deslizar", "manipular", "recibir", "tomar", "papel", "identificación", "documento", "tramite"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/sit-side.svg",
                 "label": "Sentado de lado",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
@@ -111,10 +139,24 @@
             {
                 "layer": 1,
                 "path": "1-subject/kid-handle.svg",
+                "label": "Manipula junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Manipular documento", "Entregar documento niño", "Niño", "Niña", "Infancia"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/kid-handle-card.svg",
+                "label": "Manipula tarjeta junto a niño",
+                "category": ["Trámites","Salud","Transporte","Ocio"],
+                "tags": ["Manipular documento", "Entregar documento niño", "Niño", "Niña", "Infancia", "manipular", "recibir", "tomar", "id", "identificación", "cedula", "tarjeta"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/kid-handle-document.svg",
                 "label": "Manipula documento junto a niño",
                 "category": ["Trámites","Salud","Transporte","Ocio"],
-                "tags": ["Manipular documento niño", "Entregar documento niño", "Niño", "Niña", "Infancia"]
-            },		
+                "tags": [ "Manipular documento", "Entregar documento niño", "Niño", "Niña", "Infancia", "manipular", "recibir", "tomar", "hoja", "documentación", "papel"]
+            },			
             {
                 "layer": 1,
                 "path": "1-subject/kid-walk.svg",
@@ -899,6 +941,13 @@
                 "category": ["Trámites","Salud","Transporte","Ocio"],
                 "tags": [ "Entregar dinero","Recibir dinero","Pagar", "Billete", "Efectivo"]
             },
+             {
+                "layer": 4,
+                "path": "4-icons/money-2.svg",
+                "label": "Dinero",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "Entregar dinero","Recibir dinero","Pagar", "Billete", "Efectivo", "pagar", "cobrar"]
+            },
             {
                 "layer": 4,
                 "path": "4-icons/edit.svg",
@@ -1276,6 +1325,13 @@
                 "label": "Café",
                 "category": ["Ocio", "Transporte", "Salud", "Trámites"],
                 "tags": ["té", "cafetería", "once", "comida"]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/car.svg",
+                "label": "Auto",
+                "category": ["Ocio", "Transporte", "Salud", "Trámites"],
+                "tags": ["automovil", "transito", "manejar", "carretera" ]
             },
 			{
                 "layer": 4,

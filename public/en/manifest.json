@@ -27,6 +27,20 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/handle-card.svg",
+                "label": "Handle -card",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "give", "swipe","hand","dandle","take", "receive", "card", "pay", "money", "id", "document"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/handle-document.svg",
+                "label": "Handle -document",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "give", "swipe","hand","dandle","take", "receive", "procedure", "document", "paper"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/handle-book.svg",
                 "label": "Handle book",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -76,6 +90,20 @@
             },
             {
                 "layer": 1,
+                "path": "1-subject/sit-handle-card.svg",
+                "label": "Sit -handle card",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "give", "swipe","hand","dandle","take", "receive", "card", "pay", "money", "id", "document"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/sit-handle-document.svg",
+                "label": "Sit -handle document",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "give", "swipe","hand","dandle","take", "receive", "procedure", "document", "paper"]
+            },
+            {
+                "layer": 1,
                 "path": "1-subject/sit-side.svg",
                 "label": "Sit-side",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -115,6 +143,20 @@
                 "label": "Handle accompanied by kid",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["Handle kid document", "Handle kid procedure", "Kid", "Infant", "Toddler", "Child"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/kid-handle-card.svg",
+                "label": "Kid -handle card",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "give", "swipe","hand","dandle","take", "receive", "card", "pay", "money", "id", "document", "Handle kid procedure", "Kid", "Infant", "Toddler", "Child"]
+            },
+            {
+                "layer": 1,
+                "path": "1-subject/kid-handle-document.svg",
+                "label": "Kid -handle document",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": [ "give", "swipe","hand","dandle","take", "receive", "procedure", "document", "paper", "Handle kid procedure", "Kid", "Infant", "Toddler", "Child"]
             },		
             {
                 "layer": 1,
@@ -903,6 +945,13 @@
             },
             {
                 "layer": 4,
+                "path": "4-icons/money-2.svg",
+                "label": "Money -2",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["Handle money","Receive money","Pay", "Bill", "Cash" ]
+            },
+            {
+                "layer": 4,
                 "path": "4-icons/edit.svg",
                 "label": "Edit",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -1267,6 +1316,20 @@
             },
             {
                 "layer": 4,
+                "path": "4-icons/car.svg",
+                "label": "Car",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["automobile", "drive", "machine", "auto", "transit" ]
+            },
+            {
+                "layer": 4,
+                "path": "4-icons/ask.svg",
+                "label": "Ask",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["question", "doubt", "interrogation", "inquiry", "query"]
+            },
+            {
+                "layer": 4,
                 "path": "4-icons/stairs-up.svg",
                 "label": "Stairs -up",
                 "category": ["Procedure","Health","Transportation","Leisure"],
@@ -1278,7 +1341,15 @@
                 "label": "Stairs -down",
                 "category": ["Procedure","Health","Transportation","Leisure"],
                 "tags": ["stairs", "go down", "steps"]
-            }		
+            },
+			{
+                "layer": 4,
+                "path": "4-icons/box.svg",
+                "label": "Box",
+                "category": ["Procedure","Health","Transportation","Leisure"],
+                "tags": ["package", "delivery", "pack", "carton", "case", "parcel"]
+            }
+    		
         ]
     }
 }
