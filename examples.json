@@ -1,6 +1,6 @@
 [
   {
-    "text": "Acerca tu tarjeta Metrotren al lector del torniquete",
+    "text": "Pasa tu tarjeta por el torniquete",
     "action": "1-subject/push.svg",
     "element": "2-landmarks/turnstile--active.svg",
     "context": "3-context/security-guard--default.svg",
